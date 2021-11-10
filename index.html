@@ -1,109 +1,114 @@
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Title is the tab name</title>
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <!-- Tab Name -->
+    <title>my billionth draft</title>
+
+    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Link style sheet here -->
+
+    <script src="./assets/music.js"></script>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      href="./styles/global/fonts.css"
     />
-    <link rel="stylesheet" href="path-to-file" />
+    <link rel="stylesheet" href="./styles/global/nav.css" />
+
+    <link
+      rel="stylesheet"
+      href="./styles/global/images.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/home/header.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/home/highlight.css"
+    />
+    <link rel="stylesheet" href="./styles/home/block.css" />
   </head>
+
+  <!-- All your content should go in between the body tags -->
   <body>
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Navbar</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarsExampleDefault"
-        aria-controls="navbarsExampleDefault"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a
-              class="nav-link disabled"
-              href="#"
-              tabindex="-1"
-              aria-disabled="true"
-              >Disabled</a
-            >
-          </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              id="dropdown01"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Dropdown</a
-            >
-            <div class="dropdown-menu" aria-labelledby="dropdown01">
-              <a class="dropdown-item" href="#">Action</a>
-              <a class="dropdown-item" href="#">Another action</a>
-              <a class="dropdown-item" href="#">Something else here</a>
-            </div>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="text"
-            placeholder="Search"
-            aria-label="Search"
-          />
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">
-            Search
-          </button>
-        </form>
+    <div class="nav">
+      <div class="nav__wrapper">
+        <div class="nav__link">
+          <a href="./index.html">Home</a>
+        </div>
+        <div class="nav__link">
+          <a href="./about.html">About</a>
+        </div>
+        <div class="nav__link">
+          <a href="./resume.html">Resume</a>
+        </div>
       </div>
-    </nav>
-
-    <main role="main" class="container">
-      <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">
-          Use this document as a way to quickly start any new project.<br />
-          All you get is this text and a mostly barebones HTML document.
-        </p>
-      </div>
-    </main>
-    <!-- /.container -->
-    <div>
-      <h1>hi</h1>
     </div>
-    <script
-      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <audio src="./assets/audio/mus.mp3" id="player"></audio>
+    <img
+      class="stoolImg"
+      id="playerButton"
+      src="./assets/images/ChairWithPot.png"
+    />
+    <div class="home">
+      <center class="home__header">
+        <div class="home__header__wrapper">
+          <img
+            class="home__header__image"
+            src="https://www.cerclemagazine.com/wp-content/uploads/2017/10/316_N-Atlantic-Ocean-Cliffs-of-Moher-1989.jpg"
+          />
+          <h1 class="home__title centered-text">Lesley</h1>
+        </div>
+      </center>
+    </div>
+
+    <!-- Block -->
+
+    <center>
+      <div class="block">
+        <div class="partOne">
+          <a href="kellan.page" target="_blank">
+            <img
+              class="partOne__image"
+              src="./assets/images/data.png"
+              alt="image"
+          /></a>
+          <div class="partOne__info">
+            <h1 class="title">Backend</h1>
+            <p class="description">Postgres, Knex</p>
+          </div>
+        </div>
+        <div class="partTwo">
+          <div class="partTwo__info">
+            <h2 class="title">API</h2>
+            <p class="description">Axios, Express</p>
+          </div>
+          <img
+            class="partTwo__image"
+            src="./assets/images/api.png"
+            alt="image"
+          />
+        </div>
+        <div class="partThree">
+          <img
+            class="partThree__image"
+            src="./assets/images/reset.png"
+            alt="image"
+          />
+          <div class="partThree__info">
+            <h2 class="title">Frontend</h2>
+            <p class="description">
+              React, Vue.js, Ionic Framework
+            </p>
+          </div>
+        </div>
+      </div>
+    </center>
   </body>
 </html>

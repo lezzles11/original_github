@@ -1,0 +1,37 @@
+.lunchBoxImg {
+  position: fixed;
+  height: 8rem;
+  top: 10vh;
+  width: 8rem;
+  left: 10vw;
+}
+
+.hangerImg {
+  position: fixed;
+  height: 7rem;
+  width: 7rem;
+  top: 10vh;
+  right: 5rem;
+}
+
+.stoolImg {
+  position: fixed;
+  height: 10rem;
+  width: 6rem;
+  bottom: 0;
+  right: 10vw;
+}
+
+@media screen and (max-width: 800px) {
+  .lunchBoxImg {
+    height: 4rem;
+    width: 4rem;
+    top: 10vh;
+    left: 1rem;
+  }
+  .hangerImg {
+    right: 2vw;
+    height: 4rem;
+    width: 4rem;
+  }
+}

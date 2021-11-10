@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <!-- Tab Name -->
+    <title>my billionth draft</title>
+
+    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <!-- Link style sheet here -->
+
+    <script src="./assets/music.js"></script>
+    <link
+      rel="stylesheet"
+      href="./styles/global/fonts.css"
+    />
+    <link rel="stylesheet" href="./styles/global/nav.css" />
+
+    <link
+      rel="stylesheet"
+      href="./styles/global/images.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/about/information.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/about/process.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./styles/about/section.css"
+    />
+  </head>
+
+  <!-- All your content should go in between the body tags -->
+  <body>
+    <div>
+      <div class="nav">
+        <div class="nav__wrapper">
+          <div class="nav__link">
+            <a href="./index.html">Home</a>
+          </div>
+          <div class="nav__link">
+            <a href="./about.html">About</a>
+          </div>
+          <div class="nav__link">
+            <a href="./resume.html">Resume</a>
+          </div>
+        </div>
+      </div>
+      <audio
+        src="./assets/audio/mus.mp3"
+        id="player"
+      ></audio>
+      <img
+        id="playerButton"
+        class="lunchBoxImg"
+        src="./assets/images/Lunchbox.png"
+      />
+
+      <!-- Beginning -->
+      <div style="margin: 10rem"></div>
+      <center class="information">
+        <h2 class="information_header">fullstack</h2>
+        <h3 class="information__text">websites</h3>
+      </center>
+
+      <!-- Section -->
+      <section class="section__master__wrapper">
+        <!-- Section One -->
+        <section class="section section__one">
+          <h2 class="section__title">for others</h2>
+          <div class="section__wrapper">
+            <figure class="section__image__wrapper__one">
+              <a href="https://kellan.page" target="_blank">
+                <img
+                  src="./assets/images/kellan.png"
+                  alt="kellan"
+                  class="section__image"
+              /></a>
+            </figure>
+            <figure class="section__image__wrapper__two">
+              <a
+                href="https://hyggechats.club"
+                target="_blank"
+              >
+                <img
+                  style="object-fit: contain"
+                  src="./assets/images/hyggechats.png"
+                  alt="basketball"
+                  class="section__image"
+              /></a>
+            </figure>
+          </div>
+        </section>
+        <!-- Section Two -->
+        <section class="section section__two">
+          <h2 class="section__title">frontend</h2>
+          <div class="section__wrapper">
+            <figure class="section__image__wrapper__one">
+              <a
+                href="https://dynamix.netlify.app"
+                target="_blank"
+              >
+                <img
+                  style="object-fit: contain"
+                  src="./assets/images/dynamix.png"
+                  alt="doyouremember"
+                  class="section__image"
+                />
+              </a>
+            </figure>
+            <figure class="section__image__wrapper__two">
+              <a
+                href="http://problemsolvingtool.surge.sh/index.html"
+                target="_blank"
+              >
+                <img
+                  style="object-fit: contain"
+                  src="./assets/images/problem.png"
+                  alt="coronavirus"
+                  class="section__image"
+              /></a>
+            </figure>
+          </div>
+        </section>
+      </section>
+      <section class="process__master__wrapper">
+        <div class="process__wrapper">
+          <center>
+            <h1 class="process__header">Process</h1>
+
+            <table class="process__table">
+              <tbody>
+                <tr>
+                  <th>step</th>
+                  <th>process</th>
+                  <th>reasoning</th>
+                  <th>things needed</th>
+                </tr>
+                <tr class="table__row">
+                  <td>1</td>
+                  <td>creating user stories</td>
+                  <td>creating purpose before you code</td>
+                  <td>paper pencil</td>
+                </tr>
+                <tr class="table__row">
+                  <td>2</td>
+                  <td>creating user interface</td>
+                  <td>
+                    know what the structure looks like
+                  </td>
+                  <td>paper pencil</td>
+                </tr>
+                <tr class="table__row">
+                  <td>3</td>
+                  <td>creating components</td>
+                  <td>break down each step</td>
+                  <td>javascript code</td>
+                </tr>
+                <tr class="table__row">
+                  <td>4</td>
+                  <td>creating database</td>
+                  <td>
+                    know how to connect components to
+                    database
+                  </td>
+                  <td>postgres, knex</td>
+                </tr>
+              </tbody>
+            </table>
+          </center>
+          <ul class="process__list">
+            <li>
+              Before starting, try to look at older projects
+            </li>
+            <li>Look at examples</li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
