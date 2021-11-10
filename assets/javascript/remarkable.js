@@ -21,24 +21,25 @@ const THINKING = "";
 const PLANNING = "";
 const UI = "";
 
-let options = {
-  html: true,
-  doHighlight: true,
-  highlight: function (str, lang) {
-    if (lang && hljs.getLanguage(lang)) {
-      try {
-        return hljs.highlight(lang, str).value;
-      } catch (__) {}
-    }
-
-    try {
-      return hljs.highlightAuto(str).value;
-    } catch (__) {}
-
-    return "";
-  },
-};
 $(document).ready(function () {
+  hljs.initHighlightingOnLoad();
+  let options = {
+    html: true,
+    doHighlight: true,
+    highlight: function (str, lang) {
+      if (lang && hljs.getLanguage(lang)) {
+        try {
+          return hljs.highlight(lang, str).value;
+        } catch (__) {}
+      }
+
+      try {
+        return hljs.highlightAuto(str).value;
+      } catch (__) {}
+
+      return "";
+    },
+  };
   function getText(url) {
     var result = null;
     $.ajax({
@@ -55,9 +56,11 @@ $(document).ready(function () {
     return result;
   }
   var markdown_source = getText(REDUX_TESTS);
+  var classy = window.markdownItClassy;
   //   var comment_contents =
   //     markdown_source.split(" SPLIT ")[1];
 
   var md = new Remarkable(options);
+  md.use(classy);
   $("#optee").append(md.render(markdown_source));
 });

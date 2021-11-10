@@ -103,3 +103,16 @@
     display: none;
   }
 }
+
+@media (min-width: 1300px) {
+  .modal.modal-fullscreen
+    .modal-dialog
+    .modal-content
+    .modal-header
+    .btn {
+    display: none;
+  }
+  .modal-content {
+    width: 70rem;
+  }
+}
