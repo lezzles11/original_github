@@ -1,5 +1,43 @@
 console.log("file loads");
 
+// PROJECTS
+const HYGGE =
+  "https://raw.githubusercontent.com/lezzles11/lezzles11.github.io/master/planning/hyggechats.md";
+const KELLAN =
+  "https://raw.githubusercontent.com/lezzles11/lezzles11.github.io/master/planning/kellan.md";
+const OPTEE =
+  "https://raw.githubusercontent.com/lezzles11/lezzles11.github.io/master/planning/opteeRedux.md";
+const DYNAMIX = "";
+
+// CODE SNIPPETS
+const REDUX_TESTS =
+  "https://raw.githubusercontent.com/lezzles11/lezzles11.github.io/master/planning/reduxTest.md";
+const REACT_TESTS = "";
+const EASY_PEASY = "";
+const AWS = "";
+
+// PROCESSES
+const THINKING = "";
+const PLANNING = "";
+const UI = "";
+
+let options = {
+  html: true,
+  doHighlight: true,
+  highlight: function (str, lang) {
+    if (lang && hljs.getLanguage(lang)) {
+      try {
+        return hljs.highlight(lang, str).value;
+      } catch (__) {}
+    }
+
+    try {
+      return hljs.highlightAuto(str).value;
+    } catch (__) {}
+
+    return "";
+  },
+};
 $(document).ready(function () {
   function getText(url) {
     var result = null;
@@ -9,20 +47,17 @@ $(document).ready(function () {
       dataType: "html",
       async: false,
       success: function (data) {
+        console.log(data);
         result = data;
       },
     });
     FileReady = true;
     return result;
   }
-  var markdown_source = getText();
-  var comment_contents =
-    markdown_source.split("축하의 말")[1];
+  var markdown_source = getText(REDUX_TESTS);
+  //   var comment_contents =
+  //     markdown_source.split(" SPLIT ")[1];
 
-  var md = new Remarkable();
-  $("#github").append(md.render(comment_contents));
-
-  if (findGetParameter("gift") == "false") {
-    $("#gifts").hide();
-  }
+  var md = new Remarkable(options);
+  $("#optee").append(md.render(markdown_source));
 });

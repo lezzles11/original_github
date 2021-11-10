@@ -4,42 +4,42 @@
 
 Matchers - expecting the output to match the expected output
 
-```
+```javascript
 it("Matchers", () => {
-    expect(24 + 20).toBe(44);
-    expect({ one: 1, two: 3 }).toEqual({ one: 1, two: 3 });
+  expect(24 + 20).toBe(44);
+  expect({ one: 1, two: 3 }).toEqual({ one: 1, two: 3 });
 
-    for (let i = 1; i < 10; i++) {
-        for (let j = 1; j < 10; j++) {
-            expect(i + j).not.toBe(0);
-}
-}
+  for (let i = 1; i < 10; i++) {
+    for (let j = 1; j < 10; j++) {
+      expect(i + j).not.toBe(0);
+    }
+  }
 });
 ```
 
 ### Truthiness
 
-```
+```javascript
 it("Truetiness", () => {
-    const isActive = null;
-    expect(isActive).toBeNull();
-    expect(isActive).toBeDefined();
-    expect(isActive).not.toBeUndefined();
-    expect(isActive).not.toBeTruthy();
-    expect(isActive).toBeFalsy();
- });
+  const isActive = null;
+  expect(isActive).toBeNull();
+  expect(isActive).toBeDefined();
+  expect(isActive).not.toBeUndefined();
+  expect(isActive).not.toBeTruthy();
+  expect(isActive).toBeFalsy();
+});
 ```
 
 ### Zeros
 
-```
+```javascript
 it("zeros", () => {
-   const z = 0;
-   expect(z).not.toBeNull();
-   expect(z).toBeDefined();
-   expect(z).not.toBeUndefined();
-   expect(z).not.toBeTruthy();
-   expect(z).toBeFalsy();
+  const z = 0;
+  expect(z).not.toBeNull();
+  expect(z).toBeDefined();
+  expect(z).not.toBeUndefined();
+  expect(z).not.toBeTruthy();
+  expect(z).toBeFalsy();
 });
 ```
 
