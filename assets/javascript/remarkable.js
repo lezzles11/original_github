@@ -55,12 +55,12 @@ $(document).ready(function () {
     FileReady = true;
     return result;
   }
-  var markdown_source = getText(REDUX_TESTS);
-  var classy = window.markdownItClassy;
+  var markdown_source = getText(KELLAN);
+  //   var classy = window.markdownItClassy;
   //   var comment_contents =
   //     markdown_source.split(" SPLIT ")[1];
 
   var md = new Remarkable(options);
-  md.use(classy);
+  //   md.use(classy);
   $("#optee").append(md.render(markdown_source));
 });

@@ -1,28 +1,30 @@
-.process__master__wrapper {
+.table__master__wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
   row-gap: 0;
+  justify-items: center;
   width: 100vw;
+  height: 40rem;
 }
-.process__header {
+.table__header {
   font-size: 3rem;
 }
-.process__wrapper {
+.table__wrapper {
   height: 20rem;
   position: relative;
-  width: 80rem;
-  margin-left: auto;
-  margin-right: auto;
+  width: 80vw;
 }
 
-.process__table {
+.table__table {
   width: 100%;
   font-size: 2rem;
 }
-.table__row {
-  font-size: 1.5rem;
-}
-.process__list {
+.table__list {
   font-size: 1.2rem;
+}
+@media screen and (max-width: 1200px) {
+  .table__master__wrapper {
+    height: 80rem;
+  }
 }

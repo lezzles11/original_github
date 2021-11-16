@@ -3,8 +3,10 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr 1fr;
   row-gap: 0;
-  width: 100vw;
+  /* width: 100vw; */
+  max-width: 100%;
 }
+
 .section {
   height: 80rem;
   position: relative;

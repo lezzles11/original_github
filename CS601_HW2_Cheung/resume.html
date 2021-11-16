@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <!-- Tab Name -->
+    <title>my billionth draft</title>
+    <link
+      rel="icon"
+      href="./assets/images/favicon.ico"
+      type="image/gif"
+      sizes="16x16"
+    />
+    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1"
+    />
+
+    <script src="./assets/music.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js"
+      integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Link style sheet here -->
+    <script src="assets/prismic.js"></script>
+    <link
+      rel="stylesheet"
+      href="./styles/global/global.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/global/fonts.css"
+    />
+    <link rel="stylesheet" href="./styles/global/nav.css" />
+
+    <link
+      rel="stylesheet"
+      href="./styles/global/images.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/resume/information.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="./styles/resume/project.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="/styles/resume/highlight.css"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/global/footer.css"
+    />
+  </head>
+
+  <!-- All your content should go in between the body tags -->
+  <body>
+    <div>
+      <div class="nav">
+        <div class="nav__wrapper">
+          <div class="nav__link">
+            <a href="./index.html">Home</a>
+          </div>
+          <div class="nav__link">
+            <a href="./about.html">About</a>
+          </div>
+          <div class="nav__link">
+            <a href="./resume.html">Resume</a>
+          </div>
+        </div>
+      </div>
+
+      <audio
+        src="./assets/audio/mus.mp3"
+        id="player"
+      ></audio>
+      <figure>
+        <img
+          alt="hanger-img"
+          id="playerButton"
+          class="hangerImg"
+          src="./assets/images/Hanger.png"
+        />
+      </figure>
+
+      <!-- Beginning -->
+      <!-- Highlight -->
+      <!-- highlight -->
+      <header>
+        <div class="highlight__master__wrapper">
+          <div class="highlight__section">
+            <div class="highlight__section__wrapper">
+              <figure
+                class="highlight__section__media__image"
+              >
+                <a
+                  href="https://wakatime.com/@lezzles11"
+                  target="_blank"
+                >
+                  <img
+                    style="object-fit: contain"
+                    src="https://wakatime.com/share/@lezzles11/47fcba96-c3c5-4950-8cab-877502725f41.png"
+                    alt="image"
+                    class="highlight__image"
+                /></a>
+              </figure>
+              <div class="highlight__section__box">
+                <p class="highlight__section__description">
+                  Whats up
+                </p>
+
+                <p class="highlight__section__label">
+                  about
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- Highlight -->
+      <!-- Information -->
+      <main>
+        <div class="information__master__wrapper">
+          <div class="information__wrapper">
+            <div class="information__section">
+              <div class="information__header">
+                <h2 class="information__header__text">
+                  work
+                </h2>
+              </div>
+              <div class="information__wrapper__text">
+                <h5 class="info__title">
+                  Software Engineer Instructor
+                </h5>
+                <p class="info__text">
+                  I currently teach fullstack web
+                  development; the course runs over the
+                  period of four months, and begins with the
+                  basics of HTML and CSS, then transitions
+                  into backend and frontend libraries such
+                  as Postgres, JQuery, React and Node.js. By
+                  the end of the course, students will have
+                  built and deployed multiple full-stack web
+                  applications via Amazon Web Services
+                  (AWS).
+                </p>
+                <br />
+                <h5 class="info__title">
+                  Special Educator
+                </h5>
+
+                <p class="info__text">
+                  During my time as an educator in one of
+                  the most diverse public high schools in
+                  the nation, I learned and applied a broad
+                  range of teaching strategies. For example,
+                  I constructed lesson plans by first
+                  consulting the Common Core Standards for
+                  clear objectives and learning goals. In
+                  addition, I implemented a variety of
+                  assessments to ensure evidence of
+                  successful learning through each unit.
+                  Above all, I encouraged students to make
+                  strategic choices, reflect on the learning
+                  process as well as collaborate with one
+                  another. Every student knew what we were
+                  learning, why we were learning it as well
+                  as how it applied to the world beyond the
+                  classroom.
+                </p>
+              </div>
+            </div>
+            <div class="information__section">
+              <div class="information__header">
+                <h2 class="information__header__text">
+                  school
+                </h2>
+              </div>
+              <div class="information__wrapper__text">
+                <h5 class="info__title">
+                  Masters in Computer Science
+                </h5>
+                <p class="info__text">
+                  I graduated from Boston University in
+                  2017, having completed both my
+                  undergraduate and graduate degree. I went
+                  on to teach Math, Science and History in
+                  Cambridge Rindge and Latin, one of the
+                  most diverse high schools in the nation.
+                </p>
+                <br />
+                <h5 class="info__title">
+                  Bachelors in Marketing
+                </h5>
+
+                <p class="info__text">
+                  I graduated from Boston University in
+                  2017, having completed both my
+                  undergraduate and graduate degree. I went
+                  on to teach Math, Science and History in
+                  Cambridge Rindge and Latin, one of the
+                  most diverse high schools in the nation.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project -->
+        <div class="text-center">
+          <div class="project__master__wrapper">
+            <div class="project">
+              <h1 class="project__title">notable skills</h1>
+              <div class="project__wrapper">
+                <!-- Each Project -->
+                <div class="project__block">
+                  <p class="project__text">java</p>
+                  <!-- <p class="project__name">spring</p> -->
+                  <div class="project__votes__block">
+                    <p class="project__votes">hello</p>
+                    <form
+                      style="display: inline"
+                      action="https://github.com/lezzles11"
+                      method="get"
+                    >
+                      <button
+                        class="
+                          project__upvote
+                          waves__effect
+                        "
+                      >
+                        see more
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- Each Project -->
+                <!-- Each Project -->
+                <div class="project__block">
+                  <p class="project__text">javascript</p>
+                  <!-- <p class="project__name">jquery</p> -->
+                  <div class="project__votes__block">
+                    <p class="project__votes">react</p>
+                    <form
+                      style="display: inline"
+                      action="https://github.com/lezzles11"
+                      method="get"
+                    >
+                      <button
+                        class="
+                          project__upvote
+                          waves__effect
+                        "
+                      >
+                        see more
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- Each Project -->
+                <!-- Each Project -->
+                <div class="project__block">
+                  <p class="project__text">ionic</p>
+                  <!-- <p class="project__name">hll</p> -->
+                  <div class="project__votes__block">
+                    <p class="project__votes">
+                      used with angular
+                    </p>
+                    <form
+                      style="display: inline"
+                      action="https://github.com/lezzles11"
+                      method="get"
+                    >
+                      <button
+                        class="
+                          project__upvote
+                          waves__effect
+                        "
+                      >
+                        see more
+                      </button>
+                    </form>
+                  </div>
+                </div>
+                <!-- Each Project -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- end projects -->
+    </div>
+    <footer>
+      <div class="footer__wrapper">
+        <div class="footer__content">
+          <div class="footer__left__content">
+            <h2 class="footer__left__header">Contact</h2>
+            <p class="footer__left__text">
+              <a
+                href="mailto:lesley.yc@gmail.com"
+                class="footer__email"
+                rel="noreferrer"
+                >lesley.yc@gmail.com
+              </a>
+            </p>
+            <a
+              href="https://wakatime.com/@25e74f89-c9dd-4b9a-819c-23c9f3ae40ae"
+              ><img
+                src="https://wakatime.com/badge/user/25e74f89-c9dd-4b9a-819c-23c9f3ae40ae.svg"
+                alt="Total time coded since Apr 27 2019"
+            /></a>
+          </div>
+
+          <div class="footer__right__content">
+            <div class="footer__link__list">
+              <h2>Projects</h2>
+              <a href="https://kellan.page" target="_blank"
+                >Wedding</a
+              >
+              <a href="https://hygge.chats" target="_blank"
+                >Games</a
+              >
+            </div>
+
+            <div class="footer__link__list">
+              <h2>Practice</h2>
+              <a
+                href="http://codesandbox.io"
+                target="_blank"
+                >Codesandbox</a
+              >
+              <a href="https://codepen.io" target="_blank"
+                >Codepen</a
+              >
+            </div>
+
+            <div class="footer__link__list">
+              <h2>Follow</h2>
+
+              <a
+                href="https://github.com/lezzles11"
+                target="_blank"
+                >GitHub</a
+              >
+              <a
+                href="https://www.linkedin.com/"
+                target="_blank"
+                >LinkedIn</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

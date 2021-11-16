@@ -28,6 +28,8 @@
   display: flex;
   width: 45rem;
   align-items: center;
+  justify-content: space-evenly;
+  /* justify-content: center; */
   flex-direction: row;
   position: absolute;
   right: 0;
@@ -53,6 +55,10 @@
   padding-right: 0;
   position: absolute;
   left: 0;
+}
+.highlight__image {
+  width: 100%;
+  object-fit: cover;
 }
 
 @media screen and (max-width: 1300px) {

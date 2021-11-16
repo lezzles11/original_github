@@ -18,8 +18,8 @@
   position: fixed;
   height: 10rem;
   width: 6rem;
-  bottom: 0;
-  right: 10vw;
+  bottom: 50vh;
+  right: 2vw;
 }
 
 @media screen and (max-width: 800px) {
@@ -33,5 +33,12 @@
     right: 2vw;
     height: 4rem;
     width: 4rem;
+  }
+  .stoolImg {
+    /* right: 3rem; */
+    position: relative;
+
+    z-index: 10;
+    /* bottom: 0; */
   }
 }
