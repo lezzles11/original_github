@@ -1,13 +1,12 @@
 # Official Optee ReadMe
 
-
 STARTHERE
+
 # notes 
 
 dec 8 2021
 
 # currently, the sidebar with table has the most recent navbar
-
 
 ### User Stories :telescope:
 
@@ -15,7 +14,7 @@ dec 8 2021
 
 ## Sprint :athletic_shoe:
 
-| Done? |                                    Component                                     | Priority | Estimated Time | Actual Time |
+| Done? | Component                                                                        | Priority | Estimated Time | Actual Time |
 | ----- | -------------------------------------------------------------------------------- | :------: | :------------: | :---------: |
 | x     | This checklist                                                                   |    H     |    30 mins     |             |
 | x     | Read Documentation                                                               |    M     |    30 mins     |             |
@@ -23,30 +22,28 @@ dec 8 2021
 | x     | Complete basic example                                                           |    M     |    30 mins     |     15      |
 | x     | Write tests for features                                                         |          |                |             |
 | x     | follow feature                                                                   |          |                |             |
-|       | Dashboard Page                                                                   |          |                |             |
-|       | Dashboard Table                                                                  |          |                |             |
-|       | Dashboard Kanban                                                                 |          |                |             |
-|       | Dashboard Calendar                                                               |          |                |             |
-|       | Deploy by dec 11                                                                 |          |                |             |
-|       | Signup                                                                           |          |                |             |
-|       | Login                                                                            |          |                |             |
-|       | Toggle themes?                                                                   |          |                |             |
+| x     | Dashboard Layout                                                                 |          |                |             |
+| x     | Auth Layout                                                                      |          |                |             |
+| x     | Dashboard Kanban Layout                                                          |          |                |             |
+| x     | Dashboard Calendar Layout                                                        |          |                |             |
+| x     | Settings Layout                                                                  |          |                |             |
+| x     | Signup Component                                                                 |          |                |             |
+| x     | Login Component                                                                  |          |                |             |
+| x     | All components need to be named by theme                                         |          |                |             |
 | x     | Write out the cucumber tests                                                     |    H     |                |             |
-|       | Debugging Table                                                                  |          |                |             |
-|       | Make some problems public and some private                                       |          |                |             |
-|       | Make every feature unique, dude. lol                                             |          |                |             |
-|       | Look at your past repositories                                                   |          |                |             |
+| x     | Debugging Table                                                                  |          |                |             |
+| x     | Look at your past repositories                                                   |          |                |             |
 |       | Notice that the table utilizes the handlebars template. How can you do the same? |          |                |             |
 |       | Do one thing at a time.                                                          |          |                |             |
 |       | Finish all queries                                                               |          |                |             |
 |       | Login by tomorrow                                                                |          |                |             |
 |       | dude stop meeting up with ppl lol                                                |          |                |             |
-|       | Signup                                                                           |          |                |             |
-|       |                                                                                  |          |                |             |
-|       |                                                                                  |          |                |             |
-|       |                                                                                  |          |                |             |
-|       |                                                                                  |          |                |             |
-|       |                                                                                  |          |                |             |
+|       | Signup Form                                                                      |          |                |             |
+| x     | Write down all routes                                                            |          |                |             |
+| x     | Write down all database queries                                                  |          |                |             |
+|       | Intro layout (look at the codepen example)                                       |          |                |             |
+|       | Project page layout                                                              |          |                |             |
+|       | Email function: look at the wedding template                                     |          |                |             |
 |       |                                                                                  |          |                |             |
 |       |                                                                                  |          |                |             |
 |       |                                                                                  |          |                |             |
@@ -63,7 +60,7 @@ dec 8 2021
 
 ### Daily Stand Up :hourglass:
 
-| Done? |             Component             | Priority | Estimated Time | Actual Time |
+| Done? | Component                         | Priority | Estimated Time | Actual Time |
 | ----- | --------------------------------- | :------: | :------------: | :---------: |
 |       | Stepper for introduction          |          |                |             |
 |       | Profile page for sharing projects |          |                |             |
@@ -80,24 +77,122 @@ dec 8 2021
 **ERROR**: :gear:
 **RESOLUTION**: :key:
 
-|        Issue         | Where it occurs | Possible solution | Actual solution |
+| Issue                | Where it occurs | Possible solution | Actual solution |
 | -------------------- | :-------------: | :---------------: | :-------------: |
 | Creating a checklist |        H        |       2hrs        |     2.5hrs      |
 
 ## Current Routing 
+
 ### Routes :hourglass:
 
-| Done? |             Route             | Parameters | Request | Response |
-| ----- | --------------------------------- | :------: | :------------: | :---------: |
-|       | Stepper for introduction          |          |                |             |
-|       | Profile page for sharing projects |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
-|       |                                   |          |                |             |
+# TODO: Need to also get by user id 
+
+| Done? | Route                   | Method | Action |            Req Body Layout            | Renders         | Res | Res Status |
+| ----- | ----------------------- | :----: | :----: | :-----------------------------------: | --------------- | --- | ---------- |
+|       | /                       |        |        |                 main                  | pages/home/todo |     | 200        |
+|       | /signup                 |  GET   |        |                 auth                  |                 |     | 200        |
+|       | /signup                 |  POST  |        |                 auth                  |                 |     | 201/       |
+|       | /login                  |        |        |                 auth                  |                 |     |            |
+|       | /login                  |        |        |                 auth                  |                 |     |            |
+|       | /db/kanban              |        |        |                  db                   |                 |     | 200        |
+|       | /db/table               |        |        |                  db                   |                 |     | 200        |
+|       | /db/timeline            |        |        |                  db                   |                 |     | 200        |
+|       | /api/get/:type          |        |        |                                       |                 |     | 200 arr    |
+|       | /api/get/:type/:id      |        |        |                                       |                 |     | 200 obj    |
+|       | /api/condition          |        |        | {condition: "status", value: "to do"} |                 |     | 200 arr    |
+|       | /api/joins/:type/:type2 |        |        |                 CHECK                 |                 |     | 200  arr   |
+|       | /api/delete/:type/:id   |        |        |                                       |                 |     | 200  arr   |
+|       | /api/post/:type         |        |        |                                       |                 |     | 200 arr    |
+|       | /api/columns/:type      |        |        |                                       |                 |     | 200 arr    |
+
+## Current Database 
+
+### Notes: each database, when exported, is already initialized 
+
+ - [ x] implemented bcrypt
+
+| Done? | method                                           | method | returns | class |
+| ----- | ------------------------------------------------ | :----: | ------- | ----- |
+|       | signupWithEmail(name, email, password)           |  POST  | object  | auth  |
+|       | getUserById(id)                                  |  GET   | object  |       |
+|       | getUserByEmail(email)                            |  GET   | object  |       |
+|       | loginWithEmail(email, password)                  |  POST  | object  |       |
+|       | getByImportanceJoin(table, table2, values = "*") |  GET   | arr     | basic |
+|       | getByMostRecent(table)                           |  GET   |         |       |
+|       | search(table, search, keyword)                   |  GET   |         |       |
+|       | getByMostRecent(table)                           |  GET   |         |       |
+|       | getDescData(table, condition) "problem", "title"  |  GET   |         |       |
+|       | getAscData(table condition)                      |        |         |       |
+|       | getById(table, id)                               |        | object  |       |
+|       | getAllByHourglass(table) -                       |        |         |       |
+|       | getByHourglassCondition(table, col, val)         |        |         |       |
+|       | post(object)   - calls post and edit             |        | object  |       |
+|       | delete(table, id)                                |        | id      |       |
+|       | getByCondition(table, table2, col, val)          |        | arr     |       |
+|       | getAll(table)                                    |        | arr     |       |
+|       |                                                  |        |         |       |
+|       |                                                  |        |         |       |
+|       |                                                  |        |         |       |
+|       |                                                  |        |         |       |
+
+## Current Components 
+
+### Rules for components: always need to have all the colors and styling inside it too 
+
+### all require jquery and bootstrap
+
+##### svgs: pencil, dashboard, trash, calendar, star, inbox, print
+
+// all svgs accept a color = "white" hoverColor="lightBlue" 
+##### 
+
+| Done? | Location              |            Parameters            | Class |    libs     | Page | Notes |
+| ----- | --------------------- | :------------------------------: | :---: | :---------: | ---- | ----- |
+|       | > buttons/nerd        |           name, class            |       |     nes     |      |       |
+|       | > buttons/download    |                                  |       |             |      |       |
+|       | > input/nerd          |                                  |       |     nes     |      |       |
+|       | > dropdown/nerd       |                                  |       |             |      |       |
+|       | > favicon/nerd        |                                  |       |             |      |       |
+|       | > footer/nerd         |                                  |       |     tui     |      |       |
+|       | > header/stickyHeader |                                  |       |             |      |       |
+|       | > nav/white           |                                  |       |             |      |       |
+|       | > nav/stickyNav       |                                  |       |             |      |       |
+|       | > intro/nerdLeft      |          text, element           |       | nes, typeit |      |       |
+|       | > intro/nerdRight     |          text, element           |       | nes, typeit |      |       |
+|       | > table/nerdTable     |          problem   [{}]          |       |             |      |       |
+|       | > table/nerdParentRow |                                  |       |             |      |       |
+|       | > table/nerdChildRow  |                                  |       |             |      |       |
+| x     | > graph/timeline      |               [{}]               |       |             |      |       |
+|       | > dropdown/nerd       | [{name: "", class: "", path: ""}] |       |             |      |       |
+|       | > card/nerd           |                                  |       |             |      |       |
+|       | > progress/nerd       |                                  |       |             |      |       |
+|       | >                     |                                  |       |             |      |       |
+|       |                       |                                  |       |             |      |       |
+|       |                       |                                  |       |             |      |       |
+
+| Done? | Location       | components | libs | notes |
+| ----- | -------------- | :--------: | :--: | :---: |
+|       | > anim/hoverUp |    card    |      |       |
+|       |                |            |      |       |
+|       |                |            |      |       |
+|       |                |            |      |       |
+|       |                |            |      |       |
+
+## Current Layouts 
+
+### Rules: NO stying whatsoever, only 
+
+| Done? | Layout           |             Requirements             |    Libs     |     |
+| ----- | ---------------- | :----------------------------------: | :---------: | :-: |
+| x     | auth             |                                      |  bootstrap  |     |
+| x     | dashboard kanban |                                      | bs, masonry |     |
+|       | intro            |  Full page need to have text format  |             |     |
+|       | problem page     |                                      |             |     |
+|       | dashbord table   |                                      |             |     |
+|       | dashboard cal    |                                      |             |     |
+|       | loader           | this would probably come after login |             |     |
+|       |                  |                                      |             |     |
+|       |                  |                                      |             |     |
 
 # problem
 
