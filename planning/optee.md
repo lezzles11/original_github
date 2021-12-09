@@ -94,8 +94,10 @@ dec 8 2021
 |       | /signup                 |  POST  |        |                 auth                  |                 |     | 201/       |
 |       | /login                  |        |        |                 auth                  |                 |     |            |
 |       | /login                  |        |        |                 auth                  |                 |     |            |
+|       | /intro                  |  GET   |        |                 full                  | intro/intro     |     | 200        |
+|       | /intro                  |  GET   |        |      naked (no styling or libs)       | loader/loader   |     | 200        |
 |       | /db/kanban              |        |        |                  db                   |                 |     | 200        |
-|       | /db/table               |        |        |                  db                   |                 |     | 200        |
+|       | /db/table               |        |        |            topbottomstick             |                 |     | 200        |
 |       | /db/timeline            |        |        |                  db                   |                 |     | 200        |
 |       | /api/get/:type          |        |        |                                       |                 |     | 200 arr    |
 |       | /api/get/:type/:id      |        |        |                                       |                 |     | 200 obj    |
@@ -121,7 +123,7 @@ dec 8 2021
 |       | getByMostRecent(table)                           |  GET   |         |       |
 |       | search(table, search, keyword)                   |  GET   |         |       |
 |       | getByMostRecent(table)                           |  GET   |         |       |
-|       | getDescData(table, condition) "problem", "title"  |  GET   |         |       |
+|       | getDescData(table, condition) "problem", "title" |  GET   |         |       |
 |       | getAscData(table condition)                      |        |         |       |
 |       | getById(table, id)                               |        | object  |       |
 |       | getAllByHourglass(table) -                       |        |         |       |
@@ -146,29 +148,36 @@ dec 8 2021
 // all svgs accept a color = "white" hoverColor="lightBlue" 
 ##### 
 
-| Done? | Location              |            Parameters            | Class |    libs     | Page | Notes |
-| ----- | --------------------- | :------------------------------: | :---: | :---------: | ---- | ----- |
-|       | > buttons/nerd        |           name, class            |       |     nes     |      |       |
-|       | > buttons/download    |                                  |       |             |      |       |
-|       | > input/nerd          |                                  |       |     nes     |      |       |
-|       | > dropdown/nerd       |                                  |       |             |      |       |
-|       | > favicon/nerd        |                                  |       |             |      |       |
-|       | > footer/nerd         |                                  |       |     tui     |      |       |
-|       | > header/stickyHeader |                                  |       |             |      |       |
-|       | > nav/white           |                                  |       |             |      |       |
-|       | > nav/stickyNav       |                                  |       |             |      |       |
-|       | > intro/nerdLeft      |          text, element           |       | nes, typeit |      |       |
-|       | > intro/nerdRight     |          text, element           |       | nes, typeit |      |       |
-|       | > table/nerdTable     |          problem   [{}]          |       |             |      |       |
-|       | > table/nerdParentRow |                                  |       |             |      |       |
-|       | > table/nerdChildRow  |                                  |       |             |      |       |
-| x     | > graph/timeline      |               [{}]               |       |             |      |       |
-|       | > dropdown/nerd       | [{name: "", class: "", path: ""}] |       |             |      |       |
-|       | > card/nerd           |                                  |       |             |      |       |
-|       | > progress/nerd       |                                  |       |             |      |       |
-|       | >                     |                                  |       |             |      |       |
-|       |                       |                                  |       |             |      |       |
-|       |                       |                                  |       |             |      |       |
+#### EVERY COMPONENT MUST HAVE DATA-USER_ID=
+
+| Done? | Location                 |                             Parameters                              | Required Attributes |      libs      | Page | Notes |
+| ----- | ------------------------ | :-----------------------------------------------------------------: | :-----------------: | :------------: | ---- | ----- |
+|       | > buttons/nerd           |                             name, class                             |                     |      nes       |      |       |
+|       | > buttons/download       |                                                                     |                     |                |      |       |
+|       | > input/nerd             |                                                                     |        name         |      nes       |      |       |
+|       | > input/editable         |            {classname: "", type: "", pk: "", title: ""}             |        name         | nes, bootstrap |      |       |
+|       | > dropdown/nerd          |                                                                     |                     |                |      |       |
+|       | > favicon/nerd           |                                                                     |                     |                |      |       |
+|       | > footer/nerd            |                                                                     |                     |      tui       |      |       |
+|       | > header/stickyHeader    |                                                                     |                     |                |      |       |
+|       | > nav/sideWhite          |                                                                     |                     |                |      |       |
+|       | > nav/nerdTop            |                    decide on the functions here                     |                     |                |      |       |
+|       | > intro/nerdLeft         |                            text, element                            |                     |  nes, typeit   |      |       |
+|       | > intro/nerdRight        |                            text, element                            |                     |  nes, typeit   |      |       |
+|       | > table/nerdTable        |                           problem   [{}]                            |                     |                |      |       |
+|       | > table/nerdParentRow    |                                                                     |                     |                |      |       |
+|       | > table/nerdChildRow     |                                                                     |                     |                |      |       |
+|       | > kanban/kanban          |                 [{_id: 1, title: "", parent_id: 1}]                 |                     |                |      |       |
+|       | > notes on kanban/kanban |                returns [{id: "1", order: 2, parent: undefined}]               |                     |                |      |       |
+| x     | > graph/timeline         | [{category: "", start: "YYYY-MM-DD", end: "", color: "", task: ""}] |  data-problem_id=   |                |      |       |
+|       | > dropdown/nerd          |                  [{name: "", class: "", path: ""}]                  |                     |                |      |       |
+|       | > card/nerd              |                                                                     |                     |                |      |       |
+|       | > progress/nerd          |                                                                     |  data-problem_id=#  |                |      |       |
+|       | > modal/addProblem       |                      id="add_problem_trigger"                       |  data-problem_id=#  |                |      |       |
+|       | > modal/addTask          |                                                                     |   data-task_id=#    |                |      |       |
+|       | > modal/startTask        |                                                                     |   data-task_id=#    |                |      |       |
+|       | > modal/editTask         |                                                                     |   data-task_id=#    |                |      |       |
+|       | > modal/editProblem      |                                                                     |  data-problem_id=   |                |      |       |
 
 | Done? | Location       | components | libs | notes |
 | ----- | -------------- | :--------: | :--: | :---: |
@@ -182,17 +191,17 @@ dec 8 2021
 
 ### Rules: NO stying whatsoever, only 
 
-| Done? | Layout           |             Requirements             |    Libs     |     |
-| ----- | ---------------- | :----------------------------------: | :---------: | :-: |
-| x     | auth             |                                      |  bootstrap  |     |
-| x     | dashboard kanban |                                      | bs, masonry |     |
-|       | intro            |  Full page need to have text format  |             |     |
-|       | problem page     |                                      |             |     |
-|       | dashbord table   |                                      |             |     |
-|       | dashboard cal    |                                      |             |     |
-|       | loader           | this would probably come after login |             |     |
-|       |                  |                                      |             |     |
-|       |                  |                                      |             |     |
+| Done? | Layout           |                                      | Requirements | Libs |     |
+| ----- | ---------------- | :----------------------------------: | :----------: | :--: | --- |
+| x     | auth             |             two columns              |  bootstrap   |      |     |
+| x     | dashboard kanban |                                      | bs, masonry  |      |     |
+|       | intro            |  Full page need to have text format  |              |      |     |
+|       | problem page     |                                      |              |      |     |
+|       | dashbord table   |                                      |              |      |     |
+|       | dashboard cal    |                                      |              |      |     |
+|       | loader           | this would probably come after login |              |      |     |
+|       |                  |                                      |              |      |     |
+|       |                  |                                      |              |      |     |
 
 # problem
 
