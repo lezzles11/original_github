@@ -1,288 +1,212 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <!-- Tab Name -->
-    <title>my billionth draft</title>
 
-    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1"
-    />
-    <link
-      rel="icon"
-      href="./assets/images/favicon.ico"
-      type="image/gif"
-      sizes="16x16"
-    />
+<head>
+  <meta charset="utf-8" />
+  <!-- Tab Name -->
+  <title>my billionth draft</title>
 
-    <!-- Link style sheet here -->
+  <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="./assets/images/favicon.ico" type="image/gif" sizes="16x16" />
 
-    <script src="./assets/music.js"></script>
-    <link
-      rel="stylesheet"
-      href="./styles/global/global.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/global/fonts.css"
-    />
-    <link rel="stylesheet" href="./styles/global/nav.css" />
+  <!-- Link style sheet here -->
 
-    <link
-      rel="stylesheet"
-      href="./styles/global/images.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/about/information.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/about/process.css"
-    />
+  <script src="./assets/music.js"></script>
+  <link rel="stylesheet" href="./styles/global/global.css" />
+  <link rel="stylesheet" href="./styles/global/fonts.css" />
+  <link rel="stylesheet" href="./styles/global/nav.css" />
 
-    <link
-      rel="stylesheet"
-      href="./styles/about/section.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/about/table.css"
-    />
-    <link
-      rel="stylesheet"
-      href="./styles/global/footer.css"
-    />
-  </head>
+  <link rel="stylesheet" href="./styles/global/images.css" />
+  <link rel="stylesheet" href="./styles/about/information.css" />
+  <link rel="stylesheet" href="./styles/about/process.css" />
 
-  <!-- All your content should go in between the body tags -->
+  <link rel="stylesheet" href="./styles/about/section.css" />
+  <link rel="stylesheet" href="./styles/about/table.css" />
+  <link rel="stylesheet" href="./styles/global/footer.css" />
+</head>
 
-  <body class="body-wrapper">
-    <div class="nav">
-      <div class="nav__wrapper">
-        <div class="nav__link">
-          <a href="./index.html">Home</a>
+<!-- All your content should go in between the body tags -->
+
+<body class="body-wrapper">
+  <!-- nav -->
+
+
+  <div class="nav">
+    <div class="nav__wrapper">
+      <div class="nav__link">
+        <a href="./index.html">Home</a>
+      </div>
+      <div class="nav__link">
+        <a href="./about.html">About</a>
+      </div>
+      <div class="nav__link">
+        <a href="./resume.html">Resume</a>
+      </div>
+      <div class="nav__link">
+        <a href="./projectPage.html">Projects</a>
+      </div>
+      <div class="nav__link">
+        <a href="./contact.html">Contact</a>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- nav -->
+  <audio src="./assets/audio/mus.mp3" id="player"></audio>
+  <figure class="figure">
+    <img alt="lunch-box" id="playerButton" class="lunchBoxImg" src="./assets/images/Lunchbox.png" />
+  </figure>
+  <!-- Beginning -->
+  <header style="margin: 10rem">
+    <div class="information text-center">
+      <h2 class="information_header">fullstack</h2>
+      <h3 class="information__text">websites</h3>
+    </div>
+  </header>
+
+  <!-- Section -->
+  <main class="section__master__wrapper">
+    <!-- Section One -->
+    <section class="section section__one">
+      <h2 class="section__title">for others</h2>
+      <div class="section__wrapper">
+        <figure class="section__image__wrapper__one">
+          <a href="https://kellan.page" target="_blank">
+            <img src="./assets/images/kellan.png" alt="kellan" class="section__image" /></a>
+        </figure>
+        <figure class="section__image__wrapper__two">
+          <a href="https://hyggechats.club" target="_blank">
+            <img style="object-fit: contain" src="./assets/images/hyggechats.png" alt="basketball"
+              class="section__image" /></a>
+        </figure>
+      </div>
+    </section>
+    <!-- Section Two -->
+    <section class="section section__two">
+      <h2 class="section__title">frontend</h2>
+      <div class="section__wrapper">
+        <figure class="section__image__wrapper__one">
+          <a href="https://dynamix.netlify.app" target="_blank">
+            <img style="object-fit: contain" src="./assets/images/dynamix.png" alt="doyouremember"
+              class="section__image" />
+          </a>
+        </figure>
+        <figure class="section__image__wrapper__two">
+          <a href="http://problemsolvingtool.surge.sh/index.html" target="_blank">
+            <img style="object-fit: contain" src="./assets/images/problem.png" alt="coronavirus"
+              class="section__image" /></a>
+        </figure>
+      </div>
+    </section>
+    <div class="table__master__wrapper">
+      <section class="table__wrapper text-center">
+        <h1 class="table__header">Process</h1>
+
+        <table class="table__wrapper">
+          <thead>
+            <tr>
+              <th scope="col">step</th>
+              <th scope="col">process</th>
+              <th scope="col">reasoning</th>
+              <th scope="col">things needed</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td data-label="step">1</td>
+              <td data-label="process">
+                creating user stories
+              </td>
+              <td data-label="reasoning">
+                creating purpose before you code
+              </td>
+              <td data-label="things">paper pencil</td>
+            </tr>
+            <tr>
+              <td data-label="step">2</td>
+              <td data-label="process">
+                creating user interface
+              </td>
+              <td data-label="reasoning">
+                know what the structure looks like
+              </td>
+              <td data-label="things">paper pencil</td>
+            </tr>
+            <tr>
+              <td data-label="step">3</td>
+              <td data-label="process">
+                creating components
+              </td>
+              <td data-label="reasoning">
+                break down each step
+              </td>
+              <td data-label="things">javascript code</td>
+            </tr>
+            <tr>
+              <td data-label="step">4</td>
+              <td data-label="process">
+                creating database
+              </td>
+              <td data-label="reasoning">
+                know how to connect components to database
+              </td>
+              <td data-label="things">postgres, knex</td>
+            </tr>
+          </tbody>
+        </table>
+        <br />
+        <details class="table__list" style="text-align: left">
+          <summary>process</summary>
+          <ul>
+            <li>
+              Before starting, try to look at older
+              projects
+            </li>
+            <li>Look at examples</li>
+          </ul>
+        </details>
+      </section>
+    </div>
+  </main>
+  <footer style="margin-top: 2rem">
+    <div class="footer__wrapper">
+      <div class="footer__content">
+        <div class="footer__left__content">
+          <h2 class="footer__left__header">Contact</h2>
+          <p class="footer__left__text">
+            <a href="mailto:lesley.yc@gmail.com" class="footer__email" rel="noreferrer">lesley.yc@gmail.com
+            </a>
+          </p>
+          <a href="https://wakatime.com/@25e74f89-c9dd-4b9a-819c-23c9f3ae40ae"><img
+              src="https://wakatime.com/badge/user/25e74f89-c9dd-4b9a-819c-23c9f3ae40ae.svg"
+              alt="Total time coded since Apr 27 2019" /></a>
         </div>
-        <div class="nav__link">
-          <a href="./about.html">About</a>
-        </div>
-        <div class="nav__link">
-          <a href="./resume.html">Resume</a>
+
+        <div class="footer__right__content">
+          <div class="footer__link__list">
+            <h2>Projects</h2>
+            <a href="https://kellan.page" target="_blank">Wedding</a>
+            <a href="https://hygge.chats" target="_blank">Games</a>
+          </div>
+
+          <div class="footer__link__list">
+            <h2>Practice</h2>
+            <a href="http://codesandbox.io" target="_blank">Codesandbox</a>
+            <a href="https://codepen.io" target="_blank">Codepen</a>
+          </div>
+
+          <div class="footer__link__list">
+            <h2>Follow</h2>
+
+            <a href="https://github.com/lezzles11" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
+          </div>
         </div>
       </div>
     </div>
-    <audio src="./assets/audio/mus.mp3" id="player"></audio>
-    <figure class="figure">
-      <img
-        alt="lunch-box"
-        id="playerButton"
-        class="lunchBoxImg"
-        src="./assets/images/Lunchbox.png"
-      />
-    </figure>
-    <!-- Beginning -->
-    <header style="margin: 10rem">
-      <div class="information text-center">
-        <h2 class="information_header">fullstack</h2>
-        <h3 class="information__text">websites</h3>
-      </div>
-    </header>
+  </footer>
+</body>
 
-    <!-- Section -->
-    <main class="section__master__wrapper">
-      <!-- Section One -->
-      <section class="section section__one">
-        <h2 class="section__title">for others</h2>
-        <div class="section__wrapper">
-          <figure class="section__image__wrapper__one">
-            <a href="https://kellan.page" target="_blank">
-              <img
-                src="./assets/images/kellan.png"
-                alt="kellan"
-                class="section__image"
-            /></a>
-          </figure>
-          <figure class="section__image__wrapper__two">
-            <a
-              href="https://hyggechats.club"
-              target="_blank"
-            >
-              <img
-                style="object-fit: contain"
-                src="./assets/images/hyggechats.png"
-                alt="basketball"
-                class="section__image"
-            /></a>
-          </figure>
-        </div>
-      </section>
-      <!-- Section Two -->
-      <section class="section section__two">
-        <h2 class="section__title">frontend</h2>
-        <div class="section__wrapper">
-          <figure class="section__image__wrapper__one">
-            <a
-              href="https://dynamix.netlify.app"
-              target="_blank"
-            >
-              <img
-                style="object-fit: contain"
-                src="./assets/images/dynamix.png"
-                alt="doyouremember"
-                class="section__image"
-              />
-            </a>
-          </figure>
-          <figure class="section__image__wrapper__two">
-            <a
-              href="http://problemsolvingtool.surge.sh/index.html"
-              target="_blank"
-            >
-              <img
-                style="object-fit: contain"
-                src="./assets/images/problem.png"
-                alt="coronavirus"
-                class="section__image"
-            /></a>
-          </figure>
-        </div>
-      </section>
-      <div class="table__master__wrapper">
-        <section class="table__wrapper text-center">
-          <h1 class="table__header">Process</h1>
-
-          <table class="table__wrapper">
-            <thead>
-              <tr>
-                <th scope="col">step</th>
-                <th scope="col">process</th>
-                <th scope="col">reasoning</th>
-                <th scope="col">things needed</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td data-label="step">1</td>
-                <td data-label="process">
-                  creating user stories
-                </td>
-                <td data-label="reasoning">
-                  creating purpose before you code
-                </td>
-                <td data-label="things">paper pencil</td>
-              </tr>
-              <tr>
-                <td data-label="step">2</td>
-                <td data-label="process">
-                  creating user interface
-                </td>
-                <td data-label="reasoning">
-                  know what the structure looks like
-                </td>
-                <td data-label="things">paper pencil</td>
-              </tr>
-              <tr>
-                <td data-label="step">3</td>
-                <td data-label="process">
-                  creating components
-                </td>
-                <td data-label="reasoning">
-                  break down each step
-                </td>
-                <td data-label="things">javascript code</td>
-              </tr>
-              <tr>
-                <td data-label="step">4</td>
-                <td data-label="process">
-                  creating database
-                </td>
-                <td data-label="reasoning">
-                  know how to connect components to database
-                </td>
-                <td data-label="things">postgres, knex</td>
-              </tr>
-            </tbody>
-          </table>
-          <br />
-          <details
-            class="table__list"
-            style="text-align: left"
-          >
-            <summary>process</summary>
-            <ul>
-              <li>
-                Before starting, try to look at older
-                projects
-              </li>
-              <li>Look at examples</li>
-            </ul>
-          </details>
-        </section>
-      </div>
-    </main>
-    <footer style="margin-top: 2rem">
-      <div class="footer__wrapper">
-        <div class="footer__content">
-          <div class="footer__left__content">
-            <h2 class="footer__left__header">Contact</h2>
-            <p class="footer__left__text">
-              <a
-                href="mailto:lesley.yc@gmail.com"
-                class="footer__email"
-                rel="noreferrer"
-                >lesley.yc@gmail.com
-              </a>
-            </p>
-            <a
-              href="https://wakatime.com/@25e74f89-c9dd-4b9a-819c-23c9f3ae40ae"
-              ><img
-                src="https://wakatime.com/badge/user/25e74f89-c9dd-4b9a-819c-23c9f3ae40ae.svg"
-                alt="Total time coded since Apr 27 2019"
-            /></a>
-          </div>
-
-          <div class="footer__right__content">
-            <div class="footer__link__list">
-              <h2>Projects</h2>
-              <a href="https://kellan.page" target="_blank"
-                >Wedding</a
-              >
-              <a href="https://hygge.chats" target="_blank"
-                >Games</a
-              >
-            </div>
-
-            <div class="footer__link__list">
-              <h2>Practice</h2>
-              <a
-                href="http://codesandbox.io"
-                target="_blank"
-                >Codesandbox</a
-              >
-              <a href="https://codepen.io" target="_blank"
-                >Codepen</a
-              >
-            </div>
-
-            <div class="footer__link__list">
-              <h2>Follow</h2>
-
-              <a
-                href="https://github.com/lezzles11"
-                target="_blank"
-                >GitHub</a
-              >
-              <a
-                href="https://www.linkedin.com/"
-                target="_blank"
-                >LinkedIn</a
-              >
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </body>
 </html>

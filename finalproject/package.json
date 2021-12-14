@@ -1,0 +1,17 @@
+{
+    "name": "finalproject",
+    "version": "1.0.0",
+    "description": "lezzles11.github.io Project Page",
+    "main": "index.js",
+    "scripts": {
+        "server": "json-server --watch db.json"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.24.0",
+        "json-server": "^0.17.0",
+        "lodash": "^4.17.21"
+    }
+}
