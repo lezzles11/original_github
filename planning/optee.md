@@ -2,9 +2,83 @@ ALWAYS WORK FROM HTML CSS AND JS DOCUMENT. ALWAYS.
 
 # Official Optee ReadMe
 
-STARTHERE
+#### Rules 
+
+Naming - this is for testing and creating inputs 
+
+Rules inherent: 
+* child handlebars partials, if it has styling, will overtake the parent styling. 
+e.g., if partials stylesA has p {color: pink}
+if partials stylesB has p {color: blue }
+parent thats has both will be overcome by child partial styles 
+the one at the most bottom will then dominate. interesting. which makes sense because css files run from top to bottom. 
+so i suppose the styles u really want should be at the bottom 
+
+## Cheatsheet
+
+* Always make sure you start with tests, no matter what. 
+
+Today: make sure you streamline your testing methods. 
+- 
+
+## Inputs
+
+| Input Names   | Form Attributes | Showing One | Showing All |     |     |
+| ------------- | --------------- | ----------- | ----------- | --- | --- |
+| name="column" |                 |             |             |     |     |
+
+* Sort and move accordians
+* Really understand how to use position 
+* Testing 
+* Sort by importance
+* Sort by difficulty 
+* prettydate
+
+## Modal Notes
+
+* make sure to have the modal close and triggers and class all be different class names (because you're closing one specific modal, not all of them)
+* Make sure that you wrap each new modal like so (in the codepen example: https://codepen.io/lezzles11/pen/ab0a8c211dc4aaae2aff3b187439ccd6)
+<!--  -->
+| Modal CSS      |      Modal Triggers      |       Modal Form        |       Modal Close        | Location of Trigger       |
+| -------------- | :----------------------: | :---------------------: | :----------------------: | ------------------------- |
+| playground, db |    .new_task_trigger, |     .new_task_modal     |  .close_new_task_modal   | On dashboard              |
+| playground, db |   .edit_task_trigger, |    .edit_task_modal     |  .close_edit_task_modal  | On kanban cards and table |
+| playground, db |   .new_problem_trigger   |   .new_problem_modal    |   close_problem_modal    | On dashboard              |
+| playground, db |  .edit_problem_trigger   |   .edit_problem_modal   |   close_problem_modal    |                           |
+| playground, db | .new_tag_snippet_trigger | .new_tag_snippet_modal  | close_tag_snippet_modal  |                           |
+| playground, db |     .new_task_modal, | .edit_tag_snippet_modal | .close_tag_snippet_modal |                           |
+| playground, db |    .new_timer_trigger    |    .new_timer_modal     |    .close_timer_modal    |                           |
+| playground, db | .new_cheatsheet_trigger  |  .new_cheatsheet_modal  | .close_cheatsheet_modal  |                           |
+| playground, db | .edit_cheatsheet_trigger | .edit_cheatsheet_modal  | .close_cheatsheet_modal  |                           |
+| playground, db |     .new_task_modal, |          2hrs           |          2.5hrs          |                           |
 
 # notes 
+* Error Handling: add a catch block to all knex queries, returning an object that checks if there is an error
+1. Database
+
+```
+.catch((error) => {
+    return {
+        error: "message"
+    }
+})
+```
+
+2. Route 
+
+```
+if (!responseFromDB.error) {
+// otherwise, call the function here
+} else {
+    pass in error (rerendering the page)
+}
+```
+
+### Process
+
+#### Adding a yml file:
+
+- 
 
 ## Don't forget the utilities that you have created!
 
@@ -21,19 +95,64 @@ R
 | ----- | --------------------------- | --------------- | ----- |
 | 12/12 | Complete inputs             |                 |       |
 |       | Start using the application |                 |       |
+|       | Finished timer modal        |                 |       |
+|       | Beginning theming           |                 |       |
 
-| Done? | Daily Sprint                                                        |               components               | libs | notes |
-| ----- | ------------------------------------------------------------------- | :------------------------------------: | :--: | :---: |
-| x     | Finish all components, and organize them accordingly                |                  card                  |      |       |
-| x     | Finish modals                                                       |                                        |      |       |
-|       | Finish feature 1: Kanban add, edit and delete, | finished it but just need to integrate |      |       |
-|       | Finish feature 2: Table add edit and delete (check out the masonry) |                                        |      |       |
-|       | Finish feature 3: Email/text friends with options                   |                                        |      |       |
-|       | Finish feature 4: Duck check in, think aloud                        |                                        |      |       |
-|       | Finish feature 5: authentication with gmail                         |                                        |      |       |
-|       | Finish feature 5 profile and display (like spotify)                 |                                        |      |       |
-|       | Finish feature 6: theme                                             |                                        |      |       |
-|       | Finish feature 7:      autocomplete                                 |                                        |      |       |
+Flow
+
+Express
+
+| Page           | Data         | Renders                          | Notes |
+| -------------- | ------------ | -------------------------------- | ----- |
+| Signup         | N/A          |                                  |       |
+| Login          | N/A          |                                  |       |
+| /dashboard/:id | problemtasks | kanban, {problemTasks: problems} |       |
+| Login          | N/A          |                                  |       |
+| Login          | N/A          |                                  |       |
+
+1. Signup
+
+2. Dashboard/:id
+
+3. Add Edit Problem
+4. See Table View
+5. See Kanban View
+6. See graph view 
+7. Change things (like make things public private)
+
+For each modal trigger, just make it an onclick method - remember how we essentially removed the button styling?
+
+for styling
+
+| Done? | Location   |      components      | notes | notes |
+| ----- | ---------- | :------------------: | :---: | :---: |
+|       | .is-size-1 |         text         |       |       |
+|       | .block     | to just space things |       |       |
+|       |            |                      |       |       |
+|       |            |                      |       |       |
+|       |            |                      |       |       |
+
+| Done? | Location                   | parameters | notes | notes |
+| ----- | -------------------------- | :--------: | :---: | :---: |
+|       | > "placeholder/tag"        |    text    |       |       |
+|       | > "hourglass/progressCard" |            |       |       |
+|       |                            |            |       |       |
+|       |                            |            |       |       |
+|       |                            |            |       |       |
+
+| Done? | Daily Sprint                                                        |                    Notes                    | libs | Deadline |
+| ----- | ------------------------------------------------------------------- | :-----------------------------------------: | :--: | :------: |
+| x     | Finish all components, and organize them accordingly                |                    card                     |      |  12/16   |
+| x     | Finish modals                                                       |                                             |      |  12/18   |
+| x     | Finish feature 1: Kanban add, edit and delete, |   finished it but just need to integrate    |      |  12/20   |
+| x     | Finish feature 2: Table add edit and delete (check out the masonry) |   just need to work on in the integration   |      |  12/23   |
+|       | Finish feature 6: theme                                             | be able to rener stylesheets based on theme |      |  12/24   |
+|       | Finish feature 3: Email/text friends with options                   |                                             |      |  12/21   |
+|       | Finish feature 4: Duck check in, think aloud                        |                                             |      |  12/22   |
+|       | Finish feature 5: authentication with gmail                         |                                             |      |  12 /23  |
+|       | Finish feature 5 profile and display (like spotify)                 |                                             |      |  12/24   |
+|       | Finish feature 6: theme                                             |                                             |      |  12/25   |
+|       | First deploy                                                        |                                             |      |  12/30   |
 
 dec 8 2021
 
@@ -76,7 +195,7 @@ dec 8 2021
 |       | Project page layout                                     |          |                |             |
 |       | Email function: look at the wedding template            |          |                |             |
 |       | dude write tthings down first lol                       |          |                |             |
-|       |                                                         |          |                |             |
+| x     | Kanban - on hover                                       |          |                |             |
 |       |                                                         |          |                |             |
 |       |                                                         |          |                |             |
 |       |                                                         |          |                |             |
@@ -128,9 +247,19 @@ dec 8 2021
 **ERROR**: :gear:
 **RESOLUTION**: :key:
 
-| Issue                | Where it occurs | Possible solution | Actual solution |
-| -------------------- | :-------------: | :---------------: | :-------------: |
-| Creating a checklist |        H        |       2hrs        |     2.5hrs      |
+### Template
+
+* Issue:
+* Where it occurs:
+* Possible Solution: 
+* Actual Solution: 
+
+### Making a modal a wrapper
+
+* Issue: I wanted to make a modal a wrapper by utilizing a handlebars template but it was difficult to pass in blocks (tried using a layout but i couldn't really configure it with express-handlebars)
+* Where it occurs: 
+* Possible Solution: 
+* Actual Solution: Just made a template 
 
 ## Current Routing 
 
@@ -236,28 +365,35 @@ remember, manage state in pages *forms - all NON stateful components will be in 
 I wonder if we can try fetching the data from because wouldn't it be werapped around something else or should we just make it modular 
 we should make it modular 
 
-## Modal Notes
-
-* make sure to have the modal close and triggers and class all be different class names (because you're closing one specific modal, not all of them)
-* Make sure that you wrap each new modal like so (in the codepen example: https://codepen.io/lezzles11/pen/ab0a8c211dc4aaae2aff3b187439ccd6)
-<!--  -->
-| Modal CSS      |      Modal Triggers      |    Modal Form    |       Modal Close       | Location of Trigger |
-| -------------- | :----------------------: | :--------------: | :---------------------: | ------------------- |
-| playground, db |    .new_task_trigger, | .new_task_modal  |  .close_new_task_modal  |                     |
-| playground, db |   .edit_task_trigger, | .edit_task_modal | .close_edit_task_modal  |                     |
-| playground, db |   .new_problem_trigger   |       2hrs       |   close_problem_modal   |                     |
-| playground, db |  .edit_problem_trigger   |       2hrs       |   close_problem_modal   |                     |
-| playground, db | .new_tag_snippet_trigger |       2hrs       | close_tag_snippet_modal |                     |
-| playground, db |     .new_task_modal, |       2hrs       |         2.5hrs          |                     |
-| playground, db |     .new_task_modal, |       2hrs       |         2.5hrs          |                     |
-| playground, db |     .new_task_modal, |       2hrs       |         2.5hrs          |                     |
-| playground, db |     .new_task_modal, |       2hrs       |         2.5hrs          |                     |
-| playground, db |     .new_task_modal, |       2hrs       |         2.5hrs          |                     |
+Forms 
+|     |     |
+| --- | --- |
+|     |     |
 
 #### EVERY COMPONENT MUST HAVE DATA-USER_ID=
 
+FINISHED (and works)
+| Location                   | Item        | Notes                            | Libs |
+| -------------------------- | ----------- | -------------------------------- | ---- |
+| > libs/global/js           |             |                                  |      |
+| > libs/global/css          |             |                                  |      |
+| > favicon/blue             |             |                                  |      |
+| > modals/template          | JS and HTML | contains template for all modals |      |
+| > modals/pageThatUsesModal | CSS         | should probably be in all files  |      |
+| >                          |             |                                  |      |
+|                            |             |                                  |      |
+|                            |             |                                  |      |
+
 | Done? | Location                 |                         Partials/Parameters                         | Required Attributes |                  libs                   |
 | ----- | ------------------------ | :-----------------------------------------------------------------: | :-----------------: | :-------------------------------------: |
+|       | > forms/problemForm      |                                                                     |                     |                                         |
+|       | >                        |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
+|       |                          |                                                                     |                     |                                         |
 |       | > layouts/naked          |                              no links                               |                     |                                         |
 |       | > layouts/auth           |                             two columns                             |                     |                                         |
 |       | > layouts/db             |                  with navbar and header, modal.css                  |                     |                                         |
