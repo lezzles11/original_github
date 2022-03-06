@@ -15,7 +15,15 @@
     <meta name="author" content="Lesley Cheung" />
 
 
-
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        $(() => {
+            // just wrap around <pre><code> </code></pre>
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        })
+    </script>
     <!-- Adding external script-->
 
 
@@ -111,28 +119,29 @@
 <body>
 
     <nav class="navbar" id="navbar">
-        <h2><a href="index.html"><a
-                                        href='https://github.com/zen-out'
-                                        target='_blank' style='margin: 1rem;'>zen-out</a></a>
+        <h2>
+            <a href="index.html"><br/><a href='https://github.com/zen-out' target='_blank' style='margin:
+                                            1rem;'>zen-out</a><br/></a>
         </h2>
         <div class="search-box" id="search-box">
             <div class="search-box-input-container"><input class="search-box-input" type="text" placeholder="Search..." id="search-box-input" /><svg class="search-icon" alt="search-icon"><use
-                                            xlink:href="#search-icon"></use></svg></div>
+                                                    xlink:href="#search-icon"></use></svg></div>
             <div class="search-item-container" id="search-item-container">
                 <ul class="search-item-ul" id="search-item-ul"></ul>
             </div>
         </div>
         <div class="sidebar-main-content" id="sidebar-main-content">
-            <div class="accordion
-                                    collapsed" id="3043312">
+            <div class="accordion collapsed" id="8623075">
                 <h3 class="accordion-heading">Classes<svg><use
-                                                xlink:href="#down-icon"></use></svg></h3>
+                                                        xlink:href="#down-icon"></use></svg></h3>
                 <ul class="accordion-content">
-                    <li class="accordion collapsed child" id=5408770>
-                        <div class="accordion-heading child"><a href="ArrayOfObjectsHelper.html">ArrayOfObjectsHelper</a><svg><use
-                                                        xlink:href="#down-icon"></use></svg></div>
+                    <li class="accordion collapsed
+                                                    child" id=7044089>
+                        <div class="accordion-heading
+                                                        child"><a href="ArrayOfObjectsHelper.html">ArrayOfObjectsHelper</a><svg><use
+                                                                xlink:href="#down-icon"></use></svg></div>
                         <ul class='methods
-                                                accordion-content'>
+                                                        accordion-content'>
                             <li data-type='method'><a href="ArrayOfObjectsHelper.html#contains">contains</a></li>
                             <li data-type='method'><a href="ArrayOfObjectsHelper.html#countByCondition">countByCondition</a></li>
                             <li data-type='method'><a href="ArrayOfObjectsHelper.html#doesNotContain">doesNotContain</a></li>
@@ -147,7 +156,8 @@
                 </ul>
             </div>
             <ul>
-                <li class="menu-li"><a href='http://zen-out.github.io/packages' class=' menu-link' id='' target='_blank'>zen-out packages</a></li>
+                <li class="menu-li"><a href='http://zen-out.github.io/packages' class=' menu-link' id='' target='_blank'>zen-out
+                                                    packages</a></li>
             </ul>
     </nav>
     <div class="navbar-ham" id="navbar-ham">
@@ -177,142 +187,20 @@
 
 
                 <h2>
-
-                    ArrayOfObjectsHelper
+                    installation
 
                 </h2>
 
-
-
+                <ol>
+                    <li>npm install array_helperz
+                    </li>
+                    <li>const {arrz} = require("array_helperz")
+                    </li>
+                </ol>
             </header>
 
 
             <article>
-                <div class="container-overview">
-
-
-
-
-
-                    <h4 class="name" id="ArrayOfObjectsHelper">
-                        <a href="#ArrayOfObjectsHelper">#</a>
-                        <span class="type-signature"></span>new ArrayOfObjectsHelper
-                        <span class="signature">()</span><span class="type-signature">
-                                                    &rarr; {class}</span>
-                    </h4>
-
-
-
-
-
-                    <div class="description">
-                        <p>new arrz = new ArrayOfObjectsHelper
-                        </p>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="details-item-container">
-                            <dt class="tag-author">Author:</dt>
-                            <dd class="tag-author">
-                                <ul>
-                                    <li>zen-out</li>
-                                </ul>
-                            </dd>
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <div class="method-member-container
-                                                mt-20">
-                        <strong>Returns:</strong>
-
-
-
-
-                        <dl class="param-type">
-                            <dt>
-                                                        Type
-                                                    </dt>
-                            <dd>
-
-                                <span class="param-type">class</span>
-                            </dd>
-                        </dl>
-
-
-                    </div>
-
-
-
-
-
-                </div>
-
-
-
-
-
-
 
 
 
@@ -325,8 +213,8 @@
                 <h4 class="name" id="contains">
                     <a href="#contains">#</a>
                     <span class="type-signature"></span>contains<span class="signature">(array,
-                                                property)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                                                        property)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -341,24 +229,16 @@
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -370,8 +250,6 @@
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -380,7 +258,7 @@
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -389,8 +267,6 @@
 
                                 <td class="name"><code>property</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -399,7 +275,7 @@
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -473,10 +349,8 @@
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
                         <p>of objects</p>
                     </div>
@@ -485,8 +359,8 @@
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -498,10 +372,10 @@
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -511,40 +385,50 @@ status: "to do",
 problem: "we actually solve our problems best by looking at how other people solved them - segment each feature",
 }, { seconds: 1000, created: new Date(2019, 12, 1), status: "doing", problem: "we need to focus on one thing at a time" }]
 let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
-
-
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput=
-                                                        [{\nseconds:
-                                                        500,\ncreated: new
-                                                        Date(2020, 12,
-                                                        1),\nstatus: \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\n}, {
-                                                        seconds: 1000, created:
-                                                        new Date(2019, 12, 1),
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot; }]\nlet
-                                                        output=
-                                                        arrz.contains(sampleInput,
-                                                        \&quot;seconds\&quot;,
-                                                        500)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nseconds:
+                                                                500,\ncreated:
+                                                                new Date(2020,
+                                                                12, 1),\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\n},
+                                                                { seconds: 1000,
+                                                                created: new
+                                                                Date(2019, 12,
+                                                                1), status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;
+                                                                }]\nlet output=
+                                                                arrz.contains(sampleInput,
+                                                                \&quot;seconds\&quot;,
+                                                                500)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -559,9 +443,9 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
                 <h4 class="name" id="countByCondition">
                     <a href="#countByCondition">#</a>
-                    <span class="type-signature"></span>countByCondition<span class="signature">(array, key,
-                                                value)</span><span class="type-signature"> &rarr;
-                                                {number}</span>
+                    <span class="type-signature"></span>countByCondition<span class="signature">(array,
+                                                        key, value)</span><span class="type-signature">
+                                                        &rarr; {number}</span>
                 </h4>
 
 
@@ -576,24 +460,16 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -605,8 +481,6 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -615,7 +489,7 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -624,8 +498,6 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>key</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">string</span>
                                 </td>
 
@@ -634,7 +506,7 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -643,8 +515,6 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>value</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">string</span>
                                 </td>
 
@@ -653,7 +523,7 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -727,21 +597,18 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
-                        <p>of objects that meet that condition
-                        </p>
+                        <p>of objects that meet that condition</p>
                     </div>
 
 
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">number</span>
@@ -753,10 +620,10 @@ let output = arrz.contains(sampleInput, "seconds", 500)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -770,74 +637,106 @@ plan: "test better, when you develop, i think it would also be great actually to
 let output = arrz.countByCondition(sampleInput, "status", "to do")
 console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre>
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput= [{\nstatus:
-                                                        \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\nwhatshouldbe:
-                                                        \&quot;it should be
-                                                        easier to develop as a
-                                                        whole application but
-                                                        that&apos;s actually
-                                                        quite difficult - so
-                                                        segment each component
-                                                        and make sure you test
-                                                        utilizing good
-                                                        practices\&quot;,\nwhatactuallyis:
-                                                        \&quot;there&apos;s no
-                                                        like, database of
-                                                        previous problems and
-                                                        how people solved them,
-                                                        right? also, what is
-                                                        your current
-                                                        process\&quot;,\nhypothesis:
-                                                        \&quot;like, what if i
-                                                        wanted to start my own
-                                                        business, how would i do
-                                                        that?\&quot;,\nplan:
-                                                        \&quot;test better, when
-                                                        you develop, i think it
-                                                        would also be great
-                                                        actually to have an
-                                                        effectiveness scale -
-                                                        what one task really
-                                                        helped you?\&quot;\n}, {
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot;,
-                                                        whatshouldbe: \&quot;we
-                                                        should be able to do
-                                                        that easily\&quot;,
-                                                        whatactuallyis:
-                                                        \&quot;its quite
-                                                        difficult\&quot;,
-                                                        hypothesis:
-                                                        \&quot;develop
-                                                        modules\&quot;, plan:
-                                                        \&quot;make things very
-                                                        clear and simple\&quot;
-                                                        }]\nlet output=
-                                                        arrz.countByCondition(sampleInput,
-                                                        \&quot;status\&quot;,
-                                                        \&quot;to
-                                                        do\&quot;)\nconsole.log(\&quot;🚀
-                                                        ~ file: playground.js ~
-                                                        line 11 ~ output\&quot;,
-                                                        output)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\nwhatshouldbe:
+                                                                \&quot;it should
+                                                                be easier to
+                                                                develop as a
+                                                                whole
+                                                                application but
+                                                                that&apos;s
+                                                                actually quite
+                                                                difficult - so
+                                                                segment each
+                                                                component and
+                                                                make sure you
+                                                                test utilizing
+                                                                good
+                                                                practices\&quot;,\nwhatactuallyis:
+                                                                \&quot;there&apos;s
+                                                                no like,
+                                                                database of
+                                                                previous
+                                                                problems and how
+                                                                people solved
+                                                                them, right?
+                                                                also, what is
+                                                                your current
+                                                                process\&quot;,\nhypothesis:
+                                                                \&quot;like,
+                                                                what if i wanted
+                                                                to start my own
+                                                                business, how
+                                                                would i do
+                                                                that?\&quot;,\nplan:
+                                                                \&quot;test
+                                                                better, when you
+                                                                develop, i think
+                                                                it would also be
+                                                                great actually
+                                                                to have an
+                                                                effectiveness
+                                                                scale - what one
+                                                                task really
+                                                                helped
+                                                                you?\&quot;\n},
+                                                                { status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;,
+                                                                whatshouldbe:
+                                                                \&quot;we should
+                                                                be able to do
+                                                                that
+                                                                easily\&quot;,
+                                                                whatactuallyis:
+                                                                \&quot;its quite
+                                                                difficult\&quot;,
+                                                                hypothesis:
+                                                                \&quot;develop
+                                                                modules\&quot;,
+                                                                plan:
+                                                                \&quot;make
+                                                                things very
+                                                                clear and
+                                                                simple\&quot;
+                                                                }]\nlet output=
+                                                                arrz.countByCondition(sampleInput,
+                                                                \&quot;status\&quot;,
+                                                                \&quot;to
+                                                                do\&quot;)\nconsole.log(\&quot;🚀
+                                                                ~ file:
+                                                                playground.js ~
+                                                                line 11 ~
+                                                                output\&quot;,
+                                                                output)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -853,8 +752,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                 <h4 class="name" id="doesNotContain">
                     <a href="#doesNotContain">#</a>
                     <span class="type-signature"></span>doesNotContain<span class="signature">(array,
-                                                property)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                                                        property)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -869,24 +768,16 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -898,8 +789,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -908,7 +797,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -917,8 +806,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>property</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -927,7 +814,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1001,10 +888,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
                         <p>of objects</p>
                     </div>
@@ -1013,8 +898,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -1026,10 +911,10 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -1039,40 +924,50 @@ status: "to do",
 problem: "we actually solve our problems best by looking at how other people solved them - segment each feature",
 }, { seconds: 1000, created: new Date(2019, 12, 1), status: "doing", problem: "we need to focus on one thing at a time" }]
 let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
-
-
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput=
-                                                        [{\nseconds:
-                                                        500,\ncreated: new
-                                                        Date(2020, 12,
-                                                        1),\nstatus: \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\n}, {
-                                                        seconds: 1000, created:
-                                                        new Date(2019, 12, 1),
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot; }]\nlet
-                                                        output=
-                                                        arrz.doesNotContain(sampleInput,
-                                                        \&quot;seconds\&quot;,
-                                                        500)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nseconds:
+                                                                500,\ncreated:
+                                                                new Date(2020,
+                                                                12, 1),\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\n},
+                                                                { seconds: 1000,
+                                                                created: new
+                                                                Date(2019, 12,
+                                                                1), status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;
+                                                                }]\nlet output=
+                                                                arrz.doesNotContain(sampleInput,
+                                                                \&quot;seconds\&quot;,
+                                                                500)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -1087,9 +982,10 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                 <h4 class="name" id="filterAndSort">
                     <a href="#filterAndSort">#</a>
-                    <span class="type-signature"></span>filterAndSort<span class="signature">(data, object,
-                                                sortValue, sortType, asc, limit)</span><span class="type-signature"> &rarr;
-                                                {any}</span>
+                    <span class="type-signature"></span>filterAndSort<span class="signature">(data,
+                                                        object, sortValue,
+                                                        sortType, asc, limit)</span><span class="type-signature">
+                                                        &rarr; {any}</span>
                 </h4>
 
 
@@ -1104,26 +1000,17 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
                                 <th>Default</th>
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -1135,8 +1022,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>data</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1148,7 +1033,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1157,8 +1042,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>object</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1170,7 +1053,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1179,8 +1062,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>sortValue</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1192,7 +1073,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1201,8 +1082,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>sortType</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1214,7 +1093,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1223,8 +1102,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>asc</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1238,7 +1115,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1247,8 +1124,6 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
                                 <td class="name"><code>limit</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1260,7 +1135,7 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1289,16 +1164,12 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
-
-
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">any</span>
@@ -1310,10 +1181,10 @@ let output = arrz.doesNotContain(sampleInput, "seconds", 500)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -1325,44 +1196,59 @@ problem: "we actually solve our problems best by looking at how other people sol
 let output = arrz.filterAndSort(sampleInput, { status: "to do" }, "seconds", "number", true, 4)
 console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput=
-                                                        [{\nseconds:
-                                                        500,\ncreated: new
-                                                        Date(2020, 12,
-                                                        1),\nstatus: \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\n}, {
-                                                        seconds: 1000, created:
-                                                        new Date(2019, 12, 1),
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot; }]\nlet
-                                                        output=
-                                                        arrz.filterAndSort(sampleInput,
-                                                        { status: \&quot;to
-                                                        do\&quot; },
-                                                        \&quot;seconds\&quot;,
-                                                        \&quot;number\&quot;,
-                                                        true,
-                                                        4)\nconsole.log(\&quot;🚀
-                                                        ~ file: playground.js ~
-                                                        line 9 ~ output\&quot;,
-                                                        output)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nseconds:
+                                                                500,\ncreated:
+                                                                new Date(2020,
+                                                                12, 1),\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\n},
+                                                                { seconds: 1000,
+                                                                created: new
+                                                                Date(2019, 12,
+                                                                1), status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;
+                                                                }]\nlet output=
+                                                                arrz.filterAndSort(sampleInput,
+                                                                { status:
+                                                                \&quot;to
+                                                                do\&quot; },
+                                                                \&quot;seconds\&quot;,
+                                                                \&quot;number\&quot;,
+                                                                true,
+                                                                4)\nconsole.log(\&quot;🚀
+                                                                ~ file:
+                                                                playground.js ~
+                                                                line 9 ~
+                                                                output\&quot;,
+                                                                output)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -1378,8 +1264,8 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
                 <h4 class="name" id="filterValues">
                     <a href="#filterValues">#</a>
                     <span class="type-signature"></span>filterValues<span class="signature">(array,
-                                                keyword, arrOfKeys)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                                                        keyword, arrOfKeys)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -1394,24 +1280,16 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -1423,8 +1301,6 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -1433,7 +1309,7 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1442,8 +1318,6 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
                                 <td class="name"><code>keyword</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1452,7 +1326,7 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1461,8 +1335,6 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
                                 <td class="name"><code>arrOfKeys</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1471,7 +1343,7 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1545,10 +1417,8 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
                         <p>of objects</p>
                     </div>
@@ -1557,8 +1427,8 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -1570,10 +1440,10 @@ console.log("🚀 ~ file: playground.js ~ line 9 ~ output", output)</code></pre>
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -1587,73 +1457,105 @@ plan: "test better, when you develop, i think it would also be great actually to
 let output = arrz.filterValues(sampleInput, "segment", ["problem"])
 console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre>
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput= [{\nstatus:
-                                                        \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\nwhatshouldbe:
-                                                        \&quot;it should be
-                                                        easier to develop as a
-                                                        whole application but
-                                                        that&apos;s actually
-                                                        quite difficult - so
-                                                        segment each component
-                                                        and make sure you test
-                                                        utilizing good
-                                                        practices\&quot;,\nwhatactuallyis:
-                                                        \&quot;there&apos;s no
-                                                        like, database of
-                                                        previous problems and
-                                                        how people solved them,
-                                                        right? also, what is
-                                                        your current
-                                                        process\&quot;,\nhypothesis:
-                                                        \&quot;like, what if i
-                                                        wanted to start my own
-                                                        business, how would i do
-                                                        that?\&quot;,\nplan:
-                                                        \&quot;test better, when
-                                                        you develop, i think it
-                                                        would also be great
-                                                        actually to have an
-                                                        effectiveness scale -
-                                                        what one task really
-                                                        helped you?\&quot;\n}, {
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot;,
-                                                        whatshouldbe: \&quot;we
-                                                        should be able to do
-                                                        that easily\&quot;,
-                                                        whatactuallyis:
-                                                        \&quot;its quite
-                                                        difficult\&quot;,
-                                                        hypothesis:
-                                                        \&quot;develop
-                                                        modules\&quot;, plan:
-                                                        \&quot;make things very
-                                                        clear and simple\&quot;
-                                                        }]\nlet output=
-                                                        arrz.filterValues(sampleInput,
-                                                        \&quot;segment\&quot;,
-                                                        [\&quot;problem\&quot;])\nconsole.log(\&quot;🚀
-                                                        ~ file: playground.js ~
-                                                        line 11 ~ output\&quot;,
-                                                        output)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\nwhatshouldbe:
+                                                                \&quot;it should
+                                                                be easier to
+                                                                develop as a
+                                                                whole
+                                                                application but
+                                                                that&apos;s
+                                                                actually quite
+                                                                difficult - so
+                                                                segment each
+                                                                component and
+                                                                make sure you
+                                                                test utilizing
+                                                                good
+                                                                practices\&quot;,\nwhatactuallyis:
+                                                                \&quot;there&apos;s
+                                                                no like,
+                                                                database of
+                                                                previous
+                                                                problems and how
+                                                                people solved
+                                                                them, right?
+                                                                also, what is
+                                                                your current
+                                                                process\&quot;,\nhypothesis:
+                                                                \&quot;like,
+                                                                what if i wanted
+                                                                to start my own
+                                                                business, how
+                                                                would i do
+                                                                that?\&quot;,\nplan:
+                                                                \&quot;test
+                                                                better, when you
+                                                                develop, i think
+                                                                it would also be
+                                                                great actually
+                                                                to have an
+                                                                effectiveness
+                                                                scale - what one
+                                                                task really
+                                                                helped
+                                                                you?\&quot;\n},
+                                                                { status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;,
+                                                                whatshouldbe:
+                                                                \&quot;we should
+                                                                be able to do
+                                                                that
+                                                                easily\&quot;,
+                                                                whatactuallyis:
+                                                                \&quot;its quite
+                                                                difficult\&quot;,
+                                                                hypothesis:
+                                                                \&quot;develop
+                                                                modules\&quot;,
+                                                                plan:
+                                                                \&quot;make
+                                                                things very
+                                                                clear and
+                                                                simple\&quot;
+                                                                }]\nlet output=
+                                                                arrz.filterValues(sampleInput,
+                                                                \&quot;segment\&quot;,
+                                                                [\&quot;problem\&quot;])\nconsole.log(\&quot;🚀
+                                                                ~ file:
+                                                                playground.js ~
+                                                                line 11 ~
+                                                                output\&quot;,
+                                                                output)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -1669,8 +1571,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                 <h4 class="name" id="group">
                     <a href="#group">#</a>
                     <span class="type-signature"></span>group<span class="signature">(data,
-                                                groupByCondition)</span><span class="type-signature"> &rarr;
-                                                {any}</span>
+                                                        groupByCondition)</span><span class="type-signature">
+                                                        &rarr; {any}</span>
                 </h4>
 
 
@@ -1681,7 +1583,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                     <ul>
                         <li>@example const { arrz } = require(&quot;./index.js&quot;) let sampleInput = [{ seconds: 500, created: new Date(2020, 12, 1), status: &quot;to do&quot;, problem: &quot;we actually solve our problems best by looking at how other
                             people solved them - segment each feature&quot;, }, { seconds: 1000, created: new Date(2019, 12, 1), status: &quot;doing&quot;, problem: &quot;we need to focus on one thing at a time&quot; }] let output = arrz.group(sampleInput,
-                            &quot;status&quot;) console.log(&quot;🚀 ~ file: playground.js ~ line 9 ~ output&quot;, output)</li>
+                            &quot;status&quot;) console.log(&quot;🚀 ~ file: playground.js ~ line 9 ~ output&quot;, output)
+                        </li>
                     </ul>
                 </div>
 
@@ -1693,24 +1596,16 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -1722,8 +1617,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>data</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1732,7 +1625,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1741,8 +1634,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>groupByCondition</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1751,7 +1642,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1825,16 +1716,12 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
-
-
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">any</span>
@@ -1855,8 +1742,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                 <h4 class="name" id="sortAsc">
                     <a href="#sortAsc">#</a>
                     <span class="type-signature"></span>sortAsc<span class="signature">(array,
-                                                property)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                                                        property)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -1871,24 +1758,16 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -1900,8 +1779,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -1910,7 +1787,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -1919,8 +1796,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>property</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -1929,7 +1804,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -2003,10 +1878,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
                         <p>of objects</p>
                     </div>
@@ -2015,8 +1888,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -2028,10 +1901,10 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -2042,38 +1915,52 @@ problem: "we actually solve our problems best by looking at how other people sol
 let output = arrz.sortAsc(sampleInput, "created", "date")
 console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre>
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput=
-                                                        [{\ncreated: new
-                                                        Date(2020, 12,
-                                                        1),\nstatus: \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\n}, {
-                                                        created: new Date(2019,
-                                                        12, 1), status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot; }]\nlet
-                                                        output=
-                                                        arrz.sortAsc(sampleInput,
-                                                        \&quot;created\&quot;,
-                                                        \&quot;date\&quot;)\nconsole.log(\&quot;🚀
-                                                        ~ file: playground.js ~
-                                                        line 11 ~ output\&quot;,
-                                                        output)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\ncreated: new
+                                                                Date(2020, 12,
+                                                                1),\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\n},
+                                                                { created: new
+                                                                Date(2019, 12,
+                                                                1), status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;
+                                                                }]\nlet output=
+                                                                arrz.sortAsc(sampleInput,
+                                                                \&quot;created\&quot;,
+                                                                \&quot;date\&quot;)\nconsole.log(\&quot;🚀
+                                                                ~ file:
+                                                                playground.js ~
+                                                                line 11 ~
+                                                                output\&quot;,
+                                                                output)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -2089,8 +1976,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                 <h4 class="name" id="sortDesc">
                     <a href="#sortDesc">#</a>
                     <span class="type-signature"></span>sortDesc<span class="signature">(array,
-                                                property)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                                                        property)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -2105,24 +1992,16 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -2134,8 +2013,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>array</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -2144,7 +2021,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -2153,8 +2030,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>property</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">any</span>
                                 </td>
 
@@ -2163,7 +2038,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -2237,10 +2112,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
                     <div class="param-desc">
                         <p>of objects</p>
                     </div>
@@ -2249,8 +2122,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -2262,10 +2135,10 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Example</strong>
-
                     <div class="rel">
                         <pre class="prettyprint"><code>const { arrz } = require("./index.js")
 let sampleInput = [{
@@ -2277,40 +2150,54 @@ problem: "we actually solve our problems best by looking at how other people sol
 let output = arrz.sortDesc(sampleInput, "seconds", "integer")
 console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre>
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{"
-                                                        title" :"Example" ,"js"
-                                                        : &quot;const { arrz }=
-                                                        require(\&quot;./index.js\&quot;)\nlet
-                                                        sampleInput=
-                                                        [{\nseconds:
-                                                        500,\ncreated: new
-                                                        Date(2020, 12,
-                                                        1),\nstatus: \&quot;to
-                                                        do\&quot;,\nproblem:
-                                                        \&quot;we actually solve
-                                                        our problems best by
-                                                        looking at how other
-                                                        people solved them -
-                                                        segment each
-                                                        feature\&quot;,\n}, {
-                                                        seconds: 1000, created:
-                                                        new Date(2019, 12, 1),
-                                                        status:
-                                                        \&quot;doing\&quot;,
-                                                        problem: \&quot;we need
-                                                        to focus on one thing at
-                                                        a time\&quot; }]\nlet
-                                                        output=
-                                                        arrz.sortDesc(sampleInput,
-                                                        \&quot;seconds\&quot;,
-                                                        \&quot;integer\&quot;)\nconsole.log(\&quot;🚀
-                                                        ~ file: playground.js ~
-                                                        line 11 ~ output\&quot;,
-                                                        output)&quot;,"js_external"
-                                                        :"https://cdn.jsdelivr.net/npm/array_helperz"
-                                                        }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen
-                                                        with Prefilled Data" width="40" height="40" />
+                            <input type="hidden" name="data" value='{" title"
+                                                                :" Example" ,"
+                                                                js"
+                                                                : &quot;const {
+                                                                arrz }=
+                                                                require(\&quot;./index.js\&quot;)\nlet
+                                                                sampleInput=
+                                                                [{\nseconds:
+                                                                500,\ncreated:
+                                                                new Date(2020,
+                                                                12, 1),\nstatus:
+                                                                \&quot;to
+                                                                do\&quot;,\nproblem:
+                                                                \&quot;we
+                                                                actually solve
+                                                                our problems
+                                                                best by looking
+                                                                at how other
+                                                                people solved
+                                                                them - segment
+                                                                each
+                                                                feature\&quot;,\n},
+                                                                { seconds: 1000,
+                                                                created: new
+                                                                Date(2019, 12,
+                                                                1), status:
+                                                                \&quot;doing\&quot;,
+                                                                problem:
+                                                                \&quot;we need
+                                                                to focus on one
+                                                                thing at a
+                                                                time\&quot;
+                                                                }]\nlet output=
+                                                                arrz.sortDesc(sampleInput,
+                                                                \&quot;seconds\&quot;,
+                                                                \&quot;integer\&quot;)\nconsole.log(\&quot;🚀
+                                                                ~ file:
+                                                                playground.js ~
+                                                                line 11 ~
+                                                                output\&quot;,
+                                                                output)&quot;,"
+                                                                js_external"
+                                                                :"
+                                                                https://cdn.jsdelivr.net/npm/array_helperz"
+                                                                }' />
+                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create
+                                                                New Pen with
+                                                                Prefilled Data" width="40" height="40" />
                         </form>
 
                     </div>
@@ -2325,8 +2212,8 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                 <h4 class="name" id="trimArr">
                     <a href="#trimArr">#</a>
-                    <span class="type-signature"></span>trimArr<span class="signature">(arr)</span><span class="type-signature"> &rarr;
-                                                {array}</span>
+                    <span class="type-signature"></span>trimArr<span class="signature">(arr)</span><span class="type-signature">
+                                                        &rarr; {array}</span>
                 </h4>
 
 
@@ -2345,24 +2232,16 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
 
-                <div class="method-member-container flex
-                                            flex-col w-100 overflow-auto mt-20">
+                <div class="method-member-container
+                                                    flex flex-col w-100
+                                                    overflow-auto mt-20">
                     <strong>Parameters:</strong>
-
-
                     <table class="params">
                         <thead>
                             <tr>
 
                                 <th>Name</th>
-
-
                                 <th>Type</th>
-
-
-
-
-
                                 <th class="last">Description</th>
                             </tr>
                         </thead>
@@ -2374,8 +2253,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
                                 <td class="name"><code>arr</code></td>
                                 <td class="type">
-
-
                                     <span class="param-type">array</span>
                                 </td>
 
@@ -2384,7 +2261,7 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                                 <td class="description
-                                                            last"></td>
+                                                                    last"></td>
                             </tr>
 
 
@@ -2423,7 +2300,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
                         <dd class="tag-author">
                             <ul>
                                 <li>zen-out</li>
-
                                 <li>zen-out</li>
                             </ul>
                         </dd>
@@ -2460,16 +2336,12 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
 
 
                 <div class="method-member-container
-                                            mt-20">
+                                                    mt-20">
                     <strong>Returns:</strong>
-
-
-
-
                     <dl class="param-type">
                         <dt>
-                                                    Type
-                                                </dt>
+                                                            Type
+                                                        </dt>
                         <dd>
 
                             <span class="param-type">array</span>
@@ -2498,7 +2370,6 @@ console.log("🚀 ~ file: playground.js ~ line 11 ~ output", output)</code></pre
     </div>
 
     <footer class="footer" id="footer">
-
     </footer>
 
     <script src="scripts/third-party/prettify.js"></script>
