@@ -116,20 +116,21 @@
             </div>
         </div>
         <div class="sidebar-main-content" id="sidebar-main-content">
-            <div class="accordion collapsed" id="9000977">
+            <div class="accordion collapsed" id="5918411">
                 <h3 class="accordion-heading">Global<svg><use
                             xlink:href="#down-icon"></use></svg></h3>
                 <ul class="accordion-content">
-                    <li class="accordion-list" id=""><a href="global.html#capitalizeFirstLetter">capitalizeFirstLetter</a></li>
-                    <li class="accordion-list" id=""><a href="global.html#containsThis">containsThis</a></li>
+                    <li class="accordion-list" id=""><a href="global.html#upset">upset</a></li>
                 </ul>
             </div>
             <ul>
                 <li class="menu-li"><a href='http://zen-out.github.io/packages' class='
                           menu-link' id='' target='_blank'>zen-out packages</a></li>
-                <li class="menu-li"><a href='https://www.npmjs.com/package/define_me' class='
-                          menu-link' id='' target='_blank'>see npm package</a></li>
+                <li class="menu-li"><a href='https://www.npmjs.com/package/whats_wrong' class=' menu-link' id='' target='_blank'>see npm
+                          package</a></li>
             </ul>
+
+
     </nav>
     <div class="navbar-ham" id="navbar-ham">
         <div>
@@ -191,9 +192,9 @@
 
 
 
-                <h4 class="name" id="capitalizeFirstLetter">
-                    <a href="#capitalizeFirstLetter">#</a>
-                    <span class="type-signature"></span>capitalizeFirstLetter<span class="signature">(string, regexp)</span><span class="type-signature"> &rarr; {any}</span>
+                <h4 class="name" id="upset">
+                    <a href="#upset">#</a>
+                    <span class="type-signature"></span>upset<span class="signature">(error, location)</span><span class="type-signature"> &rarr; {any}</span>
                 </h4>
 
 
@@ -235,7 +236,7 @@
 
                             <tr>
 
-                                <td class="name"><code>string</code></td>
+                                <td class="name"><code>error</code></td>
 
 
                                 <td class="type">
@@ -258,7 +259,7 @@
 
                             <tr>
 
-                                <td class="name"><code>regexp</code></td>
+                                <td class="name"><code>location</code></td>
 
 
                                 <td class="type">
@@ -274,7 +275,9 @@
 
 
 
-                                <td class="description last"></td>
+                                <td class="description last">
+                                    <p>= undefined</p>
+                                </td>
                             </tr>
 
 
@@ -375,253 +378,16 @@
                     <strong>Example</strong>
 
                     <div class="rel">
-                        <pre class="prettyprint"><code>let getThis = define_me.containsThis(".git", define_me.git)
-console.log("🚀 ~ file: playground.js ~ line 4 ~ getThis", getThis)</code></pre>
+                        <pre class="prettyprint"><code>const {upset} = require("whats_wrong")
+upset("an error", "location")</code></pre>
+
+
                         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
                             <input type="hidden" name="data" value='{" title"
-                                :"Example" ,"js" : &quot;let getThis=
-                                define_me.containsThis(\&quot;.git\&quot;,
-                                define_me.git)\nconsole.log(\&quot;🚀 ~ file:
-                                playground.js ~ line 4 ~ getThis\&quot;,
-                                getThis)&quot;,"js_external" :"https://cdn.jsdelivr.net/npm/define_me"
-                                }' />
-                            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
-                        </form>
-
-                    </div>
-
-                </div>
-
-
-
-
-
-
-
-                <h4 class="name" id="containsThis">
-                    <a href="#containsThis">#</a>
-                    <span class="type-signature"></span>containsThis<span class="signature">(string, regexp)</span><span class="type-signature"> &rarr; {any}</span>
-                </h4>
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div class="method-member-container flex flex-col w-100
-                          overflow-auto mt-20">
-                    <strong>Parameters:</strong>
-
-
-                    <table class="params">
-                        <thead>
-                            <tr>
-
-                                <th>Name</th>
-
-
-                                <th>Type</th>
-
-
-
-
-
-                                <th class="last">Description</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-
-
-                            <tr>
-
-                                <td class="name"><code>string</code></td>
-
-
-                                <td class="type">
-
-
-                                    <span class="param-type">any</span>
-
-
-
-                                </td>
-
-
-
-
-
-                                <td class="description last"></td>
-                            </tr>
-
-
-
-                            <tr>
-
-                                <td class="name"><code>regexp</code></td>
-
-
-                                <td class="type">
-
-
-                                    <span class="param-type">any</span>
-
-
-
-                                </td>
-
-
-
-
-
-                                <td class="description last"></td>
-                            </tr>
-
-
-                        </tbody>
-                    </table>
-
-                </div>
-
-
-
-
-
-
-
-                <dl class="details">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                    <div class="details-item-container">
-                        <dt class="tag-author">Author:</dt>
-                        <dd class="tag-author">
-                            <ul>
-                                <li>zen-out</li>
-                            </ul>
-                        </dd>
-                    </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                </dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                <div class="method-member-container mt-20">
-                    <strong>Returns:</strong>
-
-
-
-
-                    <dl class="param-type">
-                        <dt>
-                              Type
-                            </dt>
-                        <dd>
-
-                            <span class="param-type">any</span>
-
-
-                        </dd>
-                    </dl>
-
-
-                </div>
-
-
-
-                <div class="method-member-container flex flex-col w-100
-                          overflow-auto mt-20">
-                    <strong>Example</strong>
-
-                    <div class="rel">
-                        <pre class="prettyprint"><code>let getThis = define_me.containsThis(".git", define_me.git);
-let checkDate = define_me.containsThis("March 20 2012", define_me.stringDate)
-let output3 = define_me.containsThis("22:44", define_me.hhmm)
-let output10 = define_me.containsThis("01/12/2022", define_me.dashDDMMYYYY)
-let output11 = define_me.containsThis("2022/02/02", define_me.dashYYYYMMDD)
-let output6 = define_me.containsThis("14-1-2022", define_me.hyphenDDMMYYYY)
-let output7 = define_me.containsThis("13-01-2018", define_me.hyphenDDMMYYYY)
-let output5 = define_me.containsThis("2019-2-10", define_me.hyphenYYYYMMDD)
-let output4 = define_me.containsThis("2020-02-22", define_me.hyphenYYYYMMDD)
-let output12 = define_me.containsThis("Mar 2 2019", define_me.stringDate)
-let output14 = define_me.containsThis("Mar 2 2022", define_me.stringDate)
-let trueThis = define_me.containsThis("digital", define_mehhmmss)</code></pre>
-                        <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-                            <input type="hidden" name="data" value='{" title"
-                                :"Example" ,"js" : &quot;let getThis=
-                                define_me.containsThis(\&quot;.git\&quot;,
-                                define_me.git);\nlet checkDate=
-                                define_me.containsThis(\&quot;March 20
-                                2012\&quot;, define_me.stringDate)\nlet output3=
-                                define_me.containsThis(\&quot;22:44\&quot;,
-                                define_me.hhmm)\nlet output10=
-                                define_me.containsThis(\&quot;01/12/2022\&quot;,
-                                define_me.dashDDMMYYYY)\nlet output11=
-                                define_me.containsThis(\&quot;2022/02/02\&quot;,
-                                define_me.dashYYYYMMDD)\nlet output6=
-                                define_me.containsThis(\&quot;14-1-2022\&quot;,
-                                define_me.hyphenDDMMYYYY)\nlet output7=
-                                define_me.containsThis(\&quot;13-01-2018\&quot;,
-                                define_me.hyphenDDMMYYYY)\nlet output5=
-                                define_me.containsThis(\&quot;2019-2-10\&quot;,
-                                define_me.hyphenYYYYMMDD)\nlet output4=
-                                define_me.containsThis(\&quot;2020-02-22\&quot;,
-                                define_me.hyphenYYYYMMDD)\nlet output12=
-                                define_me.containsThis(\&quot;Mar 2 2019\&quot;,
-                                define_me.stringDate)\nlet output14=
-                                define_me.containsThis(\&quot;Mar 2 2022\&quot;,
-                                define_me.stringDate)\nlet trueThis=
-                                define_me.containsThis(\&quot;digital\&quot;,
-                                define_mehhmmss)&quot;,"js_external" :"https://cdn.jsdelivr.net/npm/define_me"
-                                }' />
+                                :"Example" ,"js" : &quot;const {upset}=
+                                require(\&quot;whats_wrong\&quot;)\nupset(\&quot;an
+                                error\&quot;, \&quot;location\&quot;)&quot;,"js_external"
+                                :"https://cdn.jsdelivr.net/npm/whats_wrong" }' />
                             <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
                         </form>
 
@@ -663,11 +429,8 @@ let trueThis = define_me.containsThis("digital", define_mehhmmss)</code></pre>
     <script src="scripts/third-party/fuse.js"></script>
     <script>
         var list = [{
-            "title": "capitalizeFirstLetter",
-            "link": "<a href=\"global.html#capitalizeFirstLetter\">capitalizeFirstLetter</a>"
-        }, {
-            "title": "containsThis",
-            "link": "<a href=\"global.html#containsThis\">containsThis</a>"
+            "title": "upset",
+            "link": "<a href=\"global.html#upset\">upset</a>"
         }];
         var options =
             setupSearch(list, options)
