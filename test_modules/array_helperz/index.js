@@ -1,4 +1,4 @@
-const { arrz } = require("array_helperz")
+const arrz = require("array_helperz")
 
 let sampleInput = [{
     seconds: 500,
@@ -21,5 +21,4 @@ console.log("🚀 ~ file: index.js ~ line 20 ~ sortDesc", sortDesc)
 let sortAsc = arrz.sortAsc(sampleInput, "seconds", "integer")
 console.log("🚀 ~ file: index.js ~ line 22 ~ sortAsc", sortAsc)
 let grouped = arrz.group(sampleInput, "status")
-
 console.log("🚀 ~ file: index.js ~ line 23 ~ grouped", grouped)

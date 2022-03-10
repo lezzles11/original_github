@@ -1,6 +1,25 @@
-const when_you_free = require("when_you_free")
+const make_fakes = require("make_fakes")
+let hourglass = {
+    public: "boolean",
+    seconds: "number",
+    start: "past_date",
+    description: "paragraph",
+    edit: "date",
+    end: "future_date",
+    status: ["to do", "doing", "done"],
+    title: "string",
+    email: "email",
+    created: "number_date"
+}
 
-let when_you_free_output = when_you_free.format("Dec 12, 2012", "ll")
-console.log(when_you_free_output)
+let getOne = make_fakes.createOne(hourglass, { title: "hello" })
+console.log("🚀 ~ file: index.js ~ line 17 ~ getOne", getOne)
 
-module.exports = { when_you_free_output }
+let getMany = make_fakes.createMany(hourglass, 2, true, { title: "hello" })
+console.log("🚀 ~ file: index.js ~ line 17 ~ getOne", getMany)
+
+let getOneDirty = make_fakes.createOneDirty(hourglass, { title: "hello" })
+console.log("🚀 ~ file: index.js ~ line 23 ~ getOneDirty", getOneDirty)
+
+let getManyDirty = make_fakes.createManyDirty(hourglass, 2, true, { title: "hello" })
+console.log("🚀 ~ file: index.js ~ line 23 ~ getOneDirty", getManyDirty)

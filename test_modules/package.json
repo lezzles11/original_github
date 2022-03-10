@@ -11,16 +11,16 @@
     "license": "MIT",
     "dependencies": {
         "array_helperz": "latest",
-        "make_legit": "lastest",
-        "sparkly_clean": "latest",
-        "when_you_free": "latest",
-        "test_waters": "latest",
         "code_clarity": "latest",
+        "define_me": "latest",
         "effective_knex": "latest",
-        "node_basetest": "latest",
         "html_basetest": "latest",
-        "make_fakes": "latest",
+        "make_fakes": "^1.0.17",
+        "make_legit": "lastest",
+        "node_basetest": "latest",
+        "sparkly_clean": "latest",
+        "test_waters": "latest",
         "whats_wrong": "latest",
-        "define_me": "latest"
+        "when_you_free": "latest"
     }
 }
