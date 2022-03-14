@@ -1,0 +1,68 @@
+{"level":"done","message":"test passes","timestamp":"2022-03-11T02:15:09.335Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T02:16:16.981Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T02:18:13.351Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T05:21:10.201Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T05:21:10.248Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T05:21:10.263Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-11T05:21:10.284Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-11T05:21:10.291Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T05:21:26.752Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T05:21:26.803Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T05:21:26.810Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:15:43.725Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:26:24.800Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:26:24.851Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:26:24.858Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:26:50.051Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:26:50.104Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:26:50.109Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:27:46.332Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:27:46.382Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:27:46.388Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:27:55.526Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:27:55.574Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:27:55.578Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:28:24.836Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:28:24.869Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:28:24.881Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:28:55.947Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:30:38.900Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T07:11:56.753Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T07:12:38.608Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:51:48.540Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:51:48.544Z"}
+{"level":"motherlode","message":"HERE true","timestamp":"2022-03-11T07:51:48.548Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:51:48.550Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:30.779Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:30.782Z"}
+{"level":"motherlode","message":"HERE true","timestamp":"2022-03-11T07:52:30.785Z"}
+{"level":"motherlode","message":"HERE true","timestamp":"2022-03-11T07:52:30.787Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:30.789Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:59.129Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:59.132Z"}
+{"level":"motherlode","message":"HERE true","timestamp":"2022-03-11T07:52:59.136Z"}
+{"level":"motherlode","message":"HERE true","timestamp":"2022-03-11T07:52:59.137Z"}
+{"level":"motherlode","message":"HERE false","timestamp":"2022-03-11T07:52:59.139Z"}
+{"level":"motherlode","message":"HERE string","timestamp":"2022-03-11T07:54:08.392Z"}
+{"level":"motherlode","message":"HERE string","timestamp":"2022-03-11T07:54:08.395Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:08.398Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:08.400Z"}
+{"level":"motherlode","message":"HERE string","timestamp":"2022-03-11T07:54:08.402Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:39.298Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:39.300Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:57.322Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:54:57.324Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:55:39.404Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:55:39.406Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:57:49.816Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:57:49.818Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:58:08.329Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:58:29.484Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:59:00.539Z"}
+{"level":"motherlode","message":"HERE date","timestamp":"2022-03-11T07:59:37.399Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:06:02.688Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:08:33.506Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:09:45.681Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:10:05.360Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:10:20.748Z"}
+{"created":"2022-03-11T08:10:20.845Z","id":385,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-11T08:10:20.906Z"}

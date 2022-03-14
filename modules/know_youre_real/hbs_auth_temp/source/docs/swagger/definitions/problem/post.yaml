@@ -1,0 +1,37 @@
+title: post_problem
+example:
+  problem: ""
+  whatshouldbe: ""
+  whatactuallyis: ""
+  hypothesis: ""
+  plan: ""
+  status: to do
+  importance: high
+  difficulty: easy
+  end: 2022-03-03
+  email: ryanyiu@bu.edu
+  public: public
+type: object
+properties:
+  problem:
+    type: string
+  whatshouldbe:
+    type: string
+  whatactuallyis:
+    type: string
+  hypothesis:
+    type: string
+  plan:
+    type: string
+  status:
+    type: string
+  importance:
+    type: string
+  difficulty:
+    type: string
+  end:
+    type: string
+  email:
+    type: string
+  public:
+    type: string

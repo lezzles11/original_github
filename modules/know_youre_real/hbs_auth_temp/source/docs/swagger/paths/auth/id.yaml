@@ -1,0 +1,45 @@
+delete:
+  description: description
+  summary: delete one
+  tags:
+    - user
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+  responses:
+    "200":
+      description: deleted
+    "400":
+      $ref: "#/definitions/error"
+    "418":
+      description: keep calm
+
+put:
+  description: description
+  summary: summary
+  tags:
+    - user
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+    - in: body
+      name: edit one
+      description: The user to create.
+      schema:
+        $ref: "#/definitions/edit_user"
+  responses:
+    "202":
+      $ref: "#/definitions/edit_user"
+    "400":
+      $ref: "#/definitions/error"
+
+get:
+  description: description
+  summary: get one
+  tags:
+    - user
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+  responses:
+    "200":
+      $ref: "#/definitions/get_user"
+    "400":
+      $ref: "#/definitions/error"

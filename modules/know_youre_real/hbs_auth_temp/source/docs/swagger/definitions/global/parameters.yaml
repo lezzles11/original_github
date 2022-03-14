@@ -1,0 +1,63 @@
+user_id:
+  name: user_id
+  in: path
+  description: user_id
+  required: true
+  schema:
+    type: string
+task_id:
+  name: task_id
+  in: path
+  description: task_id
+  required: true
+  schema:
+    type: string
+timer_id:
+  name: timer_id
+  in: path
+  description: timer_id
+  required: true
+  schema:
+    type: string
+problem_id:
+  name: problem_id
+  in: path
+  description: problem_id
+  required: true
+  schema:
+    type: string
+cheatsheet_id:
+  name: cheatsheet_id
+  in: path
+  description: cheatsheet_id
+  required: true
+  schema:
+    type: string
+tag_snippet_id:
+  name: tag_snippet_id
+  in: path
+  description: tag_snippet_id
+  required: true
+  schema:
+    type: string
+table_name:
+  name: table_name
+  in: path
+  description: table_name
+  required: true
+  schema:
+    type: string
+table_name2:
+  name: table_name2
+  in: path
+  description: table_name2
+  required: true
+  schema:
+    type: string
+hourglass_condition:
+  name: hourglass_condition
+  in: path
+  description: hourglass condition - can be condition can be difficulty, importance, status, created, edit, seconds, end
+  required: true
+  schema:
+    type: string

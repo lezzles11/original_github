@@ -1,0 +1,6 @@
+{
+  "files.exclude": {
+    "deploy": false
+  },
+  "workspace.isHidden": false
+}

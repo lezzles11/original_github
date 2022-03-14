@@ -1,0 +1,48 @@
+post:
+  description: description
+  summary: post one
+  produces:
+    - application/json
+  tags:
+    - cheatsheet
+  parameters:
+    - in: body
+      name: user
+      description: The user to create.
+      schema:
+        $ref: "#/definitions/post_user"
+  responses:
+    "201":
+      $ref: "#/definitions/get_user"
+
+get:
+  description: get all users
+  summary: get all
+  tags:
+    - user
+  responses:
+    "200":
+      description: array of users
+      schema:
+        type: array
+        items:
+          $ref: "#/definitions/get_user"
+    "400":
+      $ref: "#/definitions/error"
+
+verify:
+  description: description
+  summary: post one
+  produces:
+    - application/json
+  tags:
+    - user
+  parameters:
+    - in: body
+      name: user
+      description: The user to create.
+      schema:
+        $ref: "#/definitions/verify_user"
+  responses:
+    "201":
+      $ref: "#/definitions/get_user"

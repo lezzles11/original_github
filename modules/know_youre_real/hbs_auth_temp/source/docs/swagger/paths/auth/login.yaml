@@ -1,0 +1,16 @@
+post:
+  description: post to login route
+  summary: calls the loginWithEmail, passing in request body calls the set session function - will set session.user_id = user.id, session.cookie.theme = "cute" session.email = user.email
+  tags:
+    - user
+  parameters:
+    - in: body
+      name: verifyuser
+      description: The user to create.
+      schema:
+        $ref: "#/definitions/verify_user"
+  responses:
+    "200":
+      description: redirect to dashboard, starts user session (req.session.user_id = id) should also get token back
+    "400":
+      description: renders to error page, passing in message from db

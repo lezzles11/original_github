@@ -1,0 +1,14 @@
+Success:
+  description: Success
+Created:
+  description: Created
+  content:
+    text/plain:
+      schema:
+        type: string
+ErrorBadRequest:
+  description: Bad Request
+  content:
+    application/json:
+      schema:
+        $ref: "#/definitions/error"

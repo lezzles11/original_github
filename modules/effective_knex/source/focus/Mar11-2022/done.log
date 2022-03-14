@@ -1,0 +1,21 @@
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T06:25:10.721Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T06:25:10.764Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-11T06:25:10.768Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:23:56.484Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:23:56.623Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T08:23:56.687Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-11T08:23:56.697Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-11T08:23:56.743Z"}
+{"created":"2022-03-11T08:23:56.767Z","id":387,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-11T08:23:56.913Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:25:43.853Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:25:43.996Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T08:25:44.049Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-11T08:25:44.075Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-11T08:25:44.119Z"}
+{"created":"2022-03-11T08:25:44.129Z","id":389,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-11T08:25:44.271Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:30:15.978Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-11T08:30:16.113Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-11T08:30:16.173Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-11T08:30:16.212Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-11T08:30:16.224Z"}
+{"created":"2022-03-11T08:30:16.299Z","id":391,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-11T08:30:16.403Z"}

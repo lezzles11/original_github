@@ -1,0 +1,9 @@
+title: edituserrequest
+example:
+  email: newemail@email.com
+type: object
+properties:
+  email:
+    type: string
+required:
+  - email

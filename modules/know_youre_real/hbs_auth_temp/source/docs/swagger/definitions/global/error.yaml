@@ -1,0 +1,10 @@
+properties:
+  message:
+    description: Error message
+    type: string
+  error_location:
+    description: file location
+    type: string
+  error_detail:
+    description: detail of error
+    type: string

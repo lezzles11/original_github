@@ -1,0 +1,60 @@
+{{#filterAndSort problem 5 "organize" "problem" "string" true }}
+{{problem}}
+{{/filterAndSort}}
+{{countByCondition problem "status" "to do"}}
+{{#filterValues problem "you" "whatshouldbe"}}
+{{problem}}
+{{/filterValues}}
+{{#contains problem "status" "doing"}}
+<div class="message">{{problem}}
+</div>
+{{/contains}}
+{{#doesNotContain problem "status" "doing"}}
+<div class="message">{{problem}}</div>
+{{/doesNotContain}}
+
+{{#sortAsc problem "seconds" "string"}}
+{{format problem_created "ll"}}
+{{/sortAsc}}
+
+{{#sortAsc problem "seconds" "string"}}
+{{format problem_created "ll"}}
+{{/sortAsc}}
+{{#each problem}}
+<div class="card">
+
+  {{whatshouldbe}}
+</div>
+{{/each}}
+{{#unless problem}}
+hi
+{{/unless}}
+{{#each problem}}
+<br />
+Duration:
+{{getDuration "00:20:00" "00:40:00"}}
+{{futureDate problem_created}}
+{{pastDate problem_created}}
+{{getDifferenceInDays created end}}
+{{getDifferenceInMinutes created end}}
+{{format created "ll"}}
+{{format created "lt"}}
+{{format created "llll"}}
+{{#ifEmpty problem}}
+hello
+{{else}}
+fill in this form
+{{/ifEmpty}}
+
+
+{{#ifLengthGreaterThan task 3}}
+length of task is greater than 3
+{{else}}
+not longer than one
+{{/ifLengthGreaterThan}}
+
+{{#ifLength problem task}}
+array problem longer than task
+{{else}}
+not longer
+{{/ifLength}}

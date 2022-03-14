@@ -1,0 +1,14 @@
+get:
+  description: get total seconds for user
+  summary: get all
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+  tags:
+    - hourglass
+  responses:
+    "200":
+      description: seconds for user (calculated by task)
+      schema:
+        type: integer
+    "400":
+      $ref: "#/definitions/error"

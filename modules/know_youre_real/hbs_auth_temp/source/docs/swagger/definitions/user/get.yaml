@@ -1,0 +1,25 @@
+type: object
+properties:
+  id:
+    type: number
+  gmail_id:
+    type: string
+  facebook_id:
+    type: string
+  linkedin_id:
+    type: string
+  spotify_id:
+    type: string
+  name:
+    type: string
+  email:
+    type: string
+  verified:
+    type: object
+    properties:
+  hash:
+    type: string
+  created:
+    type: string
+  token:
+    type: string

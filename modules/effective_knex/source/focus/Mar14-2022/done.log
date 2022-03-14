@@ -1,0 +1,26 @@
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T00:42:42.046Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T00:42:42.215Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T00:42:42.277Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T00:42:42.292Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T00:42:42.318Z"}
+{"created":"2022-03-14T00:42:42.325Z","id":405,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T00:42:42.475Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:07:15.779Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:07:15.861Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:07:15.894Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:07:15.942Z"}
+{"created":"2022-03-14T02:07:15.945Z","id":410,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:07:16.055Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:09:19.011Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:09:19.074Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:09:19.097Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:09:19.118Z"}
+{"created":"2022-03-14T02:09:19.158Z","id":412,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:09:19.243Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:12:52.140Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:12:52.204Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:12:52.212Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:12:52.302Z"}
+{"created":"2022-03-14T02:12:52.262Z","id":414,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:12:52.357Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:19:24.172Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:19:24.229Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:19:24.241Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:19:24.262Z"}
+{"created":"2022-03-14T02:19:24.278Z","id":416,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:19:24.403Z"}

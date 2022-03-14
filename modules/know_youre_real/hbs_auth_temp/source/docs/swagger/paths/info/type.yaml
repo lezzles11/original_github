@@ -1,0 +1,23 @@
+get:
+  description: table info
+  summary:
+  tags:
+    - info
+  parameters:
+    - $ref: "#/definitions/parameters/table_name"
+  responses:
+    "202":
+      description: An object of of table values
+      content:
+        application/json:
+          schema:
+            type: object
+            example:
+              problem: string
+              whatshouldbe: string
+              whatactuallyis: string
+              hypothesis: string
+              plan: string
+
+    "400":
+      $ref: "#/definitions/error"

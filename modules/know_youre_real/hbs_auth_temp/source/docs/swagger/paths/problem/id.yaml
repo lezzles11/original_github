@@ -1,0 +1,48 @@
+delete:
+  description: description
+  summary: delete one
+  tags:
+    - problem
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+    - $ref: "#/definitions/parameters/problem_id"
+  responses:
+    "200":
+      description: deleted
+    "400":
+      $ref: "#/definitions/error"
+    "418":
+      description: keep calm
+
+put:
+  description: description
+  summary: summary
+  tags:
+    - problem
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+    - $ref: "#/definitions/parameters/problem_id"
+    - in: body
+      name: edit one
+      description: The problem to create.
+      schema:
+        $ref: "#/definitions/edit_problem"
+  responses:
+    "202":
+      $ref: "#/definitions/edit_problem"
+    "400":
+      $ref: "#/definitions/error"
+
+get:
+  description: description
+  summary: get one
+  tags:
+    - problem
+  parameters:
+    - $ref: "#/definitions/parameters/user_id"
+    - $ref: "#/definitions/parameters/problem_id"
+  responses:
+    "200":
+      $ref: "#/definitions/get_problem"
+    "400":
+      $ref: "#/definitions/error"

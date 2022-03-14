@@ -1,0 +1,95 @@
+{
+  "main": {
+    "id": "84d00bbad59aa21b",
+    "type": "split",
+    "children": [
+      {
+        "id": "935b17120926b534",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "What is htis.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f22e365186720ff2",
+    "type": "split",
+    "children": [
+      {
+        "id": "6463ad03d380926d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a02e35bf3d66b3ae",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b7317efe3e8b8932",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "cc84526912ff3604",
+    "type": "split",
+    "children": [
+      {
+        "id": "7cbecd9a5b6b3bcb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c33e82a1aba2330",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "What is htis.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "935b17120926b534",
+  "lastOpenFiles": [
+    "What is htis.md",
+    "i'm not sure what this is.md"
+  ]
+}

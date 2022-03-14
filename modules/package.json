@@ -1,0 +1,17 @@
+{
+  "name": "modules",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "clear_concise_creative": "^1.1.0",
+    "fs-extra": "^10.0.1",
+    "when_you_free": "^1.2.5"
+  }
+}

@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <!-- Tab Name -->
+    <title>my billionth draft</title>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+    <link rel="icon" href="./assets/images/favicon.ico" type="image/gif" sizes="16x16" />
+    <!-- Viewport is the user's visible area of web page sets the initial zoom level when the page is first loaded by the browser. -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="./assets/music.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.24.0/axios.min.js" integrity="sha512-u9akINsQsAkG9xjc1cnGF4zw5TFDwkxuc9vUp5dltDWYCSmyd0meygbvgXrlc/z7/o4a19Fb5V0OUE58J7dcyw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Link style sheet here -->
+    <script src="assets/prismic.js"></script>
+    <link rel="stylesheet" href="./styles/global/global.css" />
+    <link rel="stylesheet" href="./styles/global/fonts.css" />
+    <link rel="stylesheet" href="./styles/global/nav.css" />
+    <link rel="stylesheet" href="./styles/global/images.css" />
+    <link rel="stylesheet" href="./styles/resume/information.css" />
+    <link rel="stylesheet" href="./styles/resume/project.css" />
+
+    <link rel="stylesheet" href="/styles/resume/highlight.css" />
+    <link rel="stylesheet" href="./styles/global/footer.css" />
+    <!-- Global/scss files -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        $(() => {
+            // just wrap around <pre><code> </code></pre>
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        })
+    </script>
+    <link rel="stylesheet" href="https://dl.dropbox.com/s/tljrmo925z4jgdi/professional.css" />
+    <script>
+        const files = ['array_helperz',
+            'automate_me', 'bulletproof_me',
+            'clear_concise_creative', 'code_clarity',
+            'define_me', 'effective_knex',
+            'explain_me', 'handlebarstojsrender',
+            'html_basetest',
+            'jquery_selectors_mergez', 'know_youre_real',
+            'lesleys_hbs', 'make_fakes',
+            'make_legit', 'node_basetest', 'proud_of_me', 'sparkly_clean',
+            'test_waters', 'whats_wrong',
+            'when_you_free'
+        ]
+
+
+        let html = item => `<br /> <div class='divider'>${item}</div> <a href='' target='_blank'> <h6 class='title p-0 mb-1 effect-2' id="${item}">${item}</h6> </a> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'><i class='icon icon-about'></i></a> <a href='${item}' data-tooltip='see node package'><i class='icon icon-dashboard'></i></a>  <br /> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'> <img src="./assets/images/${item}.png"/></a>`
+        let modules = item => `git submodule add https://github.com/zen-out/${item} modules/${item}/deploy`
+        let tabs = item => `<li><a href="#${item}">${item}</a></li>`
+        let items = item => `- [${item}](https://www.npmjs.com/package/${item}) ~ ![NPM Downloads](https://img.shields.io/npm/dw/${item})`
+        let getString = ""
+        let getModules = ""
+        let getTabs = ""
+        for (let i = 0; i < files.length; i++) {
+            getString += html(files[i])
+            getTabs += tabs(files[i])
+        }
+        // console.log(getString)
+        // console.log(getTabs)
+
+        $(() => {
+            let newElement = $(getString)
+            $(".modules").append(newElement)
+        })
+    </script>
+</head>
+
+<!-- All your content should go in between the body tags -->
+
+<body>
+    <div>
+        <!-- nav -->
+
+
+        <div class="nav">
+            <div class="nav__wrapper">
+                <div class="nav__link">
+                    <a href="./index.html">Home</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- nav -->
+
+        <audio src="./assets/audio/mus.mp3" id="player"></audio>
+        <figure>
+            <img alt="hanger-img" id="playerButton" class="hangerImg" src="./assets/images/Hanger.png" />
+        </figure>
+
+
+        <body>
+            <section class="hero is-info">
+                <div class="hero-body">
+                    <p class="title">
+                        packages
+                    </p>
+                    <p class="subtitle">
+                        shopping cart of fun things
+                    </p>
+                </div>
+            </section>
+            <div class="tabs is-small">
+                <ul>
+                    <li><a href="#array_helperz">array_helperz</a></li>
+                    <li><a href="#automate_me">automate_me</a></li>
+                    <li><a href="#bulletproof_me">bulletproof_me</a></li>
+                    <li><a href="#clear_concise_creative">clear_concise_creative</a></li>
+                    <li><a href="#code_clarity">code_clarity</a></li>
+                    <li><a href="#define_me">define_me</a></li>
+                    <li><a href="#effective_knex">effective_knex</a></li>
+                    <li><a href="#explain_me">explain_me</a></li>
+                    <li><a href="#handlebarstojsrender">handlebarstojsrender</a></li>
+                    <li><a href="#html_basetest">html_basetest</a></li>
+                    <li><a href="#jquery_selectors">jquery_selectors</a></li>
+                    <li><a href="#know_youre_real">know_youre_real</a></li>
+                    <li><a href="#lesleys_hbs">lesleys_hbs</a></li>
+                </ul>
+            </div>
+            <div class="tabs is-small">
+                <ul>
+
+                    <li><a href="#make_fakes">make_fakes</a></li>
+                    <li><a href="#make_legit">make_legit</a></li>
+                    <li><a href="#node_basetest">node_basetest</a></li>
+                    <li><a href="#node_modules">node_modules</a></li>
+                    <li><a href="#proud_of_me">proud_of_me</a></li>
+                    <li><a href="#server">server</a></li>
+                    <li><a href="#sparkly_clean">sparkly_clean</a></li>
+                    <li><a href="#test_waters">test_waters</a></li>
+                    <li><a href="#whats_wrong">whats_wrong</a></li>
+                    <li><a href="#when_you_free">when_you_free</a></li>
+                </ul>
+            </div>
+            <section class="m-5">
+                <div class="modules"></div>
+            </section>
+        </body>
+
+</html>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.js' integrity='sha512-c7SfJeKRl8g7wgL+zMGX78faYVGp+NZVQ587mRLrqeLySX/qHCQOKw/iZ5Pp64DaPjvedixWC/Fe73upnhBaRA==' crossorigin='anonymous'></script>
+<script src="packages.js"></script>
+</body>
+
+</html>

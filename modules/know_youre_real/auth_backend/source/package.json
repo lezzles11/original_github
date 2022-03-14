@@ -1,0 +1,55 @@
+{
+  "name": "source",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs": "rm -rf docs && ./node_modules/.bin/jsdoc --configure ./jsdoc.json -d docs --verbose",
+    "play": "node playground.js",
+    "deploy": "npm run play && git add . && git commit -m 'updated' && git push && npm version patch && npm publish",
+    "upgrade": "ncu --upgrade",
+    "compile": "rimraf dist && babel src -d dist",
+    "build": "rimraf dist/ && webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "explain_me": "latest",
+    "jsonwebtoken": "^8.5.1",
+    "whats_wrong": "latest"
+  },
+  "homepage": "https://zen-out.github.io/packages/know_youre_real",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zen-out/know_youre_real.git"
+  },
+  "devDependencies": {
+    "@babel/cli": "latest",
+    "@babel/core": "latest",
+    "@babel/node": "latest",
+    "@babel/plugin-proposal-class-properties": "latest",
+    "@babel/polyfill": "latest",
+    "@babel/preset-env": "latest",
+    "babel-loader": "latest",
+    "code_clarity": "^1.0.23",
+    "copy-webpack-plugin": "latest",
+    "gulp": "latest",
+    "gulp-mocha": "latest",
+    "node_basetest": "latest",
+    "rimraf": "latest",
+    "webpack": "latest",
+    "webpack-cli": "latest"
+  },
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "bugs": {
+    "url": "https://github.com/zen-out/know_youre_real/issues"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "description": ""
+}

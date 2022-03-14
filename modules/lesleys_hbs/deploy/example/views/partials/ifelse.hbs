@@ -1,0 +1,18 @@
+{{#ifEmpty problem}}
+hello
+{{else}}
+fill in this form
+{{/ifEmpty}}
+
+
+{{#ifLengthGreaterThan task 3}}
+length of task is greater than 3
+{{else}}
+not longer than one
+{{/ifLengthGreaterThan}}
+
+{{#ifLength problem task}}
+array problem longer than task
+{{else}}
+not longer
+{{/ifLength}}

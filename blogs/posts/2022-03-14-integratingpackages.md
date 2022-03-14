@@ -1,0 +1,2 @@
+- [ ] make sure it has as little dependencies as possible -> when importing from other packages, do import from ./node_modules/explain_me/index.js
+- [ ] make sure that it 

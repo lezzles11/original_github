@@ -1,0 +1,27 @@
+{
+    "name": "test_modules",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "array_helperz": "latest",
+        "clear_concise_creative": "^1.1.0",
+        "code_clarity": "latest",
+        "define_me": "latest",
+        "effective_knex": "latest",
+        "html_basetest": "latest",
+        "make_fakes": "^1.0.17",
+        "make_legit": "lastest",
+        "node_basetest": "latest",
+        "sparkly_clean": "latest",
+        "test_waters": "latest",
+        "whats_wrong": "latest",
+        "when_you_free": "latest"
+    }
+}

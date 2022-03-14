@@ -1,0 +1,1739 @@
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T00:42:42.046Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T00:42:42.215Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T00:42:42.277Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T00:42:42.292Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T00:42:42.318Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.324Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.324Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.337Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.338Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.339Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.339Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.339Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.340Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T00:42:42.341Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.344Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.344Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.348Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.348Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.348Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.348Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.349Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.350Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.350Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.350Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.350Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.351Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.352Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.352Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.352Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.352Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.353Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.353Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.353Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.353Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do"},"timestamp":"2022-03-14T00:42:42.354Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.355Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.356Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.356Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.356Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T00:42:42.356Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.357Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.357Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.357Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.358Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.358Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.358Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.358Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.358Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T00:42:42.359Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.360Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.360Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.360Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.361Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.361Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.361Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.363Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.363Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.363Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T00:42:42.364Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.367Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.368Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.368Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.368Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.369Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.369Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.369Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.369Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T00:42:42.370Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.371Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.372Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.372Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T00:42:42.372Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.374Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.374Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.374Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.374Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.374Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.375Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.375Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.375Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.376Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.377Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.377Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.377Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.377Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.377Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.378Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.378Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.378Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.379Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.379Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.379Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.380Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.381Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.381Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.381Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.381Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.381Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.382Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.382Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.382Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.382Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.382Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.383Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.383Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.383Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.383Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.384Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.384Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.384Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.385Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.385Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.385Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do"},"timestamp":"2022-03-14T00:42:42.386Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.387Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.388Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.388Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.388Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.389Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.389Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.389Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.389Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.390Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.390Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.390Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.391Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.391Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.391Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.392Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.392Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.392Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.392Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.393Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.393Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.393Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.393Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.394Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.394Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.394Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.394Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.395Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.395Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.396Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.396Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.396Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.397Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.397Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.397Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.397Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.397Z"}
+{"level":"is","message":{"edit":"2022-03-14T00:42:42.037Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T00:42:42.037Z"},"timestamp":"2022-03-14T00:42:42.398Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.399Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.399Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.400Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.400Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.400Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.400Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.401Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.401Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.401Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.401Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T00:42:42.401Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.402Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.402Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.402Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.403Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.403Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.403Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.403Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.403Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T00:42:42.404Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.405Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.405Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.405Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.405Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.406Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.407Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.407Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.407Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.407Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.407Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.408Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.409Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.409Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.409Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.409Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.410Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.410Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do"},"timestamp":"2022-03-14T00:42:42.410Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.411Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.412Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.412Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.412Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.412Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.412Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.413Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.413Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.413Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.413Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.414Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.414Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.415Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.416Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.416Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.416Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.416Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.417Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.418Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.418Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.418Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.418Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.419Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.419Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.419Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.419Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.420Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.420Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.420Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.420Z"}
+{"level":"is","message":{"edit":"2022-03-14T00:42:42.037Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T00:42:42.037Z"},"timestamp":"2022-03-14T00:42:42.421Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.423Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.423Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.423Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.423Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.423Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.424Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.425Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.425Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.425Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.425Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.426Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.426Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.426Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.426Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.427Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.427Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.427Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.428Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.428Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.428Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.428Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.429Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.429Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.430Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.430Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.431Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.431Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.431Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.431Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.432Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.432Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.433Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.433Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.433Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.433Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T00:42:42.434Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.435Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.436Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.436Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.436Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.436Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.437Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.439Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.439Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.439Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.439Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.440Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.440Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.440Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.440Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.440Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.441Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.441Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.441Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.442Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.443Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.443Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.443Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.443Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.444Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do"},"timestamp":"2022-03-14T00:42:42.445Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.445Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T00:42:42.446Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.447Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.447Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.448Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.448Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.448Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.448Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.448Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.449Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.450Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.451Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.451Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.451Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.451Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.452Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.452Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.452Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.452Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.453Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.453Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.453Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.453Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T00:42:42.455Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-14T00:42:42.455Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T00:42:42.037Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T00:42:42.456Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.456Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.457Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.457Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.457Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.457Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.457Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.458Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.458Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.458Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-14T00:42:42.459Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.459Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T00:42:42.461Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.461Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T00:42:42.037Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T00:42:42.462Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"start":"2022-03-14T00:42:42.037Z","status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.462Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.463Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.463Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.463Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.463Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.464Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.464Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.464Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.464Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T00:42:42.464Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.465Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.465Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.465Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.465Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.465Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.466Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.466Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.466Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.467Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.468Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T00:42:42.468Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.468Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.468Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.469Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.469Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.469Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.469Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T00:42:42.469Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T00:42:42.471Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.471Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-14T00:42:42.472Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","id":10,"user_id":4},"timestamp":"2022-03-14T00:42:42.472Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-14T00:42:42.473Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T00:42:42.474Z"}
+{"level":"problem","message":{"edit":"2022-03-14T00:42:42.037Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-14T00:42:42.037Z"},"timestamp":"2022-03-14T00:42:42.474Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-14T00:42:42.037Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-14T00:42:42.037Z","user_id":4},"timestamp":"2022-03-14T00:42:42.474Z"}
+{"created":"2022-03-14T00:42:42.325Z","id":405,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T00:42:42.475Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.477Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.478Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.479Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.479Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T00:42:42.479Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.479Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.479Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T00:42:42.480Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T00:42:42.481Z"}
+{"level":"is","message":{"difficulty":2,"start":"2012-12-10T16:00:00.000Z"},"timestamp":"2022-03-14T00:42:42.481Z"}
+{"level":"is","message":{"edit":"2022-03-14T00:42:42.346Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T00:42:42.346Z"},"timestamp":"2022-03-14T00:42:42.481Z"}
+{"level":"is","message":{"difficulty":3,"importance":2,"public":true,"status":"to do"},"timestamp":"2022-03-14T00:42:42.481Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:07:15.779Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:07:15.861Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:07:15.894Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.898Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.899Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.899Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.900Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.901Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.901Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.902Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.902Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.903Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:15.904Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.904Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.904Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.905Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.905Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.906Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.906Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.906Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.906Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.907Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.907Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.907Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.907Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.908Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.908Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.908Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.909Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.909Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.909Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:07:15.550Z","status":"to do"},"timestamp":"2022-03-14T02:07:15.910Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.920Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.920Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.921Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.921Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:07:15.921Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.925Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.925Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.926Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.926Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.927Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.927Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:07:15.927Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.928Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.929Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.929Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.929Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.930Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.930Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:07:15.931Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:07:15.942Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.943Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.944Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.946Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.947Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.947Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.947Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.948Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.949Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.949Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.949Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.950Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:15.950Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.951Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.951Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.952Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.952Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.952Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.953Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.953Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.953Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.954Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.954Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.955Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.955Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.956Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.956Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.957Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.957Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.957Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.958Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:07:15.550Z","status":"to do"},"timestamp":"2022-03-14T02:07:15.958Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.960Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.960Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.961Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.961Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.962Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.962Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.964Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.965Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.965Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.965Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T02:07:15.966Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.966Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.966Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.967Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.967Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.967Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.968Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.968Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.968Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:07:15.550Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:07:15.550Z"},"timestamp":"2022-03-14T02:07:15.969Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:15.970Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:15.971Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.971Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.971Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.972Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.972Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.973Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.973Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:07:15.973Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.974Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.974Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.974Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.975Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.975Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.975Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.975Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.975Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T02:07:15.976Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.976Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.977Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.977Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.977Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.977Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.977Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.978Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:15.978Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.978Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.978Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.978Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.979Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.979Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.979Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.979Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.979Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.980Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.980Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:15.980Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:15.980Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.980Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.981Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:15.981Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.984Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.984Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.985Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.985Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.993Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.993Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.993Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.994Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.994Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.994Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.995Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:15.995Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.997Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:15.997Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.998Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.998Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.998Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:15.998Z"}
+{"level":"problem","message":{"edit":"2022-03-14T02:07:15.550Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-14T02:07:15.550Z"},"timestamp":"2022-03-14T02:07:16.001Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-14T02:07:15.550Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-14T02:07:15.550Z","user_id":4},"timestamp":"2022-03-14T02:07:16.001Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.002Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.003Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.003Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.003Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.005Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.006Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.006Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.007Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.007Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.007Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.008Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.008Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.008Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.009Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.009Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.010Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.010Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.010Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.010Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.011Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.011Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.012Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.012Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.012Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.012Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.012Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.014Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.014Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.015Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.015Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.015Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.015Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.016Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.016Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.016Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.017Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.017Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.017Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.018Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.018Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.018Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.018Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.019Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.019Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.019Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.019Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.020Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.020Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.020Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.020Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.021Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.021Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.021Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.021Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.021Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.022Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.022Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.022Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.022Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.022Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.023Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.023Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.023Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.024Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.024Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.024Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.025Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.025Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.026Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.026Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:07:16.028Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-14T02:07:16.028Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:07:16.029Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.029Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.030Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.030Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.031Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.031Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.031Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.031Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.031Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.032Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.033Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.033Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.033Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.033Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.034Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.034Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.034Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.034Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.035Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.035Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.035Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.035Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.036Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.036Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.036Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.036Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.036Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.037Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.037Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.037Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.037Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.037Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.038Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.038Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.038Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.038Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.039Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.039Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.040Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.041Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:07:16.042Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.042Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:07:15.550Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:07:16.043Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"start":"2022-03-14T02:07:15.550Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.043Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-14T02:07:16.044Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.044Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:07:15.550Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:07:16.046Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"start":"2022-03-14T02:07:15.550Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.046Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-14T02:07:16.047Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","id":10,"user_id":4},"timestamp":"2022-03-14T02:07:16.047Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-14T02:07:16.048Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:07:16.048Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.049Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.049Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.049Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.049Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.049Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.050Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.050Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:07:16.050Z"}
+{"created":"2022-03-14T02:07:15.945Z","id":410,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:07:16.055Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.084Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.084Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.084Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.084Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:07:16.085Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.086Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.086Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.086Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.086Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.086Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.087Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:07:16.087Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:07:16.087Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:07:16.087Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:07:16.087Z"}
+{"level":"is","message":{"difficulty":2,"start":"2012-12-10T16:00:00.000Z"},"timestamp":"2022-03-14T02:07:16.088Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:07:15.986Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:07:15.986Z"},"timestamp":"2022-03-14T02:07:16.088Z"}
+{"level":"is","message":{"difficulty":3,"importance":2,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:07:16.088Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:09:19.011Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:09:19.074Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:09:19.097Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:09:19.118Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.121Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.121Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.122Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.122Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.123Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.123Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.123Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.123Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:09:18.830Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:09:18.830Z"},"timestamp":"2022-03-14T02:09:19.124Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.125Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.125Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.125Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.125Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:09:19.126Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.126Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.126Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.127Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.127Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.127Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.127Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:09:19.128Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.128Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.128Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.129Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.129Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.129Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.129Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.130Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.130Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.130Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.131Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.131Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.131Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.131Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.132Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.132Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.132Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.132Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.132Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.133Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.133Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.133Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.134Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.135Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.135Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.135Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.136Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.136Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.136Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:09:18.830Z","status":"to do"},"timestamp":"2022-03-14T02:09:19.137Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.141Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.141Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.141Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.141Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.142Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.142Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:09:19.142Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.144Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.144Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.145Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.145Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.146Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.146Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.146Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.147Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:09:19.147Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.148Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.149Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.149Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.149Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.150Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.150Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.150Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.150Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.151Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.151Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.151Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.151Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.151Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.152Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.152Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.152Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.152Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.152Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.153Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.153Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.153Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.154Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.154Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.154Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.155Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.155Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.155Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.156Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:09:18.830Z","status":"to do"},"timestamp":"2022-03-14T02:09:19.156Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.157Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.158Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.161Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.161Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.161Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.162Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.162Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.162Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.166Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.166Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.166Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.166Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T02:09:19.167Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.168Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.168Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.168Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.168Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.169Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.170Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.170Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.171Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.171Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.171Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.171Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.172Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.172Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.172Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.172Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.172Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.173Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.173Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.174Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.174Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.174Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.174Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.174Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.175Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.175Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.175Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T02:09:19.175Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.178Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.178Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.178Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.179Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.187Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.187Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.187Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.188Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.188Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.189Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.189Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.189Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.190Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.190Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.190Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.190Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.191Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.191Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.191Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.191Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.191Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.192Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.192Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.192Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.192Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.192Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.193Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.193Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.193Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.194Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.194Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.194Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.196Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.196Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.196Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.196Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.197Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.197Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.197Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.197Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.198Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.198Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.198Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.199Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.199Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.199Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.200Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.200Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.200Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.200Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.203Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.203Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.203Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.203Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.203Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.204Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.204Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.205Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.205Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.205Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.205Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.205Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.206Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.206Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.207Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.207Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.207Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.207Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.208Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.208Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.209Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.209Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.210Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.210Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.211Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.212Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.212Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.212Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.213Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.213Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.213Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.214Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.214Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.214Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.214Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.215Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.215Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.215Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.215Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.216Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.217Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.218Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.218Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.218Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.218Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.219Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.219Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.219Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.219Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.220Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.221Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.221Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.221Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.221Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.222Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.223Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.223Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.223Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.223Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:09:19.225Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.225Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-14T02:09:19.226Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","id":10,"user_id":4},"timestamp":"2022-03-14T02:09:19.226Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.227Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.227Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.227Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.228Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.228Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.228Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.229Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.229Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.231Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:09:19.231Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:09:19.232Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.232Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-14T02:09:19.234Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.234Z"}
+{"level":"problem","message":{"edit":"2022-03-14T02:09:18.830Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-14T02:09:18.830Z"},"timestamp":"2022-03-14T02:09:19.235Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-14T02:09:18.830Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-14T02:09:18.830Z","user_id":4},"timestamp":"2022-03-14T02:09:19.235Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:09:19.236Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-14T02:09:19.237Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:09:18.830Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:09:19.238Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"start":"2022-03-14T02:09:18.830Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.238Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-14T02:09:19.242Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.242Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:09:18.830Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:09:19.243Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"start":"2022-03-14T02:09:18.830Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:09:19.243Z"}
+{"created":"2022-03-14T02:09:19.158Z","id":412,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:09:19.243Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.250Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.251Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.251Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.251Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.251Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.251Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.252Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:09:19.253Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:09:19.254Z"}
+{"level":"is","message":{"difficulty":2,"start":"2012-12-10T16:00:00.000Z"},"timestamp":"2022-03-14T02:09:19.254Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:09:19.179Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:09:19.179Z"},"timestamp":"2022-03-14T02:09:19.255Z"}
+{"level":"is","message":{"difficulty":3,"importance":2,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:09:19.255Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:12:52.140Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:12:52.204Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:12:52.212Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.243Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.244Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.245Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.245Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.246Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.246Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.247Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.247Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:12:52.248Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.252Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.252Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.253Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.253Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.253Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.254Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.254Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.254Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.255Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.255Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.255Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.255Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.255Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.256Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.256Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.256Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.256Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.256Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.257Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.257Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.257Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.257Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.258Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.258Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.258Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.259Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.259Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.259Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:12:51.991Z","status":"to do"},"timestamp":"2022-03-14T02:12:52.260Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.261Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.262Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.263Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.264Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.264Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.264Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.264Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.264Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:12:52.265Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.266Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.266Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.266Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.266Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:12:52.267Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.267Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.267Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.268Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.268Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.268Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.268Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.268Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.269Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.269Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.269Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.269Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.269Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.270Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.270Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.270Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.270Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.271Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.272Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.272Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.272Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.273Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.273Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.273Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:12:51.991Z","status":"to do"},"timestamp":"2022-03-14T02:12:52.274Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.275Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.275Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.275Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.275Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.276Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.276Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.276Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.276Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:12:51.991Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:12:51.991Z"},"timestamp":"2022-03-14T02:12:52.277Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.277Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.278Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.278Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.278Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.278Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.278Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.279Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.280Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.280Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.280Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.280Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.280Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.281Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.281Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.281Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.282Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.282Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.282Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.283Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.283Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.283Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.283Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.283Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.284Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T02:12:52.284Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.287Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.287Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.288Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.288Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.292Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.292Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.292Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.292Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.293Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.293Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.294Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.294Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.294Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.294Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T02:12:52.295Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.296Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.297Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.297Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.297Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.298Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.298Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:12:52.298Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.300Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.300Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.301Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.301Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:12:52.302Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:12:52.305Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-14T02:12:52.305Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.307Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.307Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.307Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.307Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.307Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.308Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.309Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-14T02:12:52.312Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.312Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:12:52.313Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.313Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.314Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.314Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.315Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.315Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.315Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.315Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.316Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.316Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.316Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.316Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.317Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.318Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.318Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.318Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.318Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.319Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.319Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.321Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.321Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.321Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.321Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.321Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.322Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.323Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.323Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.323Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.324Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.324Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.324Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.324Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.325Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.325Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.325Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.325Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.326Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.326Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.327Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.327Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.327Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.327Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.328Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.329Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.329Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.329Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.329Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.329Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.330Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.330Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.331Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.331Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.331Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.331Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.332Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.332Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.332Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.332Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-14T02:12:52.334Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.334Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.335Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.335Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.335Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.335Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.336Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.336Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.336Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.336Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.336Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.337Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.337Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.337Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.338Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.338Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.338Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.338Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.338Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.339Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.339Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.339Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.340Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.340Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.340Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.340Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.341Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.341Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.341Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.341Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.343Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.343Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.343Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.343Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.344Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.345Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.346Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.347Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.347Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.347Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.347Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.347Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.348Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:12:52.349Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.349Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.349Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:12:51.991Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:12:52.352Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"start":"2022-03-14T02:12:51.991Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.353Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-14T02:12:52.355Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","id":10,"user_id":4},"timestamp":"2022-03-14T02:12:52.355Z"}
+{"level":"problem","message":{"edit":"2022-03-14T02:12:51.991Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-14T02:12:51.991Z"},"timestamp":"2022-03-14T02:12:52.355Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-14T02:12:51.991Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-14T02:12:51.991Z","user_id":4},"timestamp":"2022-03-14T02:12:52.355Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:12:52.356Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.356Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:12:51.991Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:12:52.357Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"start":"2022-03-14T02:12:51.991Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:12:52.357Z"}
+{"created":"2022-03-14T02:12:52.262Z","id":414,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:12:52.357Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.367Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.367Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.367Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.367Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.368Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.368Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.368Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.368Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.369Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:12:52.369Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.369Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.370Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.370Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.370Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:12:52.371Z"}
+{"level":"is","message":{"difficulty":2,"start":"2012-12-10T16:00:00.000Z"},"timestamp":"2022-03-14T02:12:52.372Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:12:52.290Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:12:52.290Z"},"timestamp":"2022-03-14T02:12:52.372Z"}
+{"level":"is","message":{"difficulty":3,"importance":2,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:12:52.373Z"}
+{"level":"done","message":"test clean post object","timestamp":"2022-03-14T02:19:24.172Z"}
+{"level":"done","message":"TEST: cleanUpdateObject.js","timestamp":"2022-03-14T02:19:24.229Z"}
+{"level":"done","message":"TEST: get one and get all","timestamp":"2022-03-14T02:19:24.241Z"}
+{"level":"done","message":"TEST: delete passes","timestamp":"2022-03-14T02:19:24.262Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.267Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.267Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.268Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.268Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.268Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.269Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:19:24.270Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.272Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.272Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.272Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.273Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.273Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.273Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:19:24.274Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.275Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.275Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.275Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.275Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:19:24.276Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.278Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.278Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.280Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.281Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.282Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.282Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.282Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:19:24.009Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:19:24.009Z"},"timestamp":"2022-03-14T02:19:24.283Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.283Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.284Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.284Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.284Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.284Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.284Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.285Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.285Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.285Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.285Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.286Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.286Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.286Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.286Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.287Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.288Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.288Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.288Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.288Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.289Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.289Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.289Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.289Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:19:24.009Z","status":"to do"},"timestamp":"2022-03-14T02:19:24.290Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.291Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.292Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.292Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.292Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.292Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.292Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.293Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.293Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.293Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.293Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.293Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.294Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.294Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.294Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.294Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.295Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.295Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.295Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.295Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.295Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.296Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.296Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.296Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.296Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.297Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.297Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.297Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.297Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"start":"2022-03-14T02:19:24.009Z","status":"to do"},"timestamp":"2022-03-14T02:19:24.298Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.310Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.311Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.311Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.311Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.312Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.312Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.313Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.313Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.313Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.313Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.314Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.314Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.314Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.315Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.315Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.315Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.316Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.316Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.316Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.316Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.317Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.317Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.317Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.318Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.319Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.320Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-14T02:19:24.320Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.320Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.321Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.321Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.321Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.321Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.321Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.322Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.322Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:19:24.322Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.323Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.323Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.323Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.323Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.323Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.324Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.327Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.327Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.327Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.327Z"}
+{"level":"is","message":{"edit":"2020-12-14T16:00:00.000Z"},"timestamp":"2022-03-14T02:19:24.327Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.328Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.328Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.328Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.328Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.331Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.332Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.332Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.332Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.334Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.334Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.334Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.334Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.335Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.335Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.335Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.336Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.336Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.336Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.336Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.336Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.337Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.337Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.338Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.338Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.338Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.338Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.339Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.339Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.339Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.339Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.339Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.340Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.341Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.341Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.341Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.341Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.341Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.342Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-14T02:19:24.343Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-14T02:19:24.343Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.344Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.344Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.344Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.344Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.345Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.346Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.347Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.348Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.349Z"}
+{"level":"problem","message":{"edit":"2022-03-14T02:19:24.009Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-14T02:19:24.009Z"},"timestamp":"2022-03-14T02:19:24.351Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-14T02:19:24.009Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-14T02:19:24.009Z","user_id":4},"timestamp":"2022-03-14T02:19:24.352Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-14T02:19:24.353Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.353Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:19:24.009Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:19:24.354Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"start":"2022-03-14T02:19:24.009Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.354Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-14T02:19:24.355Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.355Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-14T02:19:24.356Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","id":10,"user_id":4},"timestamp":"2022-03-14T02:19:24.356Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.358Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.358Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.358Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.358Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.359Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.359Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.359Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.359Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.360Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.360Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.360Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.360Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.361Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.362Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.362Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.362Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.362Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.363Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.364Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.365Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.365Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.365Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.365Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.365Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.366Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.366Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.366Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.367Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.367Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.367Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.368Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.369Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.370Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.370Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.370Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.370Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.371Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.371Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.371Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.372Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.373Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.373Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.373Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.374Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.375Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.375Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.375Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-14T02:19:24.009Z","status":"to do","user_id":"4"},"timestamp":"2022-03-14T02:19:24.377Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"start":"2022-03-14T02:19:24.009Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.378Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:19:24.379Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.379Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-14T02:19:24.380Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-14T02:19:24.380Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.382Z"}
+{"level":"is","message":"date","timestamp":"2022-03-14T02:19:24.382Z"}
+{"created":"2022-03-14T02:19:24.278Z","id":416,"level":"done","message":"🚀 ~ file: basic.js ~ line 32 ~ testPostAndUpdate ~ testUpdate","start":"2012-02-01T16:00:00.000Z","timestamp":"2022-03-14T02:19:24.403Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.411Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.411Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.412Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.412Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.412Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.412Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.412Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.413Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.413Z"}
+{"level":"is","message":"boolean","timestamp":"2022-03-14T02:19:24.413Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.413Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.413Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.414Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.414Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.414Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.414Z"}
+{"level":"is","message":"string","timestamp":"2022-03-14T02:19:24.415Z"}
+{"level":"is","message":"number","timestamp":"2022-03-14T02:19:24.415Z"}
+{"level":"problem","message":"the two types dont match","timestamp":"2022-03-14T02:19:24.415Z"}
+{"level":"step","message":"if there are not callbacks","timestamp":"2022-03-14T02:19:24.415Z"}
+{"level":"is","message":{"difficulty":2,"start":"2012-12-10T16:00:00.000Z"},"timestamp":"2022-03-14T02:19:24.416Z"}
+{"level":"is","message":{"edit":"2022-03-14T02:19:24.329Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-14T02:19:24.329Z"},"timestamp":"2022-03-14T02:19:24.416Z"}
+{"level":"is","message":{"difficulty":3,"importance":2,"public":true,"status":"to do"},"timestamp":"2022-03-14T02:19:24.416Z"}

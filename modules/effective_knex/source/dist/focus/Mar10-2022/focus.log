@@ -1,0 +1,130 @@
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:10:37.713Z"}
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:10:51.531Z"}
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:11:10.280Z"}
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:11:18.857Z"}
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:12:02.703Z"}
+{"level":"is","message":"numberNaN","timestamp":"2022-03-10T04:12:11.579Z"}
+{"level":"problem","message":"test does not pass","timestamp":"2022-03-10T04:26:27.765Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T04:26:37.716Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T04:27:30.541Z"}
+{"level":"is","timestamp":"2022-03-10T04:49:33.498Z"}
+{"level":"is","timestamp":"2022-03-10T04:49:33.506Z"}
+{"level":"is","timestamp":"2022-03-10T04:49:33.511Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T04:50:27.419Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T04:53:18.600Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T04:59:55.285Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:00:09.537Z"}
+{"level":"is","message":0,"timestamp":"2022-03-10T05:04:02.541Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:04:02.544Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:04:46.915Z"}
+{"level":"is","message":[],"timestamp":"2022-03-10T05:05:42.294Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:05:42.297Z"}
+{"level":"is","message":[],"timestamp":"2022-03-10T05:06:02.767Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:06:02.770Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:07:28.525Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:07:40.219Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:08:03.672Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:08:11.999Z"}
+{"level":"problem","message":[],"timestamp":"2022-03-10T05:08:27.120Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:08:27.123Z"}
+{"level":"problem","message":0,"timestamp":"2022-03-10T05:08:36.708Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:08:36.711Z"}
+{"level":"problem","message":"object","timestamp":"2022-03-10T05:08:50.717Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:08:50.719Z"}
+{"level":"problem","message":"object","timestamp":"2022-03-10T05:09:13.316Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:09:13.319Z"}
+{"level":"problem","message":"object","timestamp":"2022-03-10T05:09:34.457Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:09:34.460Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T05:10:52.471Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T05:10:59.997Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T05:11:20.573Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T05:11:38.956Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:11:38.974Z"}
+{"level":"done","message":"test passes","timestamp":"2022-03-10T05:12:01.974Z"}
+{"level":"is","message":false,"timestamp":"2022-03-10T05:12:02.007Z"}
+{"level":"is","message":{"importance":1,"status":"to do"},"timestamp":"2022-03-10T05:40:30.541Z"}
+{"level":"is","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-10T05:40:30.546Z"}
+{"level":"is","message":{"edit":"2022-03-10T05:40:30.402Z","end":"2022-12-11T16:00:00.000Z","seconds":3,"start":"2022-03-10T05:40:30.402Z"},"timestamp":"2022-03-10T05:40:30.549Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-10T05:40:30.551Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"seconds":0,"start":"2022-03-10T05:40:30.402Z","status":"to do","user_id":4},"timestamp":"2022-03-10T05:40:30.553Z"}
+{"level":"is","message":{"difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","importance":1,"public":true,"seconds":0,"start":"2022-03-10T05:40:30.402Z","status":"to do","user_id":4},"timestamp":"2022-03-10T05:40:30.555Z"}
+{"level":"is","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-10T05:40:30.557Z"}
+{"level":"is","message":{"edit":"1994-12-11T16:00:00.000Z","end":"2022-12-10T16:00:00.000Z","start":"1994-12-10T16:00:00.000Z"},"timestamp":"2022-03-10T05:40:30.562Z"}
+{"level":"is","message":{"importance":2,"user_id":1},"timestamp":"2022-03-10T05:40:30.563Z"}
+{"level":"is","message":{},"timestamp":"2022-03-10T05:40:30.565Z"}
+{"level":"is","message":{},"timestamp":"2022-03-10T05:40:30.566Z"}
+{"level":"is","message":{},"timestamp":"2022-03-10T05:40:30.567Z"}
+{"level":"is","message":{"difficulty":3,"importance":3,"public":true,"seconds":9,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-10T05:40:30.569Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-10T05:40:30.570Z"}
+{"level":"is","message":{"importance":2,"seconds":20,"user_id":1},"timestamp":"2022-03-10T05:40:30.572Z"}
+{"level":"is","message":{"name":"hi"},"timestamp":"2022-03-10T05:40:30.581Z"}
+{"level":"is","message":{"name":"hello","user_id":4},"timestamp":"2022-03-10T05:40:30.582Z"}
+{"level":"is","message":{},"timestamp":"2022-03-10T05:40:30.586Z"}
+{"level":"is","message":{"hourglass_id":31,"user_id":1},"timestamp":"2022-03-10T05:40:30.587Z"}
+{"level":"is","message":{"hourglass_id":31,"user_id":1},"timestamp":"2022-03-10T05:40:30.588Z"}
+{"level":"is","message":{"hourglass_id":10,"name":"hi","problem_id":2,"user_id":4},"timestamp":"2022-03-10T05:40:30.589Z"}
+{"level":"is","message":{"name":"hello","user_id":4},"timestamp":"2022-03-10T05:40:30.590Z"}
+{"level":"is","message":{"hourglass_id":31,"user_id":1},"timestamp":"2022-03-10T05:40:30.591Z"}
+{"level":"is","message":{},"timestamp":"2022-03-10T05:40:30.592Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-10T05:57:59.502Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","difficulty":null,"edit":null,"email":null,"end":null,"id":3,"importance":null,"public":null,"seconds":20,"start":null,"status":"doing","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.503Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-10T05:57:59.510Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","difficulty":null,"edit":null,"email":null,"end":null,"id":4,"importance":1,"public":null,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.510Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-10T05:57:59.511Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","difficulty":null,"edit":"2020-12-14T16:00:00.000Z","email":null,"end":"2022-12-10T16:00:00.000Z","id":10,"importance":null,"public":null,"seconds":null,"start":"1994-12-10T16:00:00.000Z","status":null,"usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.511Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T05:57:59.239Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T05:57:59.512Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","email":null,"end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T05:57:59.239Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.513Z"}
+{"level":"problem","message":{"edit":"2022-03-10T05:57:59.239Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-10T05:57:59.239Z"},"timestamp":"2022-03-10T05:57:59.513Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","difficulty":null,"edit":"2022-03-10T05:57:59.239Z","email":null,"end":"2022-12-11T16:00:00.000Z","id":6,"importance":null,"public":null,"seconds":3,"start":"2022-03-10T05:57:59.239Z","status":null,"usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.514Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-10T05:57:59.521Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"edit":null,"email":null,"end":null,"id":9,"importance":1,"public":true,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.521Z"}
+{"level":"problem","message":{"hourglass_id":31,"hourglass_user_id":1,"id":200,"importance":"medium","seconds":20,"timer_id":1,"timer_problem_id":1,"timer_user_id":1,"user_id":1},"timestamp":"2022-03-10T05:57:59.530Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.535Z","difficulty":null,"edit":null,"email":null,"end":null,"id":200,"importance":2,"public":null,"seconds":20,"start":null,"status":null,"usefulness":null,"user_id":1},"timestamp":"2022-03-10T05:57:59.531Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T05:57:59.239Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T05:57:59.532Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","email":null,"end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T05:57:59.239Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.532Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-10T05:57:59.533Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"edit":null,"email":null,"end":null,"id":5,"importance":1,"public":null,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.533Z"}
+{"level":"problem","message":{"hourglass_id":31,"hourglass_user_id":1,"id":200,"importance":"medium","seconds":20,"timer_id":1,"timer_problem_id":1,"timer_user_id":1,"user_id":1},"timestamp":"2022-03-10T05:57:59.534Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.602Z","difficulty":null,"edit":null,"email":null,"end":null,"id":200,"importance":2,"public":null,"seconds":20,"start":null,"status":null,"usefulness":null,"user_id":1},"timestamp":"2022-03-10T05:57:59.534Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-10T05:57:59.535Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"edit":null,"email":null,"end":null,"id":11,"importance":3,"public":true,"seconds":9,"start":"2021-12-07T16:00:00.000Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T05:57:59.535Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-10T06:01:51.444Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","difficulty":null,"edit":null,"email":null,"end":null,"id":3,"importance":null,"public":null,"seconds":20,"start":null,"status":"doing","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.445Z"}
+{"level":"problem","message":{"edit":"2022-03-10T06:01:51.166Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-10T06:01:51.166Z"},"timestamp":"2022-03-10T06:01:51.452Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","difficulty":null,"edit":"2022-03-10T06:01:51.166Z","email":null,"end":"2022-12-11T16:00:00.000Z","id":6,"importance":null,"public":null,"seconds":3,"start":"2022-03-10T06:01:51.166Z","status":null,"usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.452Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-10T06:01:51.454Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","difficulty":null,"edit":null,"email":null,"end":null,"id":4,"importance":1,"public":null,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.454Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T06:01:51.167Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T06:01:51.455Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","email":null,"end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T06:01:51.167Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.455Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-10T06:01:51.457Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"edit":null,"email":null,"end":null,"id":5,"importance":1,"public":null,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.457Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T06:01:51.167Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T06:01:51.458Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","email":null,"end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T06:01:51.167Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.459Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-10T06:01:51.460Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","difficulty":null,"edit":"2020-12-14T16:00:00.000Z","email":null,"end":"2022-12-10T16:00:00.000Z","id":10,"importance":null,"public":null,"seconds":null,"start":"1994-12-10T16:00:00.000Z","status":null,"usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.460Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-10T06:01:51.461Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"edit":null,"email":null,"end":null,"id":11,"importance":3,"public":true,"seconds":9,"start":"2021-12-07T16:00:00.000Z","status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.462Z"}
+{"level":"problem","message":{"hourglass_id":31,"hourglass_user_id":1,"id":200,"importance":"medium","seconds":20,"timer_id":1,"timer_problem_id":1,"timer_user_id":1,"user_id":1},"timestamp":"2022-03-10T06:01:51.478Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.535Z","difficulty":null,"edit":null,"email":null,"end":null,"id":200,"importance":2,"public":null,"seconds":20,"start":null,"status":null,"usefulness":null,"user_id":1},"timestamp":"2022-03-10T06:01:51.479Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-10T06:01:51.480Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"edit":null,"email":null,"end":null,"id":9,"importance":1,"public":true,"seconds":null,"start":null,"status":"to do","usefulness":null,"user_id":4},"timestamp":"2022-03-10T06:01:51.480Z"}
+{"level":"problem","message":{"hourglass_id":31,"hourglass_user_id":1,"id":200,"importance":"medium","seconds":20,"timer_id":1,"timer_problem_id":1,"timer_user_id":1,"user_id":1},"timestamp":"2022-03-10T06:01:51.481Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.602Z","difficulty":null,"edit":null,"email":null,"end":null,"id":200,"importance":2,"public":null,"seconds":20,"start":null,"status":null,"usefulness":null,"user_id":1},"timestamp":"2022-03-10T06:01:51.481Z"}
+{"level":"problem","message":{"cheatsheet_id":"4","difficulty":"hard","email":"","end":"","hourglass_id":10,"importance":"low","link":"www.google.com","name":"hi","problem_id":2,"public":"public","seconds":"9","start":"2021-12-08","status":"to do","task_id":"2","user_id":4,"whatshouldbe":"hi"},"timestamp":"2022-03-10T06:02:42.952Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.401Z","difficulty":3,"id":11,"importance":3,"public":true,"seconds":9,"start":"2021-12-07T16:00:00.000Z","status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.954Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T06:02:42.748Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T06:02:42.956Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.149Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":7,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T06:02:42.748Z","status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.956Z"}
+{"level":"problem","message":{"seconds":20,"status":"doing"},"timestamp":"2022-03-10T06:02:42.958Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.876Z","id":3,"seconds":20,"status":"doing","user_id":4},"timestamp":"2022-03-10T06:02:42.959Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"public":true,"status":"to do"},"timestamp":"2022-03-10T06:02:42.960Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.286Z","difficulty":3,"id":9,"importance":1,"public":true,"status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.960Z"}
+{"level":"problem","message":{"edit":"2022-03-10T06:02:42.748Z","end":"2022-12-12","name":"hi","seconds":3,"start":"2022-03-10T06:02:42.748Z"},"timestamp":"2022-03-10T06:02:42.963Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.084Z","edit":"2022-03-10T06:02:42.748Z","end":"2022-12-11T16:00:00.000Z","id":6,"seconds":3,"start":"2022-03-10T06:02:42.748Z","user_id":4},"timestamp":"2022-03-10T06:02:42.963Z"}
+{"level":"problem","message":{"difficulty":3,"importance":1,"status":"to do"},"timestamp":"2022-03-10T06:02:42.969Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.001Z","difficulty":3,"id":5,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.969Z"}
+{"level":"problem","message":{"edit":"December 15 2020","end":"Dec 11, 2022","start":"Dec 11, 1994"},"timestamp":"2022-03-10T06:02:42.978Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.343Z","edit":"2020-12-14T16:00:00.000Z","end":"2022-12-10T16:00:00.000Z","id":10,"start":"1994-12-10T16:00:00.000Z","user_id":4},"timestamp":"2022-03-10T06:02:42.979Z"}
+{"level":"problem","message":{"importance":"high","status":"to do"},"timestamp":"2022-03-10T06:02:42.980Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:26.938Z","id":4,"importance":1,"status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.980Z"}
+{"level":"problem","message":{"difficulty":"hard","edit":"2020-12-22","end":"2020-12-22","importance":"high","name":"hello","public":"public","seconds":"0","start":"2022-03-10T06:02:42.748Z","status":"to do","user_id":"4"},"timestamp":"2022-03-10T06:02:42.982Z"}
+{"level":"is","message":{"created":"2022-01-24T19:57:27.227Z","difficulty":3,"edit":"2020-12-21T16:00:00.000Z","end":"2020-12-21T16:00:00.000Z","id":8,"importance":1,"public":true,"seconds":0,"start":"2022-03-10T06:02:42.748Z","status":"to do","user_id":4},"timestamp":"2022-03-10T06:02:42.982Z"}

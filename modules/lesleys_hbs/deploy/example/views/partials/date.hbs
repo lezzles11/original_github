@@ -1,0 +1,32 @@
+{{#each problem}}
+<br />
+Duration:
+{{getDuration "00:20:00" "00:40:00"}}
+
+<br />
+Future Date
+{{futureDate problem_created}}
+
+<br />
+Past Date
+{{pastDate problem_created}}
+
+<br />
+getDifferenceInDays
+{{getDifferenceInDays created end}}
+<br />
+getDifferenceInMinutes
+{{getDifferenceInMinutes created end}}
+
+
+<br />
+format ll
+{{format created "ll"}}
+<br />
+
+format lts
+{{format created "lt"}}
+<br />
+format llll
+{{format created "llll"}}
+{{/each}}

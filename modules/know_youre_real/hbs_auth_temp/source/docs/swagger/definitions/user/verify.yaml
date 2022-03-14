@@ -1,0 +1,13 @@
+title: post user
+example:
+  email: test2@gmail.com
+  password: password
+type: object
+properties:
+  email:
+    type: string
+  password:
+    type: string
+required:
+  - email
+  - password

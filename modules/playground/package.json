@@ -1,0 +1,38 @@
+{
+    "name": "playground",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "update": "ncu --upgrade",
+        "play": "node playground.js",
+        "deploy": "npm run play && git add . && git commit -m 'updated' && git push && npm version patch && npm publish",
+        "docs": "node docs.js"
+    },
+    "author": "",
+    "license": "MIT",
+    "dependencies": {
+        "array_helperz": "^1.3.2",
+        "automate_me": "^1.0.4",
+        "bulletproof_me": "^1.0.10",
+        "clear_concise_creative": "^1.1.3",
+        "code_clarity": "^1.0.25",
+        "define_me": "^1.2.12",
+        "effective_knex": "^1.0.7",
+        "explain_me": "^1.4.12",
+        "handlebarstojsrender": "^1.13.0",
+        "html_basetest": "^1.3.0",
+        "knex": "^1.0.4",
+        "know_youre_real": "^1.0.0",
+        "lesleys_hbs": "^1.0.4",
+        "make_fakes": "^1.1.5",
+        "make_legit": "^1.4.10",
+        "node_basetest": "^2.7.0",
+        "pg": "^8.7.3",
+        "proud_of_me": "^1.0.0",
+        "sparkly_clean": "^1.0.3",
+        "test_waters": "^1.0.1",
+        "whats_wrong": "^1.3.2",
+        "when_you_free": "^1.4.2"
+    }
+}

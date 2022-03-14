@@ -1,0 +1,16 @@
+post:
+  description: post to signup route
+  summary: calls the set session function - will set session.user_id = user.id, session.cookie.theme = "cute" session.email = user.email
+  tags:
+    - user
+  parameters:
+    - in: body
+      name: postuser
+      description: The user to create.
+      schema:
+        $ref: "#/definitions/post_user"
+  responses:
+    "200":
+      description: redirect to dashboard, starts user session (req.session.user = id), should get back token too
+    "400":
+      description: renders to error page, passing in message from db
