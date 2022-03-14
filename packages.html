@@ -48,7 +48,7 @@
         ]
 
 
-        let html = item => `<br /> <div class='divider'>${item}</div> <a href='' target='_blank'> <h6 class='title p-0 mb-1 effect-2' id="${item}">${item}</h6> </a> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'><i class='icon icon-about'></i></a> <a href='${item}' data-tooltip='see node package'><i class='icon icon-dashboard'></i></a>  <br /> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'> <img src="./assets/images/${item}.png"/></a>`
+        let html = item => `<br /> <div class='divider'>${item}</div> <a href='' target='_blank'> <h6 class='title p-0 mb-1 effect-2' id="${item}">${item}</h6> </a> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'><i class='icon icon-about'></i></a> <a target="_blank" href='https://www.npmjs.com/package/${item}' data-tooltip='see node package'><i class='icon icon-dashboard'></i></a>  <br /> <a href='./modules/${item}/source/docs/global.html' target="_blank" data-tooltip='see documentation'> <img src="./assets/images/${item}.png"/></a>`
         let modules = item => `git submodule add https://github.com/zen-out/${item} modules/${item}/deploy`
         let tabs = item => `<li><a href="#${item}">${item}</a></li>`
         let items = item => `- [${item}](https://www.npmjs.com/package/${item}) ~ ![NPM Downloads](https://img.shields.io/npm/dw/${item})`
@@ -63,6 +63,7 @@
         // console.log(getTabs)
 
         $(() => {
+            console.log(getString)
             let newElement = $(getString)
             $(".modules").append(newElement)
         })
@@ -137,6 +138,12 @@
                 </ul>
             </div>
             <section class="m-5">
+                <div>
+
+                    <!-- START HERE -->
+
+                    <!-- END HERE -->
+                </div>
                 <div class="modules"></div>
             </section>
         </body>
