@@ -1,0 +1,54 @@
+[submodule "modules/define_me/deploy"]
+	path = modules/define_me/deploy
+	url = https://github.com/zen-out/define_me
+[submodule "modules/automate_me/deploy"]
+	path = modules/automate_me/deploy
+	url = https://github.com/zen-out/automate_me
+[submodule "modules/bulletproof_me/deploy"]
+	path = modules/bulletproof_me/deploy
+	url = https://github.com/zen-out/bulletproof_me
+[submodule "modules/clear_concise_creative/deploy"]
+	path = modules/clear_concise_creative/deploy
+	url = https://github.com/zen-out/clear_concise_creative
+[submodule "modules/code_clarity/deploy"]
+	path = modules/code_clarity/deploy
+	url = https://github.com/zen-out/code_clarity
+[submodule "modules/effective_knex/deploy"]
+	path = modules/effective_knex/deploy
+	url = https://github.com/zen-out/effective_knex
+[submodule "modules/explain_me/deploy"]
+	path = modules/explain_me/deploy
+	url = https://github.com/zen-out/explain_me
+[submodule "modules/handlebarstojsrender/deploy"]
+	path = modules/handlebarstojsrender/deploy
+	url = https://github.com/zen-out/handlebarstojsrender
+[submodule "modules/html_basetest/deploy"]
+	path = modules/html_basetest/deploy
+	url = https://github.com/zen-out/html_basetest
+[submodule "modules/jquery_selectors_mergez/deploy"]
+	path = modules/jquery_selectors_mergez/deploy
+	url = https://github.com/zen-out/jquery_selectors_mergez
+[submodule "modules/know_youre_real/deploy"]
+	path = modules/know_youre_real/deploy
+	url = https://github.com/zen-out/know_youre_real
+[submodule "modules/make_fakes/deploy"]
+	path = modules/make_fakes/deploy
+	url = https://github.com/zen-out/make_fakes
+[submodule "modules/make_legit/deploy"]
+	path = modules/make_legit/deploy
+	url = https://github.com/zen-out/make_legit
+[submodule "modules/node_basetest/deploy"]
+	path = modules/node_basetest/deploy
+	url = https://github.com/zen-out/node_basetest
+[submodule "modules/sparkly_clean/deploy"]
+	path = modules/sparkly_clean/deploy
+	url = https://github.com/zen-out/sparkly_clean
+[submodule "modules/test_waters/deploy"]
+	path = modules/test_waters/deploy
+	url = https://github.com/zen-out/test_waters
+[submodule "modules/whats_wrong/deploy"]
+	path = modules/whats_wrong/deploy
+	url = https://github.com/zen-out/whats_wrong
+[submodule "modules/when_you_free/deploy"]
+	path = modules/when_you_free/deploy
+	url = https://github.com/zen-out/when_you_free
