@@ -1,4 +1,4 @@
-const { getDate } = require("./dist/getDate")
+const { getDate } = require("./dist2/getDate")
 const fs = require("fs")
 
 // steps, snippets, exceptions, timer
