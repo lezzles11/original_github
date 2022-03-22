@@ -1,0 +1,104 @@
+{
+    "device": [],
+    "follow": [],
+    "user": [{
+        "gmail_id": "5a3c79f0-ad4b-4f3c-a844-336cc1652e81",
+        "facebook_id": "92a5c811-8fcd-4f53-bc7d-0772673f29b8",
+        "spotify_id": "cc5016f3-2f4a-4036-baef-884f2017bf6f",
+        "name": "lesley",
+        "email": "lesleyc@bu.edu",
+        "logged_in": true,
+        "theme": "professional",
+        "hash": "bekHZn.odDz8jM4FBnaYF3.2HLkgxDgEIEOZyUpqnEc3pCzchZyRle",
+        "id": 4
+    }],
+    "hourglass": [{
+            "public": true,
+            "seconds": 3,
+            "status": "to do",
+            "importance": 2,
+            "usefulness": 1,
+            "difficulty": 1,
+            "user_id": 4,
+            "id": 1,
+            "start": "2022-03-22T03:34:13.227Z",
+            "edit": "2022-03-22T03:34:13.227Z",
+            "end": "2022-12-11T16:00:00.000Z"
+        },
+        {
+            "public": true,
+            "seconds": 3,
+            "status": "to do",
+            "importance": 2,
+            "usefulness": 1,
+            "difficulty": 1,
+            "user_id": 4,
+            "id": 2,
+            "start": "2022-03-22T03:34:13.227Z",
+            "edit": "2022-03-22T03:34:13.227Z",
+            "end": "2022-12-11T16:00:00.000Z"
+        },
+        {
+            "public": true,
+            "seconds": 3,
+            "status": "to do",
+            "importance": 2,
+            "usefulness": 1,
+            "difficulty": 1,
+            "user_id": 4,
+            "id": 3,
+            "start": "2022-03-22T03:34:13.227Z",
+            "edit": "2022-03-22T03:34:13.227Z",
+            "end": "2022-12-11T16:00:00.000Z"
+        },
+        {
+            "public": true,
+            "seconds": 3,
+            "status": "to do",
+            "importance": 2,
+            "usefulness": 1,
+            "difficulty": 1,
+            "user_id": 4,
+            "id": 4,
+            "start": "2022-03-22T03:34:13.227Z",
+            "edit": "2022-03-22T03:34:13.227Z",
+            "end": "2022-12-11T16:00:00.000Z"
+        }
+    ],
+    "problem": [{
+        "user_id": 4,
+        "problem": "add good things here too - like having one single source of truth for the template that other things inherit",
+        "whatshouldbe": "be more organized",
+        "whatactuallyis": "what",
+        "hypothesis": "i think it's becuase i'm actually quite happy and excited about this project i want to be a baller i want to be better than mustafa",
+        "plan": "give your life to this",
+        "hourglass_id": 1,
+        "id": 1
+    }],
+    "cheatsheet": [{
+        "user_id": 4,
+        "title": "feeling bad and insecure",
+        "key_info": "we work so much hard when we feel bad",
+        "description": "fuck everyone.",
+        "notes": "just focus on work, it's the only thing worth doing.",
+        "structure": "WORK WORK WORK WORK WORK STOP DATING STOP DATING STOP DATING STOP DATING",
+        "hourglass_id": 2,
+        "id": 1
+    }],
+    "task": [{
+        "user_id": 4,
+        "problem_id": 1,
+        "cheatsheet_id": 1,
+        "name": "like, how do we actually create tag snippets",
+        "hourglass_id": 3,
+        "id": 1
+    }],
+    "tag_snippet": [{
+        "user_id": 4,
+        "task_id": 1,
+        "tag": "quote",
+        "snippet": "be more selfish with your time. this is your life. reach your own goals. be more confident in yourself, you got this. i want cyrus on my team",
+        "hourglass_id": 4,
+        "id": 1
+    }]
+}
