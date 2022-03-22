@@ -1,8 +1,0 @@
-const ef = require("./index.js")
-ef.testDelete()
-ef.testBasic()
-ef.testPostAndUpdate()
-ef.testCleanObject()
-ef.testCleanUpdateObject()
-ef.testConvert()
-ef.testGetCleanObject()

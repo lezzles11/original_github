@@ -1,8 +1,0 @@
-{
-  "files.exclude": {
-    "deploy": true,
-    "package-lock.json": true,
-    "package.json": true
-  },
-  "workspace.isHidden": true
-}

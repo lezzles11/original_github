@@ -1,3 +1,0 @@
-const { getDirectoryStructure, getPathForEach, printDirectory, isGitSync, formatStats, getShape } = require("./fs.js")
-const { dateIsLonger, filterForPastDate, getFolders, foldersToDelete, deleteFolders, filterForGitTrue, } = require("./deleteFolders.js")
-module.exports = { getDirectoryStructure, getPathForEach, printDirectory, isGitSync, formatStats, getShape, dateIsLonger, getFolders, foldersToDelete, deleteFolders, filterForGitTrue, filterForPastDate }
