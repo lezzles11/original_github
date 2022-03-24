@@ -97,7 +97,7 @@
   <body>
 
     <nav class="navbar" id="navbar">
-      <h2><a href="index.html"><br/><a href='https://github.com/zen-out' target='_blank' style='margin: 1rem;'>zen-out</a><br/></a></h2><div class="search-box" id="search-box"><div class="search-box-input-container"><input class="search-box-input" type="text" placeholder="Search..." id="search-box-input" /><svg class="search-icon" alt="search-icon"><use xlink:href="#search-icon"></use></svg></div><div class="search-item-container" id="search-item-container"><ul class="search-item-ul" id="search-item-ul"></ul></div></div><div class="sidebar-main-content" id="sidebar-main-content"><div class="accordion collapsed" id="9551111" > <h3 class="accordion-heading">Global<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion-list" id=""><a href="global.html#addScript">addScript</a></li><li class="accordion-list" id=""><a href="global.html#copyHTML">copyHTML</a></li><li class="accordion-list" id=""><a href="global.html#docs">docs</a></li><li class="accordion-list" id=""><a href="global.html#html">html</a></li><li class="accordion-list" id=""><a href="global.html#init">init</a></li><li class="accordion-list" id=""><a href="global.html#moveToDeploy">moveToDeploy</a></li><li class="accordion-list" id=""><a href="global.html#readme">readme</a></li></ul> </div><ul><li class="menu-li"><a href='https://www.npmjs.com/package/explain_me' class=' menu-link' id='' target='_blank'>see npm package</a></li><li class="menu-li"><a href='https://zen-out.github.io/packages.html' class=' menu-link' id='' target='_blank'>explore</a></li></ul>
+      <h2><a href="index.html"><br/><a href='https://github.com/zen-out' target='_blank' style='margin: 1rem;'>zen-out</a><br/></a></h2><div class="search-box" id="search-box"><div class="search-box-input-container"><input class="search-box-input" type="text" placeholder="Search..." id="search-box-input" /><svg class="search-icon" alt="search-icon"><use xlink:href="#search-icon"></use></svg></div><div class="search-item-container" id="search-item-container"><ul class="search-item-ul" id="search-item-ul"></ul></div></div><div class="sidebar-main-content" id="sidebar-main-content"><div class="accordion collapsed" id="6383228" > <h3 class="accordion-heading">Global<svg><use xlink:href="#down-icon"></use></svg></h3><ul class="accordion-content"><li class="accordion-list" id=""><a href="global.html#hashToPassword">hashToPassword</a></li><li class="accordion-list" id=""><a href="global.html#login">login</a></li><li class="accordion-list" id=""><a href="global.html#logout">logout</a></li><li class="accordion-list" id=""><a href="global.html#mostRecentlyCreatedProblems">mostRecentlyCreatedProblems</a></li><li class="accordion-list" id=""><a href="global.html#passwordToHash">passwordToHash</a></li><li class="accordion-list" id=""><a href="global.html#postDevice">postDevice</a></li><li class="accordion-list" id=""><a href="global.html#signup">signup</a></li><li class="accordion-list" id=""><a href="global.html#verifyUserRoute">verifyUserRoute</a></li></ul> </div><ul><li class="menu-li"><a href='https://www.npmjs.com/package/backend_for_noobs' class=' menu-link' id='' target='_blank'>see npm package</a></li><li class="menu-li"><a href='https://zen-out.github.io/packages.html' class=' menu-link' id='' target='_blank'>explore</a></li></ul>
       
 
     </nav>
@@ -161,18 +161,14 @@
 
     
 
-    <h4 class="name" id="addScript">
-        <a href="#addScript">#</a>
-        <span class="type-signature"></span>addScript<span class="signature">(moduleName)</span><span class="type-signature"> &rarr; {any}</span>
+    <h4 class="name" id="hashToPassword">
+        <a href="#hashToPassword">#</a>
+        <span class="type-signature">(async) </span>hashToPassword<span class="signature">(password, hash)</span><span class="type-signature"> &rarr; {boolean}</span>
     </h4>
 
     
 
 
-
-    <div class="description">
-        <p>Adds info</p>
-    </div>
 
 
 
@@ -208,13 +204,13 @@
 
         <tr>
             
-                <td class="name"><code>moduleName</code></td>
+                <td class="name"><code>password</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">any</span>
+<span class="param-type">string</span>
 
 
             
@@ -224,7 +220,30 @@
 
             
 
-            <td class="description last"><p>= undefined</p></td>
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>hash</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">string</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
         </tr>
 
     
@@ -309,7 +328,7 @@
     </dt>
     <dd>
         
-<span class="param-type">any</span>
+<span class="param-type">boolean</span>
 
 
     </dd>
@@ -326,9 +345,9 @@
 
     
 
-    <h4 class="name" id="copyHTML">
-        <a href="#copyHTML">#</a>
-        <span class="type-signature"></span>copyHTML<span class="signature">(from, location)</span><span class="type-signature"> &rarr; {any}</span>
+    <h4 class="name" id="login">
+        <a href="#login">#</a>
+        <span class="type-signature">(async) </span>login<span class="signature">(knex, userObject)</span><span class="type-signature"> &rarr; {any}</span>
     </h4>
 
     
@@ -369,7 +388,7 @@
 
         <tr>
             
-                <td class="name"><code>from</code></td>
+                <td class="name"><code>knex</code></td>
             
 
             <td class="type">
@@ -392,7 +411,7 @@
 
         <tr>
             
-                <td class="name"><code>location</code></td>
+                <td class="name"><code>userObject</code></td>
             
 
             <td class="type">
@@ -508,11 +527,26 @@
         <strong>Example</strong>
         
     <div class="rel">
-    <pre class="prettyprint"><code>copyHTML("./docs/global.html", "../zen-out.github.io/modules/moduleName.html")</code></pre>
+    <pre class="prettyprint"><code>let sampleObject = {
+        email: "asdfasdf213@gmdail.com",
+        password: "asdfasdf",
+        type: "chrome",
+        device: "desktop"
+    }
+    let sampleObject2 = {
+            email: "lesle3yc2@gmail.com",
+            password: "orangeorange"
+        }
+        // let firstSignup = await signup(knex, sampleObject)
+        // see.done("signup", firstSignup)
+    let firstLogin = await login(knex, sampleObject)
+    see.done("login", firstLogin)
+    let verify = await verifyUserRoute(knex, 48, 14)
+    see.done("verify route" + verify)</code></pre>
     
     
         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;copyHTML(\&quot;./docs/global.html\&quot;, \&quot;../zen-out.github.io/modules/moduleName.html\&quot;)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/explain_me/index.js" }' />
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;let sampleObject = {\n        email: \&quot;asdfasdf213@gmdail.com\&quot;,\n        password: \&quot;asdfasdf\&quot;,\n        type: \&quot;chrome\&quot;,\n        device: \&quot;desktop\&quot;\n    }\n    let sampleObject2 = {\n            email: \&quot;lesle3yc2@gmail.com\&quot;,\n            password: \&quot;orangeorange\&quot;\n        }\n        // let firstSignup = await signup(knex, sampleObject)\n        // see.done(\&quot;signup\&quot;, firstSignup)\n    let firstLogin = await login(knex, sampleObject)\n    see.done(\&quot;login\&quot;, firstLogin)\n    let verify = await verifyUserRoute(knex, 48, 14)\n    see.done(\&quot;verify route\&quot; + verify)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
             <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
         </form>
     
@@ -526,18 +560,14 @@
 
     
 
-    <h4 class="name" id="docs">
-        <a href="#docs">#</a>
-        <span class="type-signature"></span>docs<span class="signature">(moduleName, folderName, from, to, intro)</span><span class="type-signature"> &rarr; {any}</span>
+    <h4 class="name" id="logout">
+        <a href="#logout">#</a>
+        <span class="type-signature">(async) </span>logout<span class="signature">(knex, number)</span><span class="type-signature"> &rarr; {boolean}</span>
     </h4>
 
     
 
 
-
-    <div class="description">
-        <p>docs(moduleName, folderName, from, to, intro)</p>
-    </div>
 
 
 
@@ -573,7 +603,7 @@
 
         <tr>
             
-                <td class="name"><code>moduleName</code></td>
+                <td class="name"><code>knex</code></td>
             
 
             <td class="type">
@@ -596,76 +626,7 @@
 
         <tr>
             
-                <td class="name"><code>folderName</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>from</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>to</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>intro</code></td>
+                <td class="name"><code>number</code></td>
             
 
             <td class="type">
@@ -766,7 +727,7 @@
     </dt>
     <dd>
         
-<span class="param-type">any</span>
+<span class="param-type">boolean</span>
 
 
     </dd>
@@ -777,186 +738,15 @@
 
 
 
-
-        
-            
-
-    
-
-    <h4 class="name" id="html">
-        <a href="#html">#</a>
-        <span class="type-signature"></span>html<span class="signature">(moduleName, video)</span><span class="type-signature"></span>
-    </h4>
-
-    
-
-
-
-    <div class="description">
-        <ul>
-<li>Removes jsdoc.json file</li>
-<li>Replaces module and video link</li>
-<li>Runs jsdoc</li>
-</ul>
-    </div>
-
-
-
-
-
-
-
-
-
-    <div class="method-member-container flex flex-col w-100 overflow-auto mt-20">
-        <strong>Parameters:</strong>
-        
-
-<table class="params">
-    <thead>
-    <tr>
-        
-        <th>Name</th>
-        
-
-        <th>Type</th>
-
-        
-
-        
-
-        <th class="last">Description</th>
-    </tr>
-    </thead>
-
-    <tbody>
-    
-
-        <tr>
-            
-                <td class="name"><code>moduleName</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>= undefined</p></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>video</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>= undefined</p></td>
-        </tr>
-
-    
-    </tbody>
-</table>
-
-    </div>
-
-
-
-
-
-
-
-<dl class="details">
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-        <div class="details-item-container">
-            <dt class="tag-author">Author:</dt>
-            <dd class="tag-author">
-                <ul>
-                    <li>zen-out</li>
-                </ul>
-            </dd>
-        </div>
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-
-    
-</dl>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <div class="method-member-container flex flex-col w-100 overflow-auto mt-20">
         <strong>Example</strong>
         
     <div class="rel">
-    <pre class="prettyprint"><code>html(moduleName, videoLink)</code></pre>
+    <pre class="prettyprint"><code>// let test_logout = await logout(knex, 48)</code></pre>
     
     
         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;html(moduleName, videoLink)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/explain_me/index.js" }' />
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;// let test_logout = await logout(knex, 48)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
             <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
         </form>
     
@@ -970,9 +760,9 @@
 
     
 
-    <h4 class="name" id="init">
-        <a href="#init">#</a>
-        <span class="type-signature"></span>init<span class="signature">(moduleName)</span><span class="type-signature"> &rarr; {any}</span>
+    <h4 class="name" id="mostRecentlyCreatedProblems">
+        <a href="#mostRecentlyCreatedProblems">#</a>
+        <span class="type-signature">(async) </span>mostRecentlyCreatedProblems<span class="signature">(knex, user_id)</span><span class="type-signature"> &rarr; {any}</span>
     </h4>
 
     
@@ -980,7 +770,7 @@
 
 
     <div class="description">
-        <p>init(moduleName)</p>
+        <p>mostRecentlyCreatedProblems(knex, user_id)</p>
     </div>
 
 
@@ -1017,7 +807,30 @@
 
         <tr>
             
-                <td class="name"><code>moduleName</code></td>
+                <td class="name"><code>knex</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>user_id</code></td>
             
 
             <td class="type">
@@ -1135,15 +948,19 @@
 
     
 
-    <h4 class="name" id="moveToDeploy">
-        <a href="#moveToDeploy">#</a>
-        <span class="type-signature"></span>moveToDeploy<span class="signature">(deployDependencies, zen_out, final)</span><span class="type-signature"> &rarr; {any}</span>
+    <h4 class="name" id="passwordToHash">
+        <a href="#passwordToHash">#</a>
+        <span class="type-signature">(async) </span>passwordToHash<span class="signature">(password)</span><span class="type-signature"> &rarr; {string}</span>
     </h4>
 
     
 
 
 
+    <div class="description">
+        <p>passwordToHash</p>
+    </div>
+
 
 
 
@@ -1178,7 +995,7 @@
 
         <tr>
             
-                <td class="name"><code>deployDependencies</code></td>
+                <td class="name"><code>password</code></td>
             
 
             <td class="type">
@@ -1195,52 +1012,6 @@
             
 
             <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>zen_out</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"></td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>final</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">any</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last"><p>= false</p></td>
         </tr>
 
     
@@ -1317,6 +1088,10 @@
     <strong>Returns:</strong>
         
             
+<div class="param-desc">
+    <p>hash</p>
+</div>
+
 
 
 <dl class="param-type">
@@ -1325,7 +1100,7 @@
     </dt>
     <dd>
         
-<span class="param-type">any</span>
+<span class="param-type">string</span>
 
 
     </dd>
@@ -1333,6 +1108,105 @@
 
             
     </div>
+
+
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="postDevice">
+        <a href="#postDevice">#</a>
+        <span class="type-signature">(async) </span>postDevice<span class="signature">()</span><span class="type-signature"></span>
+    </h4>
+
+    
+
+
+
+    <div class="description">
+        <ol>
+<li>Get device</li>
+<li>If device exists</li>
+<li>Update the last login date</li>
+<li>Else, create new device</li>
+<li>Return device</li>
+</ol>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class="details-item-container">
+            <dt class="tag-author">Author:</dt>
+            <dd class="tag-author">
+                <ul>
+                    <li>zen-out</li>
+                </ul>
+            </dd>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1340,17 +1214,14 @@
         <strong>Example</strong>
         
     <div class="rel">
-    <pre class="prettyprint"><code>moveToDeploy({
-    "automate_me": "^1.0.3",
-    "clean-jsdoc-theme": "^3.3.3",
-    "clear_concise_creative": "^1.0.17",
-    "jsdoc": "^3.6.10",
-    "jsdoc-to-markdown": "^7.1.1"
-})</code></pre>
+    <pre class="prettyprint"><code>userObject["user_id"] = postUser.id
+            userObject["device"] = req.device.parser.useragent.source;
+            userObject["type"] = req.device.type;
+            let getPost = await postDevice(knex, userObject)</code></pre>
     
     
         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;moveToDeploy({\n    \&quot;automate_me\&quot;: \&quot;^1.0.3\&quot;,\n    \&quot;clean-jsdoc-theme\&quot;: \&quot;^3.3.3\&quot;,\n    \&quot;clear_concise_creative\&quot;: \&quot;^1.0.17\&quot;,\n    \&quot;jsdoc\&quot;: \&quot;^3.6.10\&quot;,\n    \&quot;jsdoc-to-markdown\&quot;: \&quot;^7.1.1\&quot;\n})&quot;, "js_external": "https://cdn.jsdelivr.net/npm/explain_me/index.js" }' />
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;userObject[\&quot;user_id\&quot;] = postUser.id\n            userObject[\&quot;device\&quot;] = req.device.parser.useragent.source;\n            userObject[\&quot;type\&quot;] = req.device.type;\n            let getPost = await postDevice(knex, userObject)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
             <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
         </form>
     
@@ -1364,14 +1235,173 @@
 
     
 
-    <h4 class="name" id="readme">
-        <a href="#readme">#</a>
-        <span class="type-signature"></span>readme<span class="signature">(moduleName, video)</span><span class="type-signature"></span>
+    <h4 class="name" id="signup">
+        <a href="#signup">#</a>
+        <span class="type-signature">(async) </span>signup<span class="signature">()</span><span class="type-signature"> &rarr; {any}</span>
     </h4>
 
     
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<dl class="details">
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+        <div class="details-item-container">
+            <dt class="tag-author">Author:</dt>
+            <dd class="tag-author">
+                <ul>
+                    <li>zen-out</li>
+                </ul>
+            </dd>
+        </div>
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+
+    
+</dl>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="method-member-container mt-20">
+    <strong>Returns:</strong>
+        
+            
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">any</span>
+
+
+    </dd>
+</dl>
+
+            
+    </div>
+
+
+
+    <div class="method-member-container flex flex-col w-100 overflow-auto mt-20">
+        <strong>Examples</strong>
+        
+    <div class="rel">
+    <pre class="prettyprint"><code>/**</code></pre>
+    
+    
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;/**&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
+            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
+        </form>
+    
+    </div>
+
+    <div class="rel">
+    <pre class="prettyprint"><code>let sampleObject = {
+        email: "asdfasdf213@gmdail.com",
+        password: "asdfasdf",
+        type: "chrome",
+        device: "desktop"
+    }
+    let sampleObject2 = {
+            email: "lesle3yc2@gmail.com",
+            password: "orangeorange"
+        }
+        // let firstSignup = await signup(knex, sampleObject)
+        // see.done("signup", firstSignup)
+    let firstLogin = await login(knex, sampleObject)
+    see.done("login", firstLogin)
+    let verify = await verifyUserRoute(knex, 48, 14)
+    see.done("verify route" + verify)</code></pre>
+    
+    
+        <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;let sampleObject = {\n        email: \&quot;asdfasdf213@gmdail.com\&quot;,\n        password: \&quot;asdfasdf\&quot;,\n        type: \&quot;chrome\&quot;,\n        device: \&quot;desktop\&quot;\n    }\n    let sampleObject2 = {\n            email: \&quot;lesle3yc2@gmail.com\&quot;,\n            password: \&quot;orangeorange\&quot;\n        }\n        // let firstSignup = await signup(knex, sampleObject)\n        // see.done(\&quot;signup\&quot;, firstSignup)\n    let firstLogin = await login(knex, sampleObject)\n    see.done(\&quot;login\&quot;, firstLogin)\n    let verify = await verifyUserRoute(knex, 48, 14)\n    see.done(\&quot;verify route\&quot; + verify)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
+            <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
+        </form>
+    
+    </div>
+
+    </div>
+
+
+        
+            
+
+    
+
+    <h4 class="name" id="verifyUserRoute">
+        <a href="#verifyUserRoute">#</a>
+        <span class="type-signature">(async) </span>verifyUserRoute<span class="signature">(req, res, next)</span><span class="type-signature"> &rarr; {boolean}</span>
+    </h4>
+
+    
+
+
+
+    <div class="description">
+        <ol>
+<li>Checks if user is logged in
+2. Checks if the last logged in date is within 14 days</li>
+</ol>
+    </div>
 
 
 
@@ -1407,7 +1437,7 @@
 
         <tr>
             
-                <td class="name"><code>moduleName</code></td>
+                <td class="name"><code>req</code></td>
             
 
             <td class="type">
@@ -1423,14 +1453,14 @@
 
             
 
-            <td class="description last"><p>= undefined</p></td>
+            <td class="description last"></td>
         </tr>
 
     
 
         <tr>
             
-                <td class="name"><code>video</code></td>
+                <td class="name"><code>res</code></td>
             
 
             <td class="type">
@@ -1446,7 +1476,30 @@
 
             
 
-            <td class="description last"><p>= undefined</p></td>
+            <td class="description last"></td>
+        </tr>
+
+    
+
+        <tr>
+            
+                <td class="name"><code>next</code></td>
+            
+
+            <td class="type">
+            
+                
+<span class="param-type">any</span>
+
+
+            
+            </td>
+
+            
+
+            
+
+            <td class="description last"></td>
         </tr>
 
     
@@ -1519,17 +1572,38 @@
 
 
 
+    <div class="method-member-container mt-20">
+    <strong>Returns:</strong>
+        
+            
+
+
+<dl class="param-type">
+    <dt>
+        Type
+    </dt>
+    <dd>
+        
+<span class="param-type">boolean</span>
+
+
+    </dd>
+</dl>
+
+            
+    </div>
+
 
 
     <div class="method-member-container flex flex-col w-100 overflow-auto mt-20">
         <strong>Example</strong>
         
     <div class="rel">
-    <pre class="prettyprint"><code>readme(moduleName, docsLink, "intro.md")</code></pre>
+    <pre class="prettyprint"><code>// let verify = await verifyUserRoute(sampleRequest, knex)</code></pre>
     
     
         <form action="https://codepen.io/pen/define" method="POST" target="_blank" class="codepen-form">
-            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;readme(moduleName, docsLink, \&quot;intro.md\&quot;)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/explain_me/index.js" }' />
+            <input type="hidden" name="data" value='{"title": "Example", "js": &quot;// let verify = await verifyUserRoute(sampleRequest, knex)&quot;, "js_external": "https://cdn.jsdelivr.net/npm/backend_for_noobs/index.js" }' />
             <input type="image" src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/t-1/cp-arrow-right.svg" value="Create New Pen with Prefilled Data" width="40" height="40" />
         </form>
     
@@ -1569,7 +1643,7 @@
       <script src="scripts/search.js"></script>
       <script src="scripts/third-party/fuse.js"></script>
       <script>
-        var list = [{"title":"addScript","link":"<a href=\"global.html#addScript\">addScript</a>"},{"title":"copyHTML","link":"<a href=\"global.html#copyHTML\">copyHTML</a>"},{"title":"docs","link":"<a href=\"global.html#docs\">docs</a>"},{"title":"html","link":"<a href=\"global.html#html\">html</a>"},{"title":"init","link":"<a href=\"global.html#init\">init</a>"},{"title":"moveToDeploy","link":"<a href=\"global.html#moveToDeploy\">moveToDeploy</a>"},{"title":"readme","link":"<a href=\"global.html#readme\">readme</a>"}];
+        var list = [{"title":"hashToPassword","link":"<a href=\"global.html#hashToPassword\">hashToPassword</a>"},{"title":"login","link":"<a href=\"global.html#login\">login</a>"},{"title":"logout","link":"<a href=\"global.html#logout\">logout</a>"},{"title":"mostRecentlyCreatedProblems","link":"<a href=\"global.html#mostRecentlyCreatedProblems\">mostRecentlyCreatedProblems</a>"},{"title":"passwordToHash","link":"<a href=\"global.html#passwordToHash\">passwordToHash</a>"},{"title":"postDevice","link":"<a href=\"global.html#postDevice\">postDevice</a>"},{"title":"signup","link":"<a href=\"global.html#signup\">signup</a>"},{"title":"verifyUserRoute","link":"<a href=\"global.html#verifyUserRoute\">verifyUserRoute</a>"}];
         var options = 
           setupSearch(list, options)
       </script>
