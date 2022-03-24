@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Text&family=EB+Garamond&family=Lato:ital,wght@0,300;1,300&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&family=Roboto+Mono:wght@300;500&family=Source+Code+Pro:wght@200&display=swap');
+:root {
+    --heading_font: 'Cormorant Garamond', serif;
+    --body_font: 'Cormorant Garamond', serif;
+    --code_font: 'Source Code Pro', monospace;
+}
+
 ::selection {
     background: #ffce76;
     color: #000;
@@ -53,7 +60,6 @@ h2 {
     background-color: #fff;
 }
 
-
 .search-box-input-container {
     background: #2a2b2c;
 }
@@ -70,7 +76,7 @@ h2 {
     color: #aeaeae;
 }
 
-.search-box-input:focus + .search-icon {
+.search-box-input:focus+.search-icon {
     fill: #fff;
 }
 
@@ -108,7 +114,6 @@ h2 {
     color: #fff;
 }
 
-
 tt,
 code,
 kbd,
@@ -116,11 +121,9 @@ samp {
     background: #222;
 }
 
-
 .signature-attributes {
     color: #aaa;
 }
-
 
 .ancestors {
     color: #999;
@@ -171,11 +174,15 @@ samp {
     border-left: 3px #222831 solid;
 }
 
+
 /* stylelint-disable */
+
 .prettyprint.linenums li.selected,
 .prettyprint.linenums li.selected * {
     background-color: #404040;
 }
+
+
 /* stylelint-enable */
 
 table .name,
@@ -198,14 +205,15 @@ table thead tr,
     color: #fff;
 }
 
+
 /* stylelint-disable */
+
 table .params thead tr,
 .params .params thead tr,
 .props .props thead tr {
     background-color: #000;
     color: #fff;
 }
-
 
 .disabled {
     color: #aaaaaa;
@@ -234,7 +242,9 @@ table .params thead tr,
     color: #000;
 }
 
+
 /* code */
+
 .pln {
     color: #ffdd4a;
 }
@@ -243,71 +253,96 @@ table .params thead tr,
     color: #56e39f;
 }
 
+
 /* a keyword */
+
 .kwd {
     color: #08b2e3;
 }
 
+
 /* a comment */
+
 .com {
     color: #999;
 }
 
+
 /* a type name */
+
 .typ {
     color: #ef6f6c;
 }
 
+
 /* a literal value */
+
 .lit {
     color: #f5d67b;
 }
 
+
 /* punctuation */
+
 .pun {
     color: #5adbff;
 }
 
+
 /* lisp open bracket */
+
 .opn {
     color: #72e0d1;
 }
 
+
 /* lisp close bracket */
+
 .clo {
     color: #72e0d1;
 }
 
+
 /* a markup tag name */
+
 .tag {
     color: #007bff;
 }
 
+
 /* a markup attribute name */
+
 .atn {
     color: #f5d67b;
 }
 
+
 /* a markup attribute value */
+
 .atv {
     color: #3e999f;
 }
 
+
 /* a declaration */
+
 .dec {
     color: #f5871f;
 }
 
+
 /* a variable name */
+
 .var {
     color: #f5d67b;
 }
 
+
 /* a function name */
+
 .fun {
     color: #4271ae;
 }
-
 
 blockquote {
     background: #202020;

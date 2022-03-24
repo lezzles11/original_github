@@ -51,7 +51,7 @@
         let html = item => `<br /> 
         <div class='divider'>${item}</div>
          <a href='' target='_blank'> <h6 class='title p-0 mb-1 effect-2' id="${item}">${item}</h6> </a> 
-         <a href='./modules/${item}' target="_blank" data-tooltip='see documentation'><i class='icon icon-about'></i></a> 
+         <a href='./modules/${item}.html' target="_blank" data-tooltip='see documentation'><i class='icon icon-about'></i></a> 
          
          <a target="_blank" href='https://www.npmjs.com/package/${item}' data-tooltip='see node package'><i class='icon icon-dashboard'></i></a>  <br />`
         let modules = item => `git submodule add https://github.com/zen-out/${item} modules/${item}/deploy`
