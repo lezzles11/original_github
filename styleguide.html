@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>u ball-er</title>
+    <meta name="description" content="" />
+    <link rel="icon" type="image/x-icon" href="https://dl.dropbox.com/s/unb7kozlrbox72t/favicon.ico">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- JQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <!-- Axios -->
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/axios/0.9.1/axios.js' integrity='sha512-Kg0CewqPNO/ziOJuCq5eyl3P/V6OLz/Lb1I2m+yKS3lHZcGVFN/KOew18rWP+kTsL7haYdaqGjwHQCZrN0heLQ==' crossorigin='anonymous'></script>
+    <!-- Handlebars -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.11/handlebars.min.js"></script>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.0/css/all.css" />
+    <!-- Hover -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css' integrity='sha512-Qg72y9f1a3aVc1FVnjq5YURLOOG8fDKQjMnhxYaZgBz4nIVjpVOBUtuMMMqkZPS1FlVrzzEBXq2sM6Qp1zen/Q==' crossorigin='anonymous' />
+    <!-- Checkboxes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pretty-checkbox/3.0.3/pretty-checkbox.css" integrity="sha512-Ja4BFx806Br/z9b1Eu0zBl9qkDZUkVpQESR9bDol5FoGWWiuTYy/m9M/YVFIWAGbqEgkYkyZxmnS0vos0ncZgw==" crossorigin="anonymous" />
+    <!-- Animate.css -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.css' integrity='sha512-phGxLIsvHFArdI7IyLjv14dchvbVkEDaH95efvAae/y2exeWBQCQDpNFbOTdV1p4/pIa/XtbuDCnfhDEIXhvGQ==' crossorigin='anonymous' />
+    <script src="./node_modules/optee_jqre/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js"></script>
+    <script src="./node_modules/define_me/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.1/moment.min.js"></script>
+    <script src="./node_modules/when_you_free/index.js"></script>
+    <script src="./node_modules/make_fakes/index.js"></script>
+    <script src="./node_modules/array_helperz/index.js"></script>
+
+    <script src="./node_modules/make_legit/index.js"></script>
+
+    <script src="./node_modules/whats_wrong/index.js"></script>
+    <script src="./node_modules/bulletproof_me/index.js"></script>
+
+    <script src="./node_modules/html_checks/index.js"></script>
+
+    <script src="./node_modules/make_fakes/index.js"></script>
+    <script src="./node_modules/code_clarity/frontend/index.js"></script>
+    <script src="./node_modules/jquery_selectors_mergez/index.js"></script>
+    <script src="./node_modules/test_waters/index.js"></script>
+    <script src="./node_modules/baller_req_res/index.js"></script>
+    <script src="./node_modules/baller_req_res/forms.js"></script>
+    <link rel="stylesheet" href="https://dl.dropbox.com/s/tljrmo925z4jgdi/professional.css" />
+    <link rel="stylesheet" href="https://dl.dropbox.com/s/h4qq1nr4z3infmv/global.css" />
+    <link rel="stylesheet" href="https://dl.dropbox.com/s/g06cms3fy32lp85/icons.css" />
+    <!-- npm install jquery_selectors_mergez define_me when_you_free make_fakes array_helperz whats_wrong bulletproof_me make_fakes jquery_selectors_mergez know_youre_real test_waters html_checks make_fakes code_clarity jquery_selectors_mergez test_waters optee_jqre baller_req_res optee_jqre
+    
+    backend
+    npm install --save-dev clear_concise_creative automate_me backend_for_noobs heres_your_route explain_me backend_fakes effective_knex sparkly_clean
+    -->
+    <script src=""></script>
+    <script src="./styleguide.js"></script>
+    <script>
+        $(() => {
+            let allElements = $("*").not(".box").not(".effect-1").not(".effect-2").not(".fixed-bottom").not(".fixed-left").not(".fixed-right").not(".fixed-top").not(".row").not(".help").not(".heading").not(".container").not("body").not(".icon")
+            allElements.each((index, element) => {
+                let classnames = $(element).attr("class")
+                console.log(classnames) // 
+                $(this).insertBefore("<span class='help'>" + classnames + "</span>")
+                $(element).attr("data-tooltip", classnames)
+            })
+        })
+    </script>
+    <style>
+        .hljs {
+            display: flex;
+        }
+        
+        code {
+            display: flex;
+            flex-wrap: wrap;
+        }
+    </style>
+    <!-- highlight.js -->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script>
+        $(() => { // just wrap around <pre><code> </code></pre> 
+            document.querySelectorAll('pre code').forEach((el) => {
+                hljs.highlightElement(el);
+            });
+        })
+    </script>
+    <style>
+        .icons_wrapper {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 10px 20px;
+            text-align: center;
+        }
+        
+        .icons_wrapper .preview {
+            width: 100px;
+            display: inline-block;
+            margin: 10px;
+        }
+        
+        .icons_wrapper .preview .inner {
+            display: inline-block;
+            width: 100%;
+            text-align: center;
+            background: #f5f5f5;
+            -webkit-border-radius: 3px 3px 0 0;
+            -moz-border-radius: 3px 3px 0 0;
+            border-radius: 3px 3px 0 0;
+        }
+        
+        .icons_wrapper .preview .inner {
+            line-height: 85px;
+            font-size: 40px;
+            color: #333;
+        }
+        
+        .icons_wrapper .label {
+            display: inline-block;
+            width: 100%;
+            box-sizing: border-box;
+            padding: 5px;
+            font-size: 10px;
+            font-family: Monaco, monospace;
+            color: #666;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            background: #ddd;
+            -webkit-border-radius: 0 0 3px 3px;
+            -moz-border-radius: 0 0 3px 3px;
+            border-radius: 0 0 3px 3px;
+            color: #666;
+        }
+    </style>
+</head>
+
+<!-- All your content should go in between the body tags -->
+
+<body>
+    <div class="icons"></div>
+    <div class="test"></div>
+    <div class="flexbox"></div>
+    <div class="typography"></div>
+    <div class="color"></div>
+    <div class="visibility"></div>
+    <div class="other"></div>
+</body>
+
+</html>
