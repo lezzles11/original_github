@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style type="text/css">
+            /* Shared styles */
+            body {
+                font-family: Helvetica, sans-serif;
+                font-size: 16.0px;
+                color: #34302e;
+                margin: 0.25in;
+            }
+            .name {
+                font-size: 18.0px;
+                font-family: Helvetica, sans-serif;
+                font-weight: normal;
+                margin: 0 0 10px 0;
+            }
+            .categories {
+                color: #605D5D;
+                font-size: 14.0px;
+                font-family: Helvetica, sans-serif;
+                font-style: italic;
+            }
+            .rating {
+                color: #d10505;
+                font-size: 14.0px;
+            }
+            .metadata {
+                font-size: 14.0px;
+            }
+            .infobox p {
+                margin: 0;
+                line-height: 150%;
+            }
+            .subhead {
+                color: #d10505;
+                font-weight: bold;
+                font-size: 14.0px;
+                text-transform: uppercase;
+                margin: 10px 0;
+            }
+            
+            .ingredients p {
+                margin: 4px 0;
+            }
+            /* To prevent nutrition/directions from getting too close
+               to ingredients */
+            .ingredients {
+                padding-bottom: 10px;
+            }
+            .clear {
+                clear:both;
+            }
+            a {
+                color: #4990E2;
+                text-decoration: none;
+            }
+            /* Full page specific styles */
+            .text {
+                line-height: 130%;
+            }
+            .photobox {
+                
+                float: left;
+                margin-right: 14px;
+                
+                
+            }
+            .photo {
+                max-width: 140.0px;
+                max-height: 140.0px;
+                width: auto;
+                height: auto;
+            }
+            
+            .inline-image {
+                max-width: 25%;
+                max-height: 25%;
+                width: auto;
+                height: auto;
+            }
+            .photoswipe {
+                border: 1px #dddddd solid;
+                cursor: pointer;
+            }
+            .pswp__caption__center {
+                text-align: center !important;
+            }
+            .recipe {
+                
+                page-break-after: always;
+                
+                
+            }
+            .recipe:first-child {
+                border-top: 0 none;
+                margin-top: 0;
+                padding-top: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- Recipe -->
+<div class="recipe" itemscope itemtype="http://schema.org/Recipe" >
+    
+    <div class="infobox">
+
+        <!-- Image -->
+        
+        <div class="photobox">
+            
+            <a href="#">
+                <img src="Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/22EAD6BE-815E-4F01-A3FC-8B8DE1398F51.jpg" itemprop="image" class="photo photoswipe"/>
+            </a>
+            
+            
+        </div>
+        
+
+        <!-- Name -->
+        <h1 itemprop="name" class="name">蒸魚 Cantonese Steamed Fish (200 Kcal W/ No Sauce)</h1>
+        
+        <!-- Info -->
+        
+        
+        <!-- Rating, categories -->
+        <p itemprop="aggregateRating" class="rating" value="5">★★★★★</p>
+        
+            <p itemprop="recipeCategory" class="categories">Lesley</p>
+        
+        
+        <p class="metadata">
+        
+            <!-- Cook time, prep time, servings, difficulty -->
+            
+
+            <!-- Source -->
+            
+        </p>
+        
+        
+        
+        <div class="clear"></div>
+        
+
+    </div>
+    
+    <div class="left-column">
+
+        <!-- Ingredients -->
+        
+        <div class="ingredientsbox">
+            <h3 class="subhead">Ingredients</h3>
+            <div class="ingredients text">
+                <p class="line" itemprop="recipeIngredient">Fish 馬友魚,䱽魚</p><p class="line" itemprop="recipeIngredient">Ginger</p><p class="line" itemprop="recipeIngredient">Garlic </p><p class="line" itemprop="recipeIngredient">Spring Onion </p><p class="line" itemprop="recipeIngredient">Soy sauce</p><p class="line" itemprop="recipeIngredient">Oil</p>
+            </div>
+        </div>
+        
+        
+        <!-- Nutrition (in two-column mode it goes below the ingredients) -->
+        
+
+    </div>
+    
+    <div class="right-column">
+    
+    <!-- Description -->
+    
+
+    <!-- Directions -->
+    
+    <div class="directionsbox">
+        <h3 class="subhead">Directions</h3>
+        <div itemprop="recipeInstructions" class="directions text">
+            <p class="line">1. Wash fish well, scale<br/>2. Place paper towels inside the fish to dry <br/>Put some salt on fish <br/>3. Put ginger and green onion around and in fish <br/>4. Steam on high heat for 8 minutes (depending on size) <br/>5. Heat up the sauce pan<br/>6. Place oil, ginger, and spring onion and fry<br/>7. Take water out of fish<br/></p>
+        </div>
+    </div>
+    
+
+    <!-- Notes -->
+    
+    
+    <div class="notesbox">
+        <h3 class="subhead">Notes</h3>
+        <div itemprop="comment" class="notes text">
+            <p>Leopard Coral Grouper (Red Grouper) 東星班<br/>Red Seabream <br/>Star Snapper 石 <br/>Red Snapper 紅魚<br/>馬友魚<br/>Mangrove Red Snapper </p>
+        </div>
+    </div>
+    
+    
+
+    <!-- Nutrition (in regular mode it goes below the notes) -->
+    
+        <!-- Used in two different places depending on the recipe layout -->
+
+
+    
+    
+    </div>
+    
+    <div class="clear"></div>
+
+</div>
+
+
+<!-- Photo gallery is only included when exporting. -->
+<!-- PhotoSwipe gallery -->
+
+<link rel="stylesheet" href="Resources/PhotoSwipe/photoswipe.css">
+<link rel="stylesheet" href="Resources/PhotoSwipe/default-skin/default-skin.css">
+<script src="Resources/PhotoSwipe/photoswipe.min.js"></script>
+<script src="Resources/PhotoSwipe/photoswipe-ui-default.min.js"></script>
+
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="pswp__bg"></div>
+    <div class="pswp__scroll-wrap">
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close"></button>
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var openPhotoSwipe = function(event) {
+        var pswp = document.querySelector('.pswp');
+        
+        var element = event.target;
+        var src = element.getAttribute('src');
+        
+        // build items array
+        var items = [
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/C11356AA-BEAA-43ED-869B-0B99AEE71BA9.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/C11356AA-BEAA-43ED-869B-0B99AEE71BA9.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '1'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/26C3C65C-6F37-491C-B0AB-68CE966202AB.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/26C3C65C-6F37-491C-B0AB-68CE966202AB.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '9'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/BE1C453C-7AFD-40F0-BE0C-C607C8DD156D.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/BE1C453C-7AFD-40F0-BE0C-C607C8DD156D.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '10'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/DAD28389-9298-4EB4-A7AE-66E539DB15F1.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/DAD28389-9298-4EB4-A7AE-66E539DB15F1.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '8'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/74CAC194-30F0-44AD-95B3-4D6F9508EC5C.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/74CAC194-30F0-44AD-95B3-4D6F9508EC5C.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '7'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/FB782378-D25C-4C4F-88D9-AAFCFBC2AD08.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/FB782378-D25C-4C4F-88D9-AAFCFBC2AD08.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '6'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/CB59BCCE-5F3A-4AAC-A345-0DA0965345C1.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/CB59BCCE-5F3A-4AAC-A345-0DA0965345C1.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '5'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/B93DC531-2889-4EDC-ABF8-9F12E28EBE79.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/B93DC531-2889-4EDC-ABF8-9F12E28EBE79.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '4'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/F1CF8FCD-2157-4388-BE4B-580985786959.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/F1CF8FCD-2157-4388-BE4B-580985786959.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '3'
+            },
+            
+            {
+                msrc: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/FBDD8E22-DBF4-44D0-9870-6C5F9FE4DBF6.jpg',
+                src: 'Images/51FB2AA3-CFDB-4166-B629-ED1EDAA64BFE/FBDD8E22-DBF4-44D0-9870-6C5F9FE4DBF6.jpg',
+                w: 1536.0,
+                h: 2048.0,
+                title: '2'
+            },
+            
+        ];
+        
+        var index = 0;
+        for (var i=0; i<items.length; i++) {
+            var item = items[i];
+            if (item.src == src) {
+                index = i;
+            }
+        }
+                         
+        var options = {
+            index: index,
+            history: false,
+            focus: true,
+            captionEl: true,
+            fullscreenEl: false,
+            zoomEl: false,
+            shareEl: false,
+            preloaderEl: false,
+            bgOpacity: 0.9,
+            showHideOpacity: true
+        };
+                             
+        var gallery = new PhotoSwipe(pswp, PhotoSwipeUI_Default, items, options);
+        gallery.init();
+    };
+
+    var elements = document.querySelectorAll('.photoswipe');
+    for (var i=0; i<elements.length; i++) {
+        var element = elements[i];
+        element.addEventListener('click', openPhotoSwipe);
+    }
+</script>
+
+
+
+
+
+    </body>
+</html>
